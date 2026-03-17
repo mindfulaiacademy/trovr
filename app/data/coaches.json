@@ -1,0 +1,388 @@
+{
+  "coaches": [
+    {
+      "id": "coach-001",
+      "firstName": "Marcus",
+      "lastName": "Robinson",
+      "photo": null,
+      "initials": "MR",
+      "sport": "Soccer",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78745",
+      "bio": "Former collegiate soccer player turned youth development specialist. I focus on building technical skills, tactical awareness, and confidence in young athletes. My approach is fun-first for younger kids and competition-focused for select-level players.",
+      "yearsExperience": 12,
+      "ageRangeMin": 6,
+      "ageRangeMax": 14,
+      "sessionPrice": 50,
+      "credentials": [
+        { "name": "USSF C License", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.9,
+      "reviewCount": 47,
+      "totalSessions": 340,
+      "activeAthletes": 28,
+      "availability": "Mon, Wed, Fri afternoons; Sat mornings",
+      "contactEmail": "marcus.robinson@email.com",
+      "contactPhone": "(512) 555-0147",
+      "reviews": [
+        {
+          "parentName": "Sarah T.",
+          "rating": 5,
+          "comment": "Marcus helped my son go from recreational to select team in 6 months. Best investment we've made. He's patient, pushes kids at the right pace, and my son actually looks forward to practice now.",
+          "date": "2026-02-15"
+        },
+        {
+          "parentName": "David K.",
+          "rating": 5,
+          "comment": "We've been working with Coach Marcus for 3 months. My daughter's ball control and confidence have improved dramatically. He really understands how to coach young girls differently.",
+          "date": "2026-01-28"
+        },
+        {
+          "parentName": "Jennifer L.",
+          "rating": 5,
+          "comment": "Finally found a coach who takes youth development seriously. Marcus doesn't just run drills — he teaches the game. My 8-year-old now reads the field like a 12-year-old.",
+          "date": "2026-01-10"
+        },
+        {
+          "parentName": "Mike R.",
+          "rating": 4,
+          "comment": "Great coach with solid credentials. Only reason for 4 stars is scheduling can be tight since he's so popular. Book early if you want a weekend slot.",
+          "date": "2025-12-20"
+        }
+      ]
+    },
+    {
+      "id": "coach-002",
+      "firstName": "David",
+      "lastName": "Chen",
+      "photo": null,
+      "initials": "DC",
+      "sport": "Basketball",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78702",
+      "bio": "15 years coaching youth basketball with a focus on fundamentals, footwork, and basketball IQ. I played D2 college ball and spent 5 years as a high school varsity assistant before going full-time private. I believe every kid can improve dramatically with the right coaching.",
+      "yearsExperience": 15,
+      "ageRangeMin": 8,
+      "ageRangeMax": 17,
+      "sessionPrice": 60,
+      "credentials": [
+        { "name": "USA Basketball Gold License", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.8,
+      "reviewCount": 63,
+      "totalSessions": 520,
+      "activeAthletes": 35,
+      "availability": "Tues, Thurs, Sat; flexible schedule",
+      "contactEmail": "david.chen@email.com",
+      "contactPhone": "(512) 555-0234",
+      "reviews": [
+        {
+          "parentName": "Amanda K.",
+          "rating": 5,
+          "comment": "Coach David transformed my son's game. He went from riding the bench to starting point guard in one season. David focuses on the mental side of basketball too, not just physical skills.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Robert M.",
+          "rating": 5,
+          "comment": "We moved to Austin and found David on Trovr within our first week. The video clips on his profile sold us immediately. My daughter's AAU coach noticed the improvement after just 4 sessions.",
+          "date": "2026-02-12"
+        },
+        {
+          "parentName": "Lisa P.",
+          "rating": 5,
+          "comment": "David is incredible with younger kids. My 8-year-old was intimidated by basketball but now he can't wait for his weekly session. Patient, encouraging, and knows how to make drills fun.",
+          "date": "2026-01-25"
+        }
+      ]
+    },
+    {
+      "id": "coach-003",
+      "firstName": "Elena",
+      "lastName": "Vasquez",
+      "photo": null,
+      "initials": "EV",
+      "sport": "Soccer",
+      "city": "Round Rock",
+      "state": "TX",
+      "zip": "78664",
+      "bio": "Played professional soccer in Mexico's Liga MX Femenil for 4 years before moving to Texas. I specialize in technical skill development for competitive players. Bilingual coaching available in English and Spanish.",
+      "yearsExperience": 8,
+      "ageRangeMin": 10,
+      "ageRangeMax": 18,
+      "sessionPrice": 65,
+      "credentials": [
+        { "name": "USSF B License", "verified": true },
+        { "name": "NSCAA Premier Diploma", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5.0,
+      "reviewCount": 31,
+      "totalSessions": 210,
+      "activeAthletes": 18,
+      "availability": "Mon-Fri evenings; Sat-Sun mornings",
+      "contactEmail": "elena.vasquez@email.com",
+      "contactPhone": "(512) 555-0389",
+      "reviews": [
+        {
+          "parentName": "Carlos G.",
+          "rating": 5,
+          "comment": "Elena is the real deal. Former pro who knows how to translate elite-level skills to youth players. My daughter's technical ability has skyrocketed. The bilingual coaching is a huge bonus for our family.",
+          "date": "2026-02-28"
+        },
+        {
+          "parentName": "Michelle W.",
+          "rating": 5,
+          "comment": "Worth every penny. Elena identified weaknesses in my son's game that his club coach missed. Her professional playing experience shows in every session. She demands excellence but makes it fun.",
+          "date": "2026-02-05"
+        },
+        {
+          "parentName": "Tom B.",
+          "rating": 5,
+          "comment": "Elena helped my 16-year-old prepare for college showcases. Her connections and knowledge of what college coaches look for was invaluable. He got two offers.",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "id": "coach-004",
+      "firstName": "James",
+      "lastName": "Washington",
+      "photo": null,
+      "initials": "JW",
+      "sport": "Basketball",
+      "city": "Cedar Park",
+      "state": "TX",
+      "zip": "78613",
+      "bio": "Youth basketball specialist focused on guard skills and shooting mechanics. I use video analysis to break down each player's form and create personalized improvement plans. Former AAU coach with 6 teams that placed in state tournaments.",
+      "yearsExperience": 10,
+      "ageRangeMin": 7,
+      "ageRangeMax": 15,
+      "sessionPrice": 45,
+      "credentials": [
+        { "name": "USA Basketball Silver License", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.7,
+      "reviewCount": 38,
+      "totalSessions": 290,
+      "activeAthletes": 22,
+      "availability": "Mon, Wed, Fri evenings; Sat all day",
+      "contactEmail": "james.washington@email.com",
+      "contactPhone": "(512) 555-0456",
+      "reviews": [
+        {
+          "parentName": "Karen S.",
+          "rating": 5,
+          "comment": "James uses video to show my son exactly what he needs to fix. The improvement in his shooting form after 6 sessions is incredible. He went from 25% to 45% from three-point range in games.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Brian T.",
+          "rating": 5,
+          "comment": "Super affordable compared to other coaches and the quality is just as good. James is great with younger kids — my 7-year-old went from barely dribbling to running basic plays.",
+          "date": "2026-01-30"
+        },
+        {
+          "parentName": "Natalie H.",
+          "rating": 4,
+          "comment": "Solid coaching with a good approach. James really knows guard play. Would love to see him expand into big man skills for my older son who plays center.",
+          "date": "2025-12-18"
+        }
+      ]
+    },
+    {
+      "id": "coach-005",
+      "firstName": "Sarah",
+      "lastName": "Mitchell",
+      "photo": null,
+      "initials": "SM",
+      "sport": "Soccer",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78731",
+      "bio": "I specialize in goalkeeping training for youth players ages 8-16. Former college goalkeeper at UT Austin with 10 years of private coaching experience. I also offer field player sessions focused on defensive positioning and game reading.",
+      "yearsExperience": 10,
+      "ageRangeMin": 8,
+      "ageRangeMax": 16,
+      "sessionPrice": 55,
+      "credentials": [
+        { "name": "USSF National Goalkeeper License", "verified": true },
+        { "name": "USSF D License", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.9,
+      "reviewCount": 29,
+      "totalSessions": 185,
+      "activeAthletes": 15,
+      "availability": "Tues, Thurs afternoons; Sat mornings",
+      "contactEmail": "sarah.mitchell@email.com",
+      "contactPhone": "(512) 555-0578",
+      "reviews": [
+        {
+          "parentName": "Angela D.",
+          "rating": 5,
+          "comment": "There are almost no goalkeeper-specific coaches in Austin. Sarah fills a huge gap. My daughter's saves percentage went from 40% to 70% in one season working with her.",
+          "date": "2026-03-05"
+        },
+        {
+          "parentName": "Ryan C.",
+          "rating": 5,
+          "comment": "Sarah is incredibly knowledgeable about the goalkeeper position. She teaches positioning, footwork, and the mental toughness side that most coaches ignore. My son now loves playing keeper.",
+          "date": "2026-02-10"
+        }
+      ]
+    },
+    {
+      "id": "coach-006",
+      "firstName": "Andre",
+      "lastName": "Powell",
+      "photo": null,
+      "initials": "AP",
+      "sport": "Basketball",
+      "city": "Pflugerville",
+      "state": "TX",
+      "zip": "78660",
+      "bio": "Former overseas professional basketball player turned youth coach. I focus on complete player development — ball handling, shooting, defense, and basketball IQ. My training programs are structured in 8-week cycles with measurable progress tracking.",
+      "yearsExperience": 7,
+      "ageRangeMin": 9,
+      "ageRangeMax": 18,
+      "sessionPrice": 70,
+      "credentials": [
+        { "name": "USA Basketball Gold License", "verified": true },
+        { "name": "NSCA-CSCS", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.8,
+      "reviewCount": 24,
+      "totalSessions": 160,
+      "activeAthletes": 14,
+      "availability": "Mon-Fri mornings; Sat afternoons",
+      "contactEmail": "andre.powell@email.com",
+      "contactPhone": "(512) 555-0612",
+      "reviews": [
+        {
+          "parentName": "Jessica M.",
+          "rating": 5,
+          "comment": "Andre's 8-week program structure is exactly what my son needed. He can see his own progress on the tracking sheet and it keeps him motivated. The professional playing background adds so much credibility.",
+          "date": "2026-02-22"
+        },
+        {
+          "parentName": "Daniel F.",
+          "rating": 5,
+          "comment": "Premium price but premium coaching. Andre treats every session like a professional practice. My 16-year-old is being recruited by D3 schools now thanks to the development he got here.",
+          "date": "2026-01-18"
+        },
+        {
+          "parentName": "Stephanie R.",
+          "rating": 4,
+          "comment": "Great coach with serious credentials. The only challenge is his location in Pflugerville — wish he had sessions closer to central Austin. Worth the drive though.",
+          "date": "2025-12-28"
+        }
+      ]
+    },
+    {
+      "id": "coach-007",
+      "firstName": "Maria",
+      "lastName": "Santos",
+      "photo": null,
+      "initials": "MS",
+      "sport": "Soccer",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78748",
+      "bio": "Youth soccer coach specializing in players ages 5-10. I believe early development should focus on falling in love with the game. My sessions are play-based with age-appropriate technical skill building woven into fun games and activities.",
+      "yearsExperience": 6,
+      "ageRangeMin": 5,
+      "ageRangeMax": 10,
+      "sessionPrice": 40,
+      "credentials": [
+        { "name": "USSF D License", "verified": true },
+        { "name": "US Soccer Grassroots Certificate", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5.0,
+      "reviewCount": 22,
+      "totalSessions": 145,
+      "activeAthletes": 20,
+      "availability": "Mon, Wed, Fri mornings; Sat mornings",
+      "contactEmail": "maria.santos@email.com",
+      "contactPhone": "(512) 555-0723",
+      "reviews": [
+        {
+          "parentName": "Chris A.",
+          "rating": 5,
+          "comment": "Maria is AMAZING with little kids. My 5-year-old was scared of the ball and now she's dribbling around the house. Maria makes every session feel like a game, not practice. Can't recommend enough.",
+          "date": "2026-03-08"
+        },
+        {
+          "parentName": "Priya N.",
+          "rating": 5,
+          "comment": "Finally a coach who understands that 6-year-olds need fun, not drills. Maria's play-based approach has my son begging to go to soccer. She's patient, creative, and genuinely loves coaching little ones.",
+          "date": "2026-02-14"
+        },
+        {
+          "parentName": "Lauren H.",
+          "rating": 5,
+          "comment": "My twins started with Maria 3 months ago and the transformation is unreal. They went from not wanting to play to being the most enthusiastic kids on their rec team. Maria is a gift.",
+          "date": "2026-01-20"
+        }
+      ]
+    },
+    {
+      "id": "coach-008",
+      "firstName": "Kevin",
+      "lastName": "Brooks",
+      "photo": null,
+      "initials": "KB",
+      "sport": "Basketball",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78741",
+      "bio": "Specialized in strength, conditioning, and athletic performance for basketball players. Former D1 strength coach at Texas State. I combine basketball skill work with sport-specific athletic training to create more explosive, durable players.",
+      "yearsExperience": 9,
+      "ageRangeMin": 12,
+      "ageRangeMax": 18,
+      "sessionPrice": 75,
+      "credentials": [
+        { "name": "USA Basketball Silver License", "verified": true },
+        { "name": "NSCA-CSCS", "verified": true },
+        { "name": "USAW Sport Performance Coach", "verified": true },
+        { "name": "CPR/First Aid Certified", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.7,
+      "reviewCount": 19,
+      "totalSessions": 130,
+      "activeAthletes": 12,
+      "availability": "Mon-Fri early mornings (6-8am); Sat all day",
+      "contactEmail": "kevin.brooks@email.com",
+      "contactPhone": "(512) 555-0834",
+      "reviews": [
+        {
+          "parentName": "Marcus J.",
+          "rating": 5,
+          "comment": "Kevin is the only coach in Austin combining real basketball training with D1-level strength and conditioning. My son added 4 inches to his vertical in 3 months. College scouts are noticing.",
+          "date": "2026-02-25"
+        },
+        {
+          "parentName": "Tamara W.",
+          "rating": 5,
+          "comment": "The athletic performance angle is what sets Kevin apart. My daughter plays volleyball too and the explosiveness training has helped both sports. Worth the premium price.",
+          "date": "2026-01-30"
+        }
+      ]
+    }
+  ]
+}

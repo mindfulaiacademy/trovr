@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find verified youth sports coaches near you. Background-checked, credential-verified coaches with real parent reviews. Search free on Trovr.">
+  <title>Trovr — Find Verified Youth Sports Coaches Near You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">trovr<span>.</span></a>
+      <div class="nav-links">
+        <a href="#results" class="nav-link-desktop">Browse Coaches</a>
+        <a href="#how-it-works" class="nav-link-desktop">How It Works</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO + SEARCH -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="pulse-dot"></div>
+          Now live in Austin, TX
+        </div>
+        <h1>Find a <span class="highlight">verified</span> coach for your young athlete</h1>
+        <p class="hero-sub">Every coach on Trovr is background-checked and credential-verified. Search free. Book with confidence.</p>
+      </div>
+
+      <!-- SEARCH BOX -->
+      <div class="search-box" id="search-box">
+        <div class="search-fields">
+          <div class="search-field">
+            <label for="sport-select">Sport</label>
+            <select id="sport-select">
+              <option value="">All Sports</option>
+              <option value="Soccer">Soccer</option>
+              <option value="Basketball">Basketball</option>
+            </select>
+          </div>
+          <div class="search-field">
+            <label for="age-input">Child's Age</label>
+            <input type="number" id="age-input" placeholder="e.g. 10" min="3" max="18">
+          </div>
+          <div class="search-field">
+            <label for="sort-select">Sort By</label>
+            <select id="sort-select">
+              <option value="rating">Highest Rated</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="experience">Most Experience</option>
+              <option value="reviews">Most Reviews</option>
+            </select>
+          </div>
+          <button class="btn-search" id="search-btn">Search Coaches</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <div class="trust-icon green">&#128274;</div>
+        <div><span class="trust-num">100%</span><br><span class="trust-label">Background Checked</span></div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon amber">&#9989;</div>
+        <div><span class="trust-num">100%</span><br><span class="trust-label">Credentials Verified</span></div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon purple">&#11088;</div>
+        <div><span class="trust-num">4.8</span><br><span class="trust-label">Avg Rating</span></div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon blue">&#128101;</div>
+        <div><span class="trust-num">200+</span><br><span class="trust-label">Happy Parents</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <section class="results-section" id="results">
+    <div class="container">
+      <div class="results-header">
+        <h2 id="results-title">All Verified Coaches</h2>
+        <p id="results-count" class="results-count"></p>
+      </div>
+      <div class="coach-grid" id="coach-grid">
+        <!-- Populated by JS -->
+      </div>
+      <div class="no-results" id="no-results" style="display:none;">
+        <div class="no-results-icon">&#128269;</div>
+        <h3>No coaches found</h3>
+        <p>Try adjusting your filters — change the sport, age, or clear your search.</p>
+        <button class="btn-clear" id="clear-btn">Clear Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">How Trovr Works</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Search</h3>
+          <p>Pick a sport and enter your child's age. We show you every verified coach in the Austin area.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Compare</h3>
+          <p>View credentials, background check status, parent reviews, and pricing. All verified — no guesswork.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Contact</h3>
+          <p>Reach out directly to book your first session. Your child's next great coach is one click away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">trovr<span>.</span></a>
+        <p>The verified youth sports coach directory. Background-checked, credential-verified coaches found by parents who care.</p>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Trovr. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

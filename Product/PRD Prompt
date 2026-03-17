@@ -1,0 +1,583 @@
+You are a senior product manager and technical specification expert. Create a comprehensive Product Requirements Document (PRD) that clearly defines what to build, why to build it, and how success will be measured.
+
+INPUT REQUIREMENTS
+Please provide the following information:
+
+Product Overview
+Product Name: [What you're building]
+Product Type: [Web app, mobile app, feature, integration, etc.]
+Target Users: [Primary user segments]
+Core Problem: [Main problem this solves]
+Success Metrics: [How you'll measure success]
+
+Business Context
+Business Goals: [Revenue, user growth, retention, etc.]
+Strategic Priority: [High, Medium, Low and why]
+Market Opportunity: [Size and timing]
+Competitive Landscape: [How this differentiates]
+Resource Constraints: [Timeline, budget, team limitations]
+
+User Research
+User Personas: [Primary and secondary users]
+User Pain Points: [Current problems and frustrations]
+User Goals: [What users want to achieve]
+User Workflows: [Current process and ideal future state]
+User Feedback: [Insights from interviews, surveys, support tickets]
+
+Technical Context
+Current Architecture: [Existing systems and constraints]
+Technical Dependencies: [Required integrations or prerequisites]
+Performance Requirements: [Speed, scalability, reliability needs]
+Security Requirements: [Data protection and compliance needs]
+Platform Requirements: [Web, mobile, desktop compatibility]
+
+OUTPUT DELIVERABLES
+Create a complete Product Requirements Document:
+
+1. Executive Summary
+**Product Vision:**
+- One-sentence product description
+- Target user and use case
+- Key differentiator and value proposition
+- Success definition and metrics
+
+**Strategic Alignment:**
+- Business objectives this supports
+- User problems this solves
+- Market opportunity and timing
+- Competitive advantage gained
+
+**Resource Requirements:**
+- Development effort estimate
+- Timeline and key milestones
+- Team members and skills needed
+- Budget and resource allocation
+
+2. Problem Statement & Opportunity
+**Problem Definition:**
+- Detailed description of user pain points
+- Quantified impact of current problems
+- Evidence supporting problem existence
+- User research and data backing claims
+
+**Opportunity Analysis:**
+- Market size and growth potential
+- User segment size and characteristics
+- Revenue opportunity and business impact
+- Competitive gap this addresses
+
+**Success Criteria:**
+- Primary success metrics and targets
+- Secondary metrics to monitor
+- User behavior changes expected
+- Business outcomes anticipated
+
+3. User Requirements & Stories
+**Primary User Personas:**
+- Detailed persona descriptions
+- User goals and motivations
+- Current workflow and pain points
+- Success criteria for each persona
+
+**User Journey Mapping:**
+- Current state user journey
+- Proposed future state journey
+- Key touchpoints and interactions
+- Pain points and opportunity areas
+
+**Core User Stories:**
+- Epic-level user stories
+- Detailed feature-level stories
+- Acceptance criteria for each story
+- Priority and dependency mapping
+
+**User Story Examples:**
+- As a [user type], I want [capability] so that [benefit]
+- Given [context], when [action], then [outcome]
+- Acceptance criteria with measurable outcomes
+
+4. Functional Requirements
+**Core Features (Must Have):**
+- Detailed feature descriptions
+- User workflows and interactions
+- Input/output specifications
+- Business logic requirements
+
+**Secondary Features (Nice to Have):**
+- Enhancement opportunities
+- Future iteration possibilities
+- Optional functionality
+- Competitive differentiation features
+
+**Feature Prioritization:**
+- MoSCoW method (Must, Should, Could, Won't)
+- Impact vs. effort matrix
+- User value and business value scoring
+- Dependency and sequencing requirements
+
+5. Technical Requirements
+**Architecture Specifications:**
+- System architecture overview
+- Component and service definitions
+- Data flow and integration points
+- Scalability and performance requirements
+
+**API Requirements:**
+- Endpoint specifications
+- Request/response formats
+- Authentication and authorization
+- Rate limiting and error handling
+
+**Data Requirements:**
+- Data model and schema definitions
+- Data sources and integrations
+- Data validation and constraints
+- Privacy and security requirements
+
+**Performance Specifications:**
+- Response time requirements
+- Throughput and capacity needs
+- Availability and reliability targets
+- Scalability and growth projections
+
+6. User Experience Requirements
+**Design Principles:**
+- User experience philosophy
+- Design system and style guide
+- Accessibility requirements
+- Usability standards and guidelines
+
+**Interface Requirements:**
+- Screen layouts and wireframes
+- Navigation and information architecture
+- Interactive elements and behaviors
+- Responsive design requirements
+
+**Usability Criteria:**
+- Task completion success rates
+- User satisfaction scores
+- Learning curve and onboarding
+- Error prevention and recovery
+
+7. Non-Functional Requirements
+**Security Requirements:**
+- Authentication and authorization
+- Data encryption and protection
+- Compliance requirements (GDPR, HIPAA, etc.)
+- Security testing and validation
+
+**Performance Requirements:**
+- Page load times and response speeds
+- Concurrent user capacity
+- Database performance requirements
+- Network and bandwidth considerations
+
+**Reliability Requirements:**
+- Uptime and availability targets
+- Error rate and failure tolerances
+- Backup and disaster recovery
+- Monitoring and alerting systems
+
+**Scalability Requirements:**
+- User growth projections
+- Data volume growth expectations
+- Geographic expansion requirements
+- Infrastructure scaling capabilities
+
+8. Success Metrics & Analytics
+**Key Performance Indicators:**
+- User acquisition and activation
+- User engagement and retention
+- Feature adoption and usage
+- Business metrics and revenue impact
+
+**Analytics Implementation:**
+- Tracking requirements and events
+- Dashboard and reporting needs
+- A/B testing capabilities
+- User behavior analysis tools
+
+**Success Measurement:**
+- Baseline metrics and benchmarks
+- Target goals and timelines
+- Success criteria and thresholds
+- Review and optimization process
+
+9. Implementation Plan
+**Development Phases:**
+- MVP scope and timeline
+- Iterative development phases
+- Feature rollout strategy
+- Risk mitigation plans
+
+**Resource Allocation:**
+- Development team requirements
+- Design and UX resources
+- QA and testing needs
+- DevOps and infrastructure support
+
+**Timeline and Milestones:**
+- Project kickoff and discovery
+- Design and prototyping phase
+- Development sprints and releases
+- Testing and quality assurance
+- Launch and post-launch optimization
+
+10. Risk Assessment & Mitigation
+**Technical Risks:**
+- Architecture and scalability challenges
+- Integration complexity and dependencies
+- Performance and reliability concerns
+- Security and compliance risks
+
+**Business Risks:**
+- Market timing and competition
+- User adoption and engagement
+- Resource availability and constraints
+- Regulatory and legal considerations
+
+**Mitigation Strategies:**
+- Risk probability and impact assessment
+- Preventive measures and contingencies
+- Monitoring and early warning systems
+- Response plans and alternatives
+
+PRD TEMPLATE STRUCTURE
+
+**1. Executive Summary**
+Product: Youth sports coach directory with verified credentials
+Owner: [Product Manager]
+Status: [Draft/Review/Approved]
+Last Updated: [Date]
+
+Vision: [One sentence describing the product]
+Success Metrics: [Primary KPI and target]
+
+**2. Problem & Opportunity**
+Problem: [User problem being solved]
+Opportunity: [Business opportunity and market size]
+Solution: [High-level solution approach]
+
+**3. User Requirements**
+Primary Users: [Target user segments]
+Key Use Cases: [Top 3-5 user scenarios]
+Success Criteria: [How users will measure success]
+
+**4. Product Requirements**
+Must Have Features:
+- [Feature 1]: [Description and acceptance criteria]
+- [Feature 2]: [Description and acceptance criteria]
+- [Feature 3]: [Description and acceptance criteria]
+
+Should Have Features:
+- [Enhancement 1]: [Description and priority]
+- [Enhancement 2]: [Description and priority]
+
+**5. Technical Specifications**
+Architecture: [High-level technical approach]
+Dependencies: [Required systems and integrations]
+Performance: [Speed, scale, and reliability requirements]
+
+**6. Success Metrics**
+Primary: [Main success metric and target]
+Secondary: [Supporting metrics to track]
+Timeline: [When to measure and review]
+
+QUALITY CHECKLIST
+Before finalizing PRD, ensure:
+✓ Problem is clearly defined with evidence
+✓ Solution aligns with user needs and business goals
+✓ Requirements are specific and measurable
+✓ Acceptance criteria are testable
+✓ Technical feasibility is validated
+✓ Success metrics are defined and trackable
+✓ Risks are identified with mitigation plans
+✓ Stakeholder alignment is confirmed
+
+EXAMPLE USER STORY
+**Epic:** User Authentication System
+**Story:** As a new user, I want to create an account with my email so that I can access personalized features.
+
+**Acceptance Criteria:**
+- User can enter email address and password
+- System validates email format and password strength
+- User receives confirmation email with verification link
+- Account is created only after email verification
+- User is redirected to onboarding flow after verification
+- Error messages are clear and actionable
+
+**Definition of Done:**
+- Feature works on all supported browsers
+- Mobile responsive design implemented
+- Security requirements met (encryption, validation)
+- Analytics tracking configured
+- User testing completed with 90%+ task completion
+- Performance meets requirements (sub-2 second load time)
+
+Remember: A great PRD balances clarity with flexibility, providing enough detail to guide development while remaining adaptable to new insights.
+
+## BUSINESS CONTEXT
+
+### Idea Overview
+**Product/Service**: Youth sports coach directory with verified credentials
+**Summary**: The best youth sports coaches are terrible at marketing themselves. They build real athletes, collect genuine results, and stay invisible because their reputation travels by word of mouth and stops at the edge of the neighborhood they work in. Parents two miles away with kids who need exactly what they offer have no way to find them.
+
+Trovr is a directory where youth sports coaches build verified profiles and parents find and book them. Background checks, credential verification, session history, and parent reviews in one place. A coach who spent a decade developing athletes at the collegiate level gets the same discoverability as a Thumbtack generalist, except with the sport-specific context that actually matters to a parent choosing between them. Every booking and review logged builds a coach's verified track record that follows them as their reputation grows.
+
+Start in one metro with one sport. Soccer or basketball, where parent spending is highest and coach supply is dense enough to seed the directory with real options. Onboard ten to fifteen coaches by hand, run background checks, and build profiles with video intros and parent testimonials from existing clients. Get the first fifty bookings manually before touching automation. Local league partnerships and parent communities in that metro are where early demand lives, because that's where parents already ask each other for recommendations.
+
+Coaches pay $15 a month for a verified profile and $25 for a full showcase with video and referral tracking. Trovr takes 7% on every booking. A coach running three sessions a week at $50 a session covers the subscription cost in the first hour of the first week. The parent who finds a coach through Trovr and sees their kid improve tells three other parents in the same league. That referral loop is how the directory grows from one metro to the next.
+**Why Now**: The current market landscape is exceptionally favorable for launching the Private Coach Showcase and Referral Platform. The U.S. coaching market is experiencing a vigorous expansion, with the professional coaching sector projected to grow at a 9.3% CAGR, reaching $23.8 billion by 2030. Coupled with the increasing trend of digitizing service discovery, there is a surging demand for specialized coaching solutions, specifically in youth sports. This platform meets the crucial market need for a structured and verified system to connect parents with qualified coaches, leveraging AI and cloud infrastructure to provide a trustworthy and efficient service.[1][4]
+
+Technological advancements further bolster this opportunity. AI-driven features for review authentication and verification are reducing risks associated with fraudulent practices, enhancing user trust significantly. Cloud services have also seen cost reductions of 20% year-over-year, making high-quality video hosting more accessible, which is essential for the platform's success in providing verified training results. Additionally, API integrations with payment and scheduling services facilitate a seamless user experience, further driving consumer adoption.[2][4]
+
+On the regulatory and social fronts, recent stabilizations in child privacy laws have streamlined processes for ensuring compliance, thus lowering legal barriers to entry. There is also a significant social shift towards wellness and mental health, with an increased focus on quality coaching that promotes overall development. This environment is ideal for introducing a platform that turns the word-of-mouth coaching referral system into a structured and incentivized digital process, ensuring robust network effects and market penetration.[1][idea summary]
+
+### Market Analysis
+**Pain Score**: icon: 🔥
+  label: Pain Score
+  score: 9
+  byline: Severe pain due to lack of structured, verified coaching platforms.
+  pain_type: Acute
+  analyzedAt: 2026-03-05T01:11:15.573Z
+  pain_trends: Increasing
+  score_reason: The demand for verified, specialized youth coaching platforms is high, with strong community engagement and clear dissatisfaction with current offerings.
+  pain_frequency: 
+    score: 8
+    reason: Pain is frequently experienced as parents and coaches consistently seek reliable solutions.
+  pain_intensity: 
+    score: 9
+    reason: Users intensely feel the need for trustworthy, structured platforms.
+  key_pain_points: [
+    Lack of verified coach profiles causing trust issues for parents.
+    Unstructured referrals leading to inefficient coach discovery.
+    Limited visibility for coaches affecting their business growth.
+    Systemic barriers in existing platforms not catering to sports-specific needs.
+  ]
+  market_evidence: [
+    Reddit discussions show high demand for verified coaching resources.
+    Facebook groups indicate strong interest in structured training solutions.
+    YouTube views reveal a gap in tech-enhanced training content.
+  ]
+  current_solutions: 
+    score: 5
+    reason: Existing solutions are inadequate, failing to provide specific sports-focused services.
+  willingness_to_pay: 
+    score: 8
+    reason: High willingness to pay due to urgent need for reliable coaching solutions.
+**Opportunity Score**: icon: 💎
+  label: Opportunity Score
+  score: 8
+  byline: Strong opportunity in digitizing youth sports coaching with verified connections.
+  key_risks: [
+    Market adoption by both parents and coaches
+    Balancing supply and demand
+    Potential competition from established platforms
+  ]
+  analyzedAt: 2026-03-05T01:11:11.104Z
+  score_reason: The platform addresses a clear market gap in youth sports coaching, supported by strong community demand and growth in the coaching industry, offering substantial market potential with moderate execution challenges.
+  key_strengths: [
+    Niche market focus with high demand
+    AI-driven verification enhancing trust
+    Low execution difficulty with modern tools
+  ]
+  market_timing: 
+    score: 9
+    reason: The booming coaching industry and technological advancements make this an ideal time.
+  market_potential: 
+    score: 9
+    reason: The youth sports coaching market is projected to grow significantly, creating a strong demand.
+  opportunity_type: Market Gap
+  opportunity_window: Just Right
+  competitive_advantage: 
+    score: 8
+    reason: Unique focus on verified sports coaching with digital referrals distinguishes it from general platforms.
+  execution_feasibility: 
+    score: 5
+    reason: While technically simple, adoption and trust-building present challenges.
+**Market Gaps**: The platform addresses a critical gap in the youth sports coaching market, which is fragmented by general service platforms that do not cater to the specific needs of sports families seeking verified coaches. By offering a tailored, video-supported discovery, booking, and referral platform, the service directly targets the frustrations and unmet needs of parents looking for trustworthy coaching options.
+**Go-to-Market**: icon: 🚀
+  label: Go-To-Market
+  score: 8
+  byline: Clear traction with strong community demand and high search growth.
+  analyzedAt: 2026-03-05T01:10:59.447Z
+  gtm_tactics: [
+    Enhance local SEO for youth sports coaches
+    Engage with Facebook groups for specialized coach visibility
+    Leverage YouTube for verified coach content
+    Launch referral programs in community platforms
+  ]
+  short_reason: Significant demand in youth sports coaching with strong community and search signals.
+  traction_signal: Clear traction
+  audience_clusters: [
+    Parents of youth athletes seeking verified coaches
+    Independent youth sports coaches
+    Youth sports leagues and organizations
+  ]
+  channels_with_signal: [
+    YouTube (1.4M views on training content)
+    Facebook Groups (44.4K+ members in 'Youth Soccer Coach')
+    Reddit (13.6K+ members in r/BasketballCoach)
+  ]
+  early_positioning_angles: [
+    'Verified coaches at your fingertips'
+    'Train with the best, anywhere'
+    'Empower your child's athletic journey'
+  ]
+
+### Business Model
+**Value Ladder**: offers: [
+      goal: Generate leads and increase awareness among parents and coaches.
+      name: Local Coach Finder Tool
+      price: Free
+      stage: Bait
+      description: Interactive tool to search for local youth sports coaches based on sport and location.
+      value_provided: Easy discovery of nearby coaches with verified profiles, enhancing access to sports training.
+      goal: Convert interested users to paying users and build initial traction.
+      name: Verified Coach Profile
+      price: $15/month
+      stage: Frontend
+      description: Access to verified profiles with reviews and basic analytics.
+      value_provided: Provides transparency and trust through verified reviews and ratings, establishing reliability.
+      goal: Establish steady revenue from premium features and deeper engagement.
+      name: Complete Coach Showcase
+      price: $25/month
+      stage: Middle
+      description: Enhanced profiles with video portfolios, session clips, and referral tracking.
+      value_provided: Offers comprehensive insight into coaching capabilities with video evidence and enables structured referrals.
+      goal: Encourage long-term usage and monetize ongoing relationship.
+      name: Incentivized Referral Program
+      price: 5% of booking fee
+      stage: Continuity Program
+      description: Earn credits for successful referrals booked through the platform.
+      value_provided: Motivates users to refer others, driving growth and engagement through incentives.
+      goal: Capture high-value customers seeking exclusive access and branding opportunities.
+      name: Coach Branding Suite
+      price: $10,000/year
+      stage: Backend
+      description: Custom branded profiles for top coaches with advanced marketing tools and priority listings.
+      value_provided: Increases visibility and perceived value, enabling top coaches to differentiate and expand their reach.
+  ]
+  analyzedAt: 2026-03-05T01:11:07.058Z
+**Revenue Potential**: icon: 💰
+  label: Revenue Potential
+  score: $$$
+  byline: $1M-$10M ARR potential by capturing niche markets in youth sports coaching.
+  examples: [
+    Subscription: $15-$25/month per coach
+    Referral Fee: 5-10% of session price
+    Video Hosting Fee: $5-$10/month
+    Freemium Usage: Free basic features
+  ]
+  analyzedAt: 2026-03-05T01:10:48.713Z
+  funding_type: Micro-Seed
+  short_reason: Subscription model with recurring revenue potential and significant growth due to niche market focus.
+  example_comps: [
+    Thumbtack
+    CoachUp
+    Care.com
+    Calendly
+  ]
+  business_models: [
+    Monthly subscription fees
+    Referrals per booking
+    Video content premium fees
+    Freemium user acquisition
+    Incentivized referrals
+    Add-on services (psychology, nutrition)
+  ]
+**Execution Plan**: label: Business Classification
+  steps: [
+    Develop MVP in 2 weeks using AI tools
+    Launch Facebook group campaigns
+    Collect user feedback
+    Iterate on features
+  ]
+  actions: [
+    1. Build MVP platform in 1 week
+    2. Join and engage in youth sports Facebook groups
+    3. Onboard 50 pilot coaches
+  ]
+  b2x_type: B2C
+  lead_magnet: 
+    type: Interactive Tool
+    format: Free local coach search
+    delivery: Website widget
+    creation_steps: Utilize existing coach data to build a searchable directory
+    conversion_rate: 10%
+    core_pain_solved: Difficulty finding local coaches
+    value_demonstration: Ease of finding and connecting with verified coaches
+  mvp_strategy: Launch with verified profiles and basic referral system.
+  initial_offer: 
+    model: Freemium with paid features
+    price: Free basic, $15-$25/month full access
+    value_prop: Verified results, video portfolios, booking integration
+    fulfillment: Digital platform
+    conversion_rate: 5-10%
+  buyer_personas: [
+    Parents of youth athletes
+    Independent youth sports coaches
+  ]
+  key_pain_points: [
+    Lack of verified, structured referrals
+    No transparent review process
+  ]
+  success_metrics: 
+    cac: $5-15
+    churn_rate: <15%
+    pilot_conversion: 25%
+    loan_approval_time: -
+  resources_needed: 
+    team: [
+      Solo founder with AI tools
+    ]
+    budget: $0-10K
+    timeline: 1-2 weeks
+  expansion_strategy: 
+    goal: Expand to metro areas and other sports
+    type: Geographic expansion
+    focus: Build a footprint in major cities
+    dev_timeline: 4-5 months
+    go_to_market: Leverage successful case studies, direct outreach to sports clubs
+    pricing_changes: Introduce premium tiers for additional features
+  traction_milestone: Achieve 5,000 registered coaches and 2,000 parent bookings.
+  acquisition_channels: [
+      reason: Active parent groups discussing coaching
+      channel: Facebook Groups
+      metrics: 1,000 signups within 3 months
+      frequency: Weekly posts
+      content_format: Success stories and coach screens
+      implementation_steps: Engage deeply in discussions, offering free tools
+  ]
+  risks_and_mitigation: [
+    Verification backlog → Automate with AI
+    Privacy concerns → Robust consent systems
+  ]
+  competitive_landscape: Thumbtack and Care.com lack sports-specific focus, leaving a gap for verified video and structured referrals.
+**Execution Difficulty**: icon: 🛠️
+  label: Execution Difficulty
+  score: 4
+  byline: Solo-friendly build, 1-2 week MVP with AI tools
+  analyzedAt: 2026-03-05T01:10:52.971Z
+  mvp_timeline: 1-2 weeks using app generators for user matching and scheduling features
+  short_reason: Moderate complexity with focus on user interaction and scheduling.
+  execution_risks: [
+    Market adoption by both parents and coaches
+    Initial trust-building with user base
+    Balancing supply and demand in local areas
+  ]
+  timeline_estimate: 1-2wk MVP
+  technical_challenges: [
+    AI-driven matching logic for coaches and athletes
+    Real-time scheduling and notifications
+    Integration with payment processors
+  ]
+  non_technical_challenges: [
+    Building partnerships with local sports communities
+    Ensuring quality and safety in coaching
+    Marketing to fragmented audience segments
+  ]
+
+---
+
+Use this business context to inform all recommendations, ensuring they're specifically tailored to this opportunity and target market.
