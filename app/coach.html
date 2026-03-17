@@ -61,13 +61,14 @@
 
   <script src="app.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
       const params = new URLSearchParams(window.location.search);
       const coachId = params.get('id');
       if (!coachId) {
         window.location.href = 'index.html';
         return;
       }
+      await loadCoaches();
       loadCoachProfile(coachId);
     });
   </script>
