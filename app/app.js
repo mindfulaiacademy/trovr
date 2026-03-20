@@ -24,7 +24,7 @@ function renderStars(rating) {
 
 function formatDate(dateStr) {
   const d = new Date(dateStr);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
 }
 
 // ---- LOAD DATA ----
@@ -92,7 +92,7 @@ function renderCoachCard(coach) {
             <span class="sport-tag">Ages ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
             <span class="card-rating">&#9733; ${coach.rating} (${coach.reviewCount})</span>
           </div>
-          <span class="card-location">${coach.city}, ${coach.state}</span>
+          <span class="card-location">${coach.district || coach.city}, Berlin</span>
         </div>
       </div>
       <div class="card-badges">
@@ -101,7 +101,7 @@ function renderCoachCard(coach) {
       </div>
       <div class="card-bio">${coach.bio}</div>
       <div class="card-bottom">
-        <div class="card-price">$${coach.sessionPrice}<span>/session</span></div>
+        <div class="card-price">&euro;${coach.sessionPrice}<span>/session</span></div>
         <div class="card-stats">${coach.totalSessions} sessions &bull; ${coach.yearsExperience} yrs exp</div>
       </div>
     </a>
@@ -213,7 +213,7 @@ function loadCoachProfile(coachId) {
         <span class="sport-tag">Ages ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
         <span class="profile-rating">&#9733; ${coach.rating} (${coach.reviewCount} reviews)</span>
       </div>
-      <div class="profile-location">${coach.city}, ${coach.state} &bull; ${coach.yearsExperience} years experience</div>
+      <div class="profile-location">${coach.district || coach.city}, Berlin &bull; ${coach.yearsExperience} years experience</div>
     </div>
   `;
 
@@ -283,7 +283,7 @@ function loadCoachProfile(coachId) {
   // Sidebar
   document.getElementById('profile-sidebar').innerHTML = `
     <div class="sidebar-card">
-      <div class="sidebar-price">$${coach.sessionPrice}<span>/session</span></div>
+      <div class="sidebar-price">&euro;${coach.sessionPrice}<span>/session</span></div>
       <div class="sidebar-avail">
         <strong>Availability:</strong><br>${coach.availability}
       </div>

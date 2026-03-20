@@ -4,7 +4,8 @@
       "Bash(mkdir -p site/app)",
       "Bash(cp -r app/* site/app/)",
       "Bash(cp \"Landing Pages/index.html\" site/index.html)",
-      "Bash(netlify deploy:*)"
+      "Bash(netlify deploy:*)",
+      "Bash(node -e \":*)"
     ]
   }
 }
