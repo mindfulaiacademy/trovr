@@ -1,5 +1,5 @@
 // ========================================
-// TROVR — MVP App Logic
+// TROVR — MVP App Logic (German / Deutsch)
 // ========================================
 
 let coachesData = [];
@@ -24,18 +24,18 @@ function renderStars(rating) {
 
 function formatDate(dateStr) {
   const d = new Date(dateStr);
-  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  return d.toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' });
 }
 
 // ---- LOAD DATA ----
 async function loadCoaches() {
   try {
-    const res = await fetch('data/coaches.json');
+    const res = await fetch('../data/coaches.json');
     const data = await res.json();
     coachesData = data.coaches;
     return coachesData;
   } catch (err) {
-    console.error('Failed to load coaches:', err);
+    console.error('Fehler beim Laden der Trainer:', err);
     return [];
   }
 }
@@ -86,23 +86,23 @@ function renderCoachCard(coach) {
       <div class="card-top">
         <div class="card-avatar" style="background:${color};">${coach.initials}</div>
         <div class="card-info">
-          <h3>Coach ${coach.firstName} ${coach.lastName}</h3>
+          <h3>Trainer ${coach.firstName} ${coach.lastName}</h3>
           <div class="card-meta">
-            <span class="sport-tag">${coach.sport}</span>
-            <span class="sport-tag">Ages ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
+            <span class="sport-tag">Fußball</span>
+            <span class="sport-tag">Alter ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
             <span class="card-rating">&#9733; ${coach.rating} (${coach.reviewCount})</span>
           </div>
           <span class="card-location">${coach.district || coach.city}, Berlin</span>
         </div>
       </div>
       <div class="card-badges">
-        <span class="badge"><span class="check">&#10003;</span> Background Check</span>
+        <span class="badge"><span class="check">&#10003;</span> Hintergrundprüfung</span>
         ${topCredentials.map(c => `<span class="badge"><span class="check">&#10003;</span> ${c.name}</span>`).join('')}
       </div>
       <div class="card-bio">${coach.bio}</div>
       <div class="card-bottom">
-        <div class="card-price">&euro;${coach.sessionPrice}<span>/session</span></div>
-        <div class="card-stats">${coach.totalSessions} sessions &bull; ${coach.yearsExperience} yrs exp</div>
+        <div class="card-price">&euro;${coach.sessionPrice}<span>/Einheit</span></div>
+        <div class="card-stats">${coach.totalSessions} Einheiten &bull; ${coach.yearsExperience} J. Erf.</div>
       </div>
     </a>
   `;
@@ -127,18 +127,18 @@ function renderResults(coaches) {
   grid.style.display = 'grid';
   noResults.style.display = 'none';
   grid.innerHTML = coaches.map(renderCoachCard).join('');
-  countEl.textContent = `${coaches.length} verified coach${coaches.length !== 1 ? 'es' : ''} found`;
+  countEl.textContent = `${coaches.length} geprüfte${coaches.length !== 1 ? '' : 'r'} Trainer gefunden`;
 
   const sport = document.getElementById('sport-select')?.value;
   const age = document.getElementById('age-input')?.value;
   if (sport || age) {
     let title = '';
-    if (sport) title += `${sport} `;
-    title += 'Coaches';
-    if (age) title += ` for Age ${age}`;
+    if (sport) title += 'Fußball-';
+    title += 'Trainer';
+    if (age) title += ` für Alter ${age}`;
     titleEl.textContent = title;
   } else {
-    titleEl.textContent = 'All Verified Coaches';
+    titleEl.textContent = 'Alle geprüften Trainer';
   }
 }
 
@@ -190,16 +190,16 @@ function loadCoachProfile(coachId) {
   if (!coach) {
     document.querySelector('.profile-page .container').innerHTML = `
       <div style="text-align:center;padding:80px 0;">
-        <h2>Coach not found</h2>
-        <p style="margin:12px 0 24px;color:var(--g500);">This coach profile doesn't exist.</p>
-        <a href="index.html" style="color:var(--primary);font-weight:600;">Back to Search</a>
+        <h2>Trainer nicht gefunden</h2>
+        <p style="margin:12px 0 24px;color:var(--g500);">Dieses Trainerprofil existiert nicht.</p>
+        <a href="index.html" style="color:var(--primary);font-weight:600;">Zurück zur Suche</a>
       </div>
     `;
     return;
   }
 
   // Page title
-  document.title = `Coach ${coach.firstName} ${coach.lastName} — Trovr`;
+  document.title = `Trainer ${coach.firstName} ${coach.lastName} — Trovr`;
 
   const color = getAvatarColor(coach.id);
 
@@ -207,13 +207,13 @@ function loadCoachProfile(coachId) {
   document.getElementById('profile-header').innerHTML = `
     <div class="profile-avatar" style="background:${color};">${coach.initials}</div>
     <div>
-      <h1 class="profile-name">Coach ${coach.firstName} ${coach.lastName}</h1>
+      <h1 class="profile-name">Trainer ${coach.firstName} ${coach.lastName}</h1>
       <div class="profile-headline">
-        <span class="sport-tag">${coach.sport}</span>
-        <span class="sport-tag">Ages ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
-        <span class="profile-rating">&#9733; ${coach.rating} (${coach.reviewCount} reviews)</span>
+        <span class="sport-tag">Fußball</span>
+        <span class="sport-tag">Alter ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
+        <span class="profile-rating">&#9733; ${coach.rating} (${coach.reviewCount} Bewertungen)</span>
       </div>
-      <div class="profile-location">${coach.district || coach.city}, Berlin &bull; ${coach.yearsExperience} years experience</div>
+      <div class="profile-location">${coach.district || coach.city}, Berlin &bull; ${coach.yearsExperience} Jahre Erfahrung</div>
     </div>
   `;
 
@@ -231,49 +231,49 @@ function loadCoachProfile(coachId) {
       </div>
       <div class="review-stars">${'&#9733;'.repeat(r.rating)}${'&#9734;'.repeat(5 - r.rating)}</div>
       <p class="review-text">${r.comment}</p>
-      <div class="review-verified"><span class="check">&#10003;</span> Verified Session</div>
+      <div class="review-verified"><span class="check">&#10003;</span> Verifizierte Einheit</div>
     </div>
   `).join('');
 
   document.getElementById('profile-main').innerHTML = `
     <div class="profile-section">
-      <h2>About</h2>
+      <h2>Über den Trainer</h2>
       <p class="profile-bio">${coach.bio}</p>
     </div>
 
     <div class="profile-section">
-      <h2>Verified Credentials</h2>
+      <h2>Verifizierte Lizenzen</h2>
       <div class="cred-list">
-        <span class="bg-badge"><span class="check">&#10003;</span> Background Check Passed</span>
+        <span class="bg-badge"><span class="check">&#10003;</span> Hintergrundprüfung bestanden</span>
         ${credBadges}
       </div>
     </div>
 
     <div class="profile-section">
-      <h2>Stats</h2>
+      <h2>Statistiken</h2>
       <div class="stats-row">
         <div class="stat-item">
           <div class="stat-num">${coach.totalSessions}+</div>
-          <div class="stat-label">Sessions</div>
+          <div class="stat-label">Einheiten</div>
         </div>
         <div class="stat-item">
           <div class="stat-num">${coach.activeAthletes}</div>
-          <div class="stat-label">Athletes</div>
+          <div class="stat-label">Spieler</div>
         </div>
         <div class="stat-item">
           <div class="stat-num">${coach.yearsExperience}</div>
-          <div class="stat-label">Years Exp</div>
+          <div class="stat-label">Jahre Erf.</div>
         </div>
       </div>
     </div>
 
     <div class="profile-section">
-      <h2>Parent Reviews</h2>
+      <h2>Elternbewertungen</h2>
       <div class="reviews-summary">
         <div class="reviews-big-num">${coach.rating}</div>
         <div>
           <div class="reviews-stars">${'&#9733;'.repeat(Math.floor(coach.rating))}</div>
-          <div class="reviews-count">${coach.reviewCount} verified reviews</div>
+          <div class="reviews-count">${coach.reviewCount} verifizierte Bewertungen</div>
         </div>
       </div>
       ${reviewsHtml}
@@ -283,18 +283,18 @@ function loadCoachProfile(coachId) {
   // Sidebar
   document.getElementById('profile-sidebar').innerHTML = `
     <div class="sidebar-card">
-      <div class="sidebar-price">&euro;${coach.sessionPrice}<span>/session</span></div>
+      <div class="sidebar-price">&euro;${coach.sessionPrice}<span>/Einheit</span></div>
       <div class="sidebar-avail">
-        <strong>Availability:</strong><br>${coach.availability}
+        <strong>Verfügbarkeit:</strong><br>${coach.availability}
       </div>
-      <button class="btn-contact" onclick="openContact()">Contact Coach</button>
-      <a href="mailto:${coach.contactEmail}" class="btn-contact-secondary">Send Email</a>
+      <button class="btn-contact" onclick="openContact()">Trainer kontaktieren</button>
+      <a href="mailto:${coach.contactEmail}" class="btn-contact-secondary">E-Mail senden</a>
       <div class="sidebar-trust">
-        <div class="sidebar-trust-item"><span class="check">&#10003;</span> Background check passed</div>
+        <div class="sidebar-trust-item"><span class="check">&#10003;</span> Hintergrundprüfung bestanden</div>
         ${coach.credentials.filter(c => c.verified).map(c =>
           `<div class="sidebar-trust-item"><span class="check">&#10003;</span> ${c.name}</div>`
         ).join('')}
-        <div class="sidebar-trust-item"><span class="check">&#10003;</span> ${coach.reviewCount} verified reviews</div>
+        <div class="sidebar-trust-item"><span class="check">&#10003;</span> ${coach.reviewCount} verifizierte Bewertungen</div>
       </div>
     </div>
 
@@ -302,17 +302,17 @@ function loadCoachProfile(coachId) {
     <div class="modal-overlay" id="contact-modal">
       <div class="modal">
         <button class="modal-close" onclick="closeContact()">&times;</button>
-        <h2>Contact Coach ${coach.firstName}</h2>
-        <p>Reach out to schedule your first session. Mention you found them on Trovr!</p>
+        <h2>Trainer ${coach.firstName} kontaktieren</h2>
+        <p>Nimm Kontakt auf, um deine erste Einheit zu vereinbaren. Erwähne, dass du ihn auf Trovr gefunden hast!</p>
         <div class="contact-row">
           <div>
-            <div class="label">Email</div>
+            <div class="label">E-Mail</div>
             <div class="value"><a href="mailto:${coach.contactEmail}">${coach.contactEmail}</a></div>
           </div>
         </div>
         <div class="contact-row">
           <div>
-            <div class="label">Phone</div>
+            <div class="label">Telefon</div>
             <div class="value"><a href="tel:${coach.contactPhone.replace(/\D/g, '')}">${coach.contactPhone}</a></div>
           </div>
         </div>

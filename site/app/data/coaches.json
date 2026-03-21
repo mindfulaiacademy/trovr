@@ -2,199 +2,206 @@
   "coaches": [
     {
       "id": "coach-001",
-      "firstName": "Marcus",
-      "lastName": "Robinson",
+      "firstName": "Markus",
+      "lastName": "Hoffmann",
       "photo": null,
-      "initials": "MR",
-      "sport": "Soccer",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "78745",
-      "bio": "Former collegiate soccer player turned youth development specialist. I focus on building technical skills, tactical awareness, and confidence in young athletes. My approach is fun-first for younger kids and competition-focused for select-level players.",
-      "yearsExperience": 12,
-      "ageRangeMin": 6,
+      "initials": "MH",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Charlottenburg",
+      "state": "Berlin",
+      "zip": "10585",
+      "bio": "Former Hertha BSC youth academy coach with 14 years of experience developing young players. I focus on technical fundamentals, tactical awareness, and building confidence. My approach is play-based for younger kids (Bambini to E-Jugend) and competition-focused for advanced players preparing for Leistungsklasse.",
+      "yearsExperience": 14,
+      "ageRangeMin": 5,
       "ageRangeMax": 14,
-      "sessionPrice": 50,
+      "sessionPrice": 60,
       "credentials": [
-        { "name": "USSF C License", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB B-Lizenz", "verified": true },
+        { "name": "DFB Torwarttrainer-Lizenz", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,
-      "reviewCount": 47,
-      "totalSessions": 340,
-      "activeAthletes": 28,
+      "reviewCount": 52,
+      "totalSessions": 380,
+      "activeAthletes": 24,
       "availability": "Mon, Wed, Fri afternoons; Sat mornings",
-      "contactEmail": "marcus.robinson@email.com",
-      "contactPhone": "(512) 555-0147",
+      "contactEmail": "markus.hoffmann@email.de",
+      "contactPhone": "+49 170 555 0147",
       "reviews": [
         {
-          "parentName": "Sarah T.",
+          "parentName": "Julia S.",
           "rating": 5,
-          "comment": "Marcus helped my son go from recreational to select team in 6 months. Best investment we've made. He's patient, pushes kids at the right pace, and my son actually looks forward to practice now.",
+          "comment": "Markus has been coaching my son for 6 months and the improvement is incredible. He went from Kreisliga to being scouted by a Bezirksliga team. Markus really understands youth development and makes every session count.",
           "date": "2026-02-15"
         },
         {
-          "parentName": "David K.",
+          "parentName": "Thomas K.",
           "rating": 5,
-          "comment": "We've been working with Coach Marcus for 3 months. My daughter's ball control and confidence have improved dramatically. He really understands how to coach young girls differently.",
+          "comment": "We tried three different coaches before finding Markus on Trovr. The difference is night and day. My daughter's ball control and first touch have improved dramatically. He adapts his coaching style perfectly to each kid.",
           "date": "2026-01-28"
         },
         {
-          "parentName": "Jennifer L.",
+          "parentName": "Katharina L.",
           "rating": 5,
-          "comment": "Finally found a coach who takes youth development seriously. Marcus doesn't just run drills — he teaches the game. My 8-year-old now reads the field like a 12-year-old.",
+          "comment": "Finally a coach who takes Bambini development seriously. Markus doesn't just run drills — he makes the kids fall in love with football. My 6-year-old now practices voluntarily in the garden every day.",
           "date": "2026-01-10"
         },
         {
-          "parentName": "Mike R.",
+          "parentName": "Michael R.",
           "rating": 4,
-          "comment": "Great coach with solid credentials. Only reason for 4 stars is scheduling can be tight since he's so popular. Book early if you want a weekend slot.",
+          "comment": "Great coach with excellent credentials. Only reason for 4 stars is that weekend slots fill up fast. Book early if you want Saturdays.",
           "date": "2025-12-20"
         }
       ]
     },
     {
       "id": "coach-002",
-      "firstName": "David",
-      "lastName": "Chen",
-      "photo": null,
-      "initials": "DC",
-      "sport": "Basketball",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "78702",
-      "bio": "15 years coaching youth basketball with a focus on fundamentals, footwork, and basketball IQ. I played D2 college ball and spent 5 years as a high school varsity assistant before going full-time private. I believe every kid can improve dramatically with the right coaching.",
-      "yearsExperience": 15,
-      "ageRangeMin": 8,
-      "ageRangeMax": 17,
-      "sessionPrice": 60,
-      "credentials": [
-        { "name": "USA Basketball Gold License", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
-      ],
-      "backgroundCheck": "passed",
-      "rating": 4.8,
-      "reviewCount": 63,
-      "totalSessions": 520,
-      "activeAthletes": 35,
-      "availability": "Tues, Thurs, Sat; flexible schedule",
-      "contactEmail": "david.chen@email.com",
-      "contactPhone": "(512) 555-0234",
-      "reviews": [
-        {
-          "parentName": "Amanda K.",
-          "rating": 5,
-          "comment": "Coach David transformed my son's game. He went from riding the bench to starting point guard in one season. David focuses on the mental side of basketball too, not just physical skills.",
-          "date": "2026-03-01"
-        },
-        {
-          "parentName": "Robert M.",
-          "rating": 5,
-          "comment": "We moved to Austin and found David on Trovr within our first week. The video clips on his profile sold us immediately. My daughter's AAU coach noticed the improvement after just 4 sessions.",
-          "date": "2026-02-12"
-        },
-        {
-          "parentName": "Lisa P.",
-          "rating": 5,
-          "comment": "David is incredible with younger kids. My 8-year-old was intimidated by basketball but now he can't wait for his weekly session. Patient, encouraging, and knows how to make drills fun.",
-          "date": "2026-01-25"
-        }
-      ]
-    },
-    {
-      "id": "coach-003",
       "firstName": "Elena",
-      "lastName": "Vasquez",
+      "lastName": "Petrov",
       "photo": null,
-      "initials": "EV",
-      "sport": "Soccer",
-      "city": "Round Rock",
-      "state": "TX",
-      "zip": "78664",
-      "bio": "Played professional soccer in Mexico's Liga MX Femenil for 4 years before moving to Texas. I specialize in technical skill development for competitive players. Bilingual coaching available in English and Spanish.",
-      "yearsExperience": 8,
-      "ageRangeMin": 10,
+      "initials": "EP",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Prenzlauer Berg",
+      "state": "Berlin",
+      "zip": "10405",
+      "bio": "Former professional player in the Frauen-Bundesliga with 3 seasons at Turbine Potsdam. I specialise in technical skill development for competitive players, especially girls and young women. Bilingual coaching available in German and Russian.",
+      "yearsExperience": 9,
+      "ageRangeMin": 8,
       "ageRangeMax": 18,
-      "sessionPrice": 65,
+      "sessionPrice": 70,
       "credentials": [
-        { "name": "USSF B License", "verified": true },
-        { "name": "NSCAA Premier Diploma", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB B-Lizenz", "verified": true },
+        { "name": "DFB Vereinsmanager-Lizenz", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 5.0,
-      "reviewCount": 31,
-      "totalSessions": 210,
+      "reviewCount": 34,
+      "totalSessions": 230,
       "activeAthletes": 18,
       "availability": "Mon-Fri evenings; Sat-Sun mornings",
-      "contactEmail": "elena.vasquez@email.com",
-      "contactPhone": "(512) 555-0389",
+      "contactEmail": "elena.petrov@email.de",
+      "contactPhone": "+49 176 555 0389",
       "reviews": [
         {
           "parentName": "Carlos G.",
           "rating": 5,
-          "comment": "Elena is the real deal. Former pro who knows how to translate elite-level skills to youth players. My daughter's technical ability has skyrocketed. The bilingual coaching is a huge bonus for our family.",
+          "comment": "Elena is the real deal. Former Bundesliga player who knows how to translate elite-level skills to youth players. My daughter's technique has improved massively. The bilingual coaching is a bonus for our family.",
           "date": "2026-02-28"
         },
         {
-          "parentName": "Michelle W.",
+          "parentName": "Sandra W.",
           "rating": 5,
-          "comment": "Worth every penny. Elena identified weaknesses in my son's game that his club coach missed. Her professional playing experience shows in every session. She demands excellence but makes it fun.",
+          "comment": "Worth every cent. Elena identified weaknesses in my son's game that his Verein coach missed completely. Her professional experience shows in every session.",
           "date": "2026-02-05"
         },
         {
-          "parentName": "Tom B.",
+          "parentName": "Stefan B.",
           "rating": 5,
-          "comment": "Elena helped my 16-year-old prepare for college showcases. Her connections and knowledge of what college coaches look for was invaluable. He got two offers.",
+          "comment": "Elena helped my 16-year-old daughter prepare for NLZ trials. Her knowledge of what NLZ scouts look for was invaluable. She got accepted at Hertha BSC.",
           "date": "2026-01-15"
         }
       ]
     },
     {
-      "id": "coach-004",
-      "firstName": "James",
-      "lastName": "Washington",
+      "id": "coach-003",
+      "firstName": "David",
+      "lastName": "Okafor",
       "photo": null,
-      "initials": "JW",
-      "sport": "Basketball",
-      "city": "Cedar Park",
-      "state": "TX",
-      "zip": "78613",
-      "bio": "Youth basketball specialist focused on guard skills and shooting mechanics. I use video analysis to break down each player's form and create personalized improvement plans. Former AAU coach with 6 teams that placed in state tournaments.",
-      "yearsExperience": 10,
+      "initials": "DO",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Kreuzberg",
+      "state": "Berlin",
+      "zip": "10961",
+      "bio": "15 years of youth football coaching with a focus on speed, agility, and 1v1 skills. I played Regionalliga for 6 seasons and spent 5 years as a Verein youth team coach before going full-time as a private trainer. Every kid can improve dramatically with the right individual attention.",
+      "yearsExperience": 15,
       "ageRangeMin": 7,
-      "ageRangeMax": 15,
-      "sessionPrice": 45,
+      "ageRangeMax": 17,
+      "sessionPrice": 65,
       "credentials": [
-        { "name": "USA Basketball Silver License", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB A-Lizenz", "verified": true },
+        { "name": "DFB Stützpunkttrainer", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.8,
+      "reviewCount": 61,
+      "totalSessions": 490,
+      "activeAthletes": 30,
+      "availability": "Tues, Thurs, Sat; flexible schedule",
+      "contactEmail": "david.okafor@email.de",
+      "contactPhone": "+49 172 555 0234",
+      "reviews": [
+        {
+          "parentName": "Sabine K.",
+          "rating": 5,
+          "comment": "Coach David completely transformed my son's game. He went from being afraid of 1v1 situations to actively seeking them out. David focuses on the mental side of football too, not just technique.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Robert M.",
+          "rating": 5,
+          "comment": "We moved to Berlin and found David on Trovr within our first week. My daughter's Verein coach noticed the improvement after just 4 sessions. David has a gift for coaching young players.",
+          "date": "2026-02-12"
+        },
+        {
+          "parentName": "Lisa P.",
+          "rating": 5,
+          "comment": "David is incredible with younger kids. My 8-year-old was struggling with confidence but now can't wait for his weekly private training. Patient, encouraging, and makes every drill fun.",
+          "date": "2026-01-25"
+        }
+      ]
+    },
+    {
+      "id": "coach-004",
+      "firstName": "Jan",
+      "lastName": "Krause",
+      "photo": null,
+      "initials": "JK",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Spandau",
+      "state": "Berlin",
+      "zip": "13597",
+      "bio": "Youth football specialist focused on shooting technique and finishing. I use video analysis to break down each player's technique and create personalised improvement plans. Former DFB Stützpunkt coach with 4 age groups that advanced to Landesauswahl selection.",
+      "yearsExperience": 11,
+      "ageRangeMin": 8,
+      "ageRangeMax": 16,
+      "sessionPrice": 55,
+      "credentials": [
+        { "name": "DFB B-Lizenz", "verified": true },
+        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 4.7,
-      "reviewCount": 38,
-      "totalSessions": 290,
+      "reviewCount": 40,
+      "totalSessions": 310,
       "activeAthletes": 22,
       "availability": "Mon, Wed, Fri evenings; Sat all day",
-      "contactEmail": "james.washington@email.com",
-      "contactPhone": "(512) 555-0456",
+      "contactEmail": "jan.krause@email.de",
+      "contactPhone": "+49 151 555 0456",
       "reviews": [
         {
-          "parentName": "Karen S.",
+          "parentName": "Anna S.",
           "rating": 5,
-          "comment": "James uses video to show my son exactly what he needs to fix. The improvement in his shooting form after 6 sessions is incredible. He went from 25% to 45% from three-point range in games.",
+          "comment": "Jan uses video analysis to show my son exactly what he needs to fix. The improvement in his shooting technique after 6 sessions is unbelievable. He's now the top scorer in his E-Jugend team.",
           "date": "2026-02-20"
         },
         {
-          "parentName": "Brian T.",
+          "parentName": "Oliver T.",
           "rating": 5,
-          "comment": "Super affordable compared to other coaches and the quality is just as good. James is great with younger kids — my 7-year-old went from barely dribbling to running basic plays.",
+          "comment": "Very fair pricing compared to other coaches in Berlin and the quality is excellent. Jan is great with younger kids — my 8-year-old went from barely being able to strike the ball to scoring from distance.",
           "date": "2026-01-30"
         },
         {
           "parentName": "Natalie H.",
           "rating": 4,
-          "comment": "Solid coaching with a good approach. James really knows guard play. Would love to see him expand into big man skills for my older son who plays center.",
+          "comment": "Solid coaching with a smart approach. Jan really knows attacking play. Would love to see him offer defensive training packages too for my older son who plays centre-back.",
           "date": "2025-12-18"
         }
       ]
@@ -202,42 +209,43 @@
     {
       "id": "coach-005",
       "firstName": "Sarah",
-      "lastName": "Mitchell",
+      "lastName": "Bergmann",
       "photo": null,
-      "initials": "SM",
-      "sport": "Soccer",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "78731",
-      "bio": "I specialize in goalkeeping training for youth players ages 8-16. Former college goalkeeper at UT Austin with 10 years of private coaching experience. I also offer field player sessions focused on defensive positioning and game reading.",
+      "initials": "SB",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Steglitz",
+      "state": "Berlin",
+      "zip": "12163",
+      "bio": "I specialise in goalkeeper training for youth players ages 7-16. Former goalkeeper at FFC Berlin and 10 years of private coaching experience. I also offer field player sessions focused on defensive positioning and game reading.",
       "yearsExperience": 10,
-      "ageRangeMin": 8,
+      "ageRangeMin": 7,
       "ageRangeMax": 16,
-      "sessionPrice": 55,
+      "sessionPrice": 60,
       "credentials": [
-        { "name": "USSF National Goalkeeper License", "verified": true },
-        { "name": "USSF D License", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB Torwarttrainer-Lizenz", "verified": true },
+        { "name": "DFB C-Lizenz", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,
-      "reviewCount": 29,
-      "totalSessions": 185,
-      "activeAthletes": 15,
+      "reviewCount": 28,
+      "totalSessions": 195,
+      "activeAthletes": 16,
       "availability": "Tues, Thurs afternoons; Sat mornings",
-      "contactEmail": "sarah.mitchell@email.com",
-      "contactPhone": "(512) 555-0578",
+      "contactEmail": "sarah.bergmann@email.de",
+      "contactPhone": "+49 160 555 0578",
       "reviews": [
         {
           "parentName": "Angela D.",
           "rating": 5,
-          "comment": "There are almost no goalkeeper-specific coaches in Austin. Sarah fills a huge gap. My daughter's saves percentage went from 40% to 70% in one season working with her.",
+          "comment": "There are almost no goalkeeper-specific coaches in Berlin doing private training. Sarah fills a huge gap. My daughter's save percentage went way up in just one season working with her.",
           "date": "2026-03-05"
         },
         {
-          "parentName": "Ryan C.",
+          "parentName": "Florian C.",
           "rating": 5,
-          "comment": "Sarah is incredibly knowledgeable about the goalkeeper position. She teaches positioning, footwork, and the mental toughness side that most coaches ignore. My son now loves playing keeper.",
+          "comment": "Sarah is incredibly knowledgeable about the goalkeeper position. She teaches positioning, footwork, and the mental toughness side that most Verein coaches ignore. My son now loves playing keeper.",
           "date": "2026-02-10"
         }
       ]
@@ -245,48 +253,49 @@
     {
       "id": "coach-006",
       "firstName": "Andre",
-      "lastName": "Powell",
+      "lastName": "Mbeki",
       "photo": null,
-      "initials": "AP",
-      "sport": "Basketball",
-      "city": "Pflugerville",
-      "state": "TX",
-      "zip": "78660",
-      "bio": "Former overseas professional basketball player turned youth coach. I focus on complete player development — ball handling, shooting, defense, and basketball IQ. My training programs are structured in 8-week cycles with measurable progress tracking.",
-      "yearsExperience": 7,
+      "initials": "AM",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Neukölln",
+      "state": "Berlin",
+      "zip": "12043",
+      "bio": "Former semi-professional player turned youth performance coach. I focus on complete player development — ball mastery, passing technique, defensive skills, and football IQ. My training programmes are structured in 8-week cycles with measurable progress tracking.",
+      "yearsExperience": 8,
       "ageRangeMin": 9,
       "ageRangeMax": 18,
-      "sessionPrice": 70,
+      "sessionPrice": 75,
       "credentials": [
-        { "name": "USA Basketball Gold License", "verified": true },
-        { "name": "NSCA-CSCS", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB B-Lizenz", "verified": true },
+        { "name": "DOSB Sportphysiotherapie", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 4.8,
-      "reviewCount": 24,
-      "totalSessions": 160,
-      "activeAthletes": 14,
+      "reviewCount": 26,
+      "totalSessions": 175,
+      "activeAthletes": 15,
       "availability": "Mon-Fri mornings; Sat afternoons",
-      "contactEmail": "andre.powell@email.com",
-      "contactPhone": "(512) 555-0612",
+      "contactEmail": "andre.mbeki@email.de",
+      "contactPhone": "+49 157 555 0612",
       "reviews": [
         {
           "parentName": "Jessica M.",
           "rating": 5,
-          "comment": "Andre's 8-week program structure is exactly what my son needed. He can see his own progress on the tracking sheet and it keeps him motivated. The professional playing background adds so much credibility.",
+          "comment": "Andre's 8-week programme structure is exactly what my son needed. He can see his own progress on the tracking sheet and it keeps him motivated. The athletic performance background adds so much value.",
           "date": "2026-02-22"
         },
         {
           "parentName": "Daniel F.",
           "rating": 5,
-          "comment": "Premium price but premium coaching. Andre treats every session like a professional practice. My 16-year-old is being recruited by D3 schools now thanks to the development he got here.",
+          "comment": "Premium price but premium coaching. Andre treats every session like a professional training. My 16-year-old is now being considered for NLZ selection thanks to the development he got here.",
           "date": "2026-01-18"
         },
         {
-          "parentName": "Stephanie R.",
+          "parentName": "Stefanie R.",
           "rating": 4,
-          "comment": "Great coach with serious credentials. The only challenge is his location in Pflugerville — wish he had sessions closer to central Austin. Worth the drive though.",
+          "comment": "Excellent coach with serious credentials. Training location in Neukölln works well for us. The structured approach with progress tracking sets him apart from other coaches.",
           "date": "2025-12-28"
         }
       ]
@@ -297,45 +306,46 @@
       "lastName": "Santos",
       "photo": null,
       "initials": "MS",
-      "sport": "Soccer",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "78748",
-      "bio": "Youth soccer coach specializing in players ages 5-10. I believe early development should focus on falling in love with the game. My sessions are play-based with age-appropriate technical skill building woven into fun games and activities.",
-      "yearsExperience": 6,
-      "ageRangeMin": 5,
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Friedrichshain",
+      "state": "Berlin",
+      "zip": "10243",
+      "bio": "Youth football coach specialising in the youngest players ages 4-10. I believe early development should focus on falling in love with the game. My sessions are play-based with age-appropriate technical skill building woven into fun games and activities. Coaching available in German, Spanish, and Portuguese.",
+      "yearsExperience": 7,
+      "ageRangeMin": 4,
       "ageRangeMax": 10,
-      "sessionPrice": 40,
+      "sessionPrice": 50,
       "credentials": [
-        { "name": "USSF D License", "verified": true },
-        { "name": "US Soccer Grassroots Certificate", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB C-Lizenz", "verified": true },
+        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 5.0,
-      "reviewCount": 22,
-      "totalSessions": 145,
-      "activeAthletes": 20,
+      "reviewCount": 24,
+      "totalSessions": 160,
+      "activeAthletes": 22,
       "availability": "Mon, Wed, Fri mornings; Sat mornings",
-      "contactEmail": "maria.santos@email.com",
-      "contactPhone": "(512) 555-0723",
+      "contactEmail": "maria.santos@email.de",
+      "contactPhone": "+49 175 555 0723",
       "reviews": [
         {
-          "parentName": "Chris A.",
+          "parentName": "Christian A.",
           "rating": 5,
-          "comment": "Maria is AMAZING with little kids. My 5-year-old was scared of the ball and now she's dribbling around the house. Maria makes every session feel like a game, not practice. Can't recommend enough.",
+          "comment": "Maria is AMAZING with little kids. My 5-year-old was scared of the ball and now she's dribbling around the flat. Maria makes every session feel like a game, not practice. Can't recommend enough.",
           "date": "2026-03-08"
         },
         {
           "parentName": "Priya N.",
           "rating": 5,
-          "comment": "Finally a coach who understands that 6-year-olds need fun, not drills. Maria's play-based approach has my son begging to go to soccer. She's patient, creative, and genuinely loves coaching little ones.",
+          "comment": "Finally a coach who understands that 6-year-olds need fun, not drills. Maria's play-based approach has my son begging to go to football. She's patient, creative, and genuinely loves coaching little ones.",
           "date": "2026-02-14"
         },
         {
-          "parentName": "Lauren H.",
+          "parentName": "Laura H.",
           "rating": 5,
-          "comment": "My twins started with Maria 3 months ago and the transformation is unreal. They went from not wanting to play to being the most enthusiastic kids on their rec team. Maria is a gift.",
+          "comment": "My twins started with Maria 3 months ago and the transformation is unreal. They went from not wanting to play to being the most enthusiastic kids on their Verein team. Maria is a gift.",
           "date": "2026-01-20"
         }
       ]
@@ -343,44 +353,139 @@
     {
       "id": "coach-008",
       "firstName": "Kevin",
-      "lastName": "Brooks",
+      "lastName": "Brandt",
       "photo": null,
       "initials": "KB",
-      "sport": "Basketball",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "78741",
-      "bio": "Specialized in strength, conditioning, and athletic performance for basketball players. Former D1 strength coach at Texas State. I combine basketball skill work with sport-specific athletic training to create more explosive, durable players.",
-      "yearsExperience": 9,
-      "ageRangeMin": 12,
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Mitte",
+      "state": "Berlin",
+      "zip": "10115",
+      "bio": "Specialised in athletic performance and conditioning for football players. Former Bundesliga youth academy fitness coach at Union Berlin. I combine football skill work with sport-specific athletic training to create faster, more explosive, and more durable players.",
+      "yearsExperience": 10,
+      "ageRangeMin": 11,
       "ageRangeMax": 18,
       "sessionPrice": 75,
       "credentials": [
-        { "name": "USA Basketball Silver License", "verified": true },
-        { "name": "NSCA-CSCS", "verified": true },
-        { "name": "USAW Sport Performance Coach", "verified": true },
-        { "name": "CPR/First Aid Certified", "verified": true }
+        { "name": "DFB A-Lizenz", "verified": true },
+        { "name": "DOSB Fitness-A-Lizenz", "verified": true },
+        { "name": "DFB Athletiktrainer-Zertifikat", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
       ],
       "backgroundCheck": "passed",
       "rating": 4.7,
-      "reviewCount": 19,
-      "totalSessions": 130,
-      "activeAthletes": 12,
-      "availability": "Mon-Fri early mornings (6-8am); Sat all day",
-      "contactEmail": "kevin.brooks@email.com",
-      "contactPhone": "(512) 555-0834",
+      "reviewCount": 21,
+      "totalSessions": 145,
+      "activeAthletes": 13,
+      "availability": "Mon-Fri early mornings (6-8); Sat all day",
+      "contactEmail": "kevin.brandt@email.de",
+      "contactPhone": "+49 163 555 0834",
       "reviews": [
         {
-          "parentName": "Marcus J.",
+          "parentName": "Markus J.",
           "rating": 5,
-          "comment": "Kevin is the only coach in Austin combining real basketball training with D1-level strength and conditioning. My son added 4 inches to his vertical in 3 months. College scouts are noticing.",
+          "comment": "Kevin is the only coach in Berlin combining real football training with professional-level athletic conditioning. My son's sprint times improved by 0.4 seconds in 3 months. NLZ scouts are noticing.",
           "date": "2026-02-25"
         },
         {
           "parentName": "Tamara W.",
           "rating": 5,
-          "comment": "The athletic performance angle is what sets Kevin apart. My daughter plays volleyball too and the explosiveness training has helped both sports. Worth the premium price.",
+          "comment": "The athletic performance angle is what sets Kevin apart. The explosiveness training has completely changed how my daughter moves on the pitch. Worth the premium price.",
           "date": "2026-01-30"
+        }
+      ]
+    },
+    {
+      "id": "coach-009",
+      "firstName": "Ali",
+      "lastName": "Hassan",
+      "photo": null,
+      "initials": "AH",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Wedding",
+      "state": "Berlin",
+      "zip": "13347",
+      "bio": "Community football coach with deep roots in Wedding and Moabit. I grew up playing Straßenfußball in Berlin and turned that passion into a coaching career. I specialise in working with kids from diverse backgrounds, making football accessible and building life skills through sport. Coaching in German, Arabic, and Turkish.",
+      "yearsExperience": 8,
+      "ageRangeMin": 5,
+      "ageRangeMax": 14,
+      "sessionPrice": 50,
+      "credentials": [
+        { "name": "DFB C-Lizenz", "verified": true },
+        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.9,
+      "reviewCount": 35,
+      "totalSessions": 280,
+      "activeAthletes": 26,
+      "availability": "Mon-Fri afternoons; Sat-Sun mornings",
+      "contactEmail": "ali.hassan@email.de",
+      "contactPhone": "+49 179 555 0945",
+      "reviews": [
+        {
+          "parentName": "Fatima B.",
+          "rating": 5,
+          "comment": "Ali is more than a football coach — he's a role model. My son looks up to him and has grown so much in confidence, both on and off the pitch. The multilingual coaching is wonderful for our family.",
+          "date": "2026-03-10"
+        },
+        {
+          "parentName": "Martin G.",
+          "rating": 5,
+          "comment": "Ali's sessions are the highlight of my daughter's week. He creates an environment where every kid feels welcome regardless of their level. She's improved technically while having a blast.",
+          "date": "2026-02-18"
+        },
+        {
+          "parentName": "Yuki T.",
+          "rating": 5,
+          "comment": "We're an expat family and Ali made our son feel immediately at home. His coaching style is encouraging and structured. After 2 months, our boy made the starting lineup at his local Verein.",
+          "date": "2026-01-22"
+        }
+      ]
+    },
+    {
+      "id": "coach-010",
+      "firstName": "Lena",
+      "lastName": "Fischer",
+      "photo": null,
+      "initials": "LF",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Tempelhof",
+      "state": "Berlin",
+      "zip": "12099",
+      "bio": "DFB-licensed coach specialising in girls' football development. Former captain of a Regionalliga team with a passion for growing the women's game from grassroots up. I offer individual sessions and small-group training for girls who want to take their football seriously.",
+      "yearsExperience": 6,
+      "ageRangeMin": 6,
+      "ageRangeMax": 16,
+      "sessionPrice": 55,
+      "credentials": [
+        { "name": "DFB B-Lizenz", "verified": true },
+        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
+        { "name": "Erste Hilfe Zertifikat", "verified": true }
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.9,
+      "reviewCount": 19,
+      "totalSessions": 120,
+      "activeAthletes": 17,
+      "availability": "Tues, Thurs, Sat; Sun mornings",
+      "contactEmail": "lena.fischer@email.de",
+      "contactPhone": "+49 171 555 1056",
+      "reviews": [
+        {
+          "parentName": "Claudia M.",
+          "rating": 5,
+          "comment": "Finally a coach who specifically understands girls' football. Lena has given my daughter confidence she never had in her mixed Verein training. She went from sitting on the bench to being team captain.",
+          "date": "2026-03-02"
+        },
+        {
+          "parentName": "Henrik S.",
+          "rating": 5,
+          "comment": "Lena is passionate about developing the next generation of women's football. My twin daughters train with her weekly and the progress in technique and game understanding is remarkable.",
+          "date": "2026-02-08"
         }
       ]
     }

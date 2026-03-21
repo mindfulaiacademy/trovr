@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Find verified youth football coaches in Berlin. Background-checked, DFB-credential-verified coaches with real parent reviews. Search free on Trovr.">
-  <title>Trovr — Find Verified Youth Football Coaches in Berlin</title>
+  <meta name="description" content="Finde geprüfte Jugend-Fußballtrainer in Berlin. Hintergrund-geprüft, DFB-lizenz-verifiziert mit echten Elternbewertungen. Kostenlos suchen auf Trovr.">
+  <title>Trovr — Geprüfte Jugend-Fußballtrainer in Berlin finden</title>
   <!-- Google Analytics — replace G-XXXXXXXXXX with your actual Measurement ID -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
@@ -27,9 +27,9 @@
     <div class="container nav-inner">
       <a href="index.html" class="logo">trovr<span>.</span></a>
       <div class="nav-links">
-        <a href="#results" class="nav-link-desktop">Browse Coaches</a>
-        <a href="#how-it-works" class="nav-link-desktop">How It Works</a>
-        <div class="lang-switch"><a href="de/index.html" class="lang-link">DE</a><span class="lang-sep">|</span><span class="lang-active">EN</span></div>
+        <a href="#results" class="nav-link-desktop">Trainer durchsuchen</a>
+        <a href="#how-it-works" class="nav-link-desktop">So funktioniert's</a>
+        <div class="lang-switch"><span class="lang-active">DE</span><span class="lang-sep">|</span><a href="../index.html" class="lang-link">EN</a></div>
       </div>
     </div>
   </nav>
@@ -40,37 +40,37 @@
       <div class="hero-content">
         <div class="hero-badge">
           <div class="pulse-dot"></div>
-          Now live in Berlin, Germany
+          Jetzt live in Berlin
         </div>
-        <h1>Find a <span class="highlight">verified</span> football coach for your young talent</h1>
-        <p class="hero-sub">Every coach on Trovr is background-checked and DFB-credential-verified. Search free. Book private training with confidence.</p>
+        <h1>Finde einen <span class="highlight">geprüften</span> Fußballtrainer für dein junges Talent</h1>
+        <p class="hero-sub">Jeder Trainer auf Trovr ist hintergrund-geprüft und DFB-lizenz-verifiziert. Kostenlos suchen. Einzeltraining mit Vertrauen buchen.</p>
       </div>
 
       <!-- SEARCH BOX -->
       <div class="search-box" id="search-box">
         <div class="search-fields">
           <div class="search-field">
-            <label for="sport-select">Sport</label>
+            <label for="sport-select">Sportart</label>
             <select id="sport-select">
-              <option value="">All Sports</option>
-              <option value="Football" selected>Football</option>
+              <option value="">Alle Sportarten</option>
+              <option value="Football" selected>Fußball</option>
             </select>
           </div>
           <div class="search-field">
-            <label for="age-input">Child's Age</label>
-            <input type="number" id="age-input" placeholder="e.g. 10" min="3" max="18">
+            <label for="age-input">Alter des Kindes</label>
+            <input type="number" id="age-input" placeholder="z.B. 10" min="3" max="18">
           </div>
           <div class="search-field">
-            <label for="sort-select">Sort By</label>
+            <label for="sort-select">Sortieren nach</label>
             <select id="sort-select">
-              <option value="rating">Highest Rated</option>
-              <option value="price-low">Price: Low to High</option>
-              <option value="price-high">Price: High to Low</option>
-              <option value="experience">Most Experience</option>
-              <option value="reviews">Most Reviews</option>
+              <option value="rating">Beste Bewertung</option>
+              <option value="price-low">Preis: Niedrig → Hoch</option>
+              <option value="price-high">Preis: Hoch → Niedrig</option>
+              <option value="experience">Meiste Erfahrung</option>
+              <option value="reviews">Meiste Bewertungen</option>
             </select>
           </div>
-          <button class="btn-search" id="search-btn">Search Coaches</button>
+          <button class="btn-search" id="search-btn">Trainer suchen</button>
         </div>
       </div>
     </div>
@@ -81,19 +81,19 @@
     <div class="container trust-inner">
       <div class="trust-item">
         <div class="trust-icon green">&#128274;</div>
-        <div><span class="trust-num">100%</span><br><span class="trust-label">Background Checked</span></div>
+        <div><span class="trust-num">100%</span><br><span class="trust-label">Hintergrund geprüft</span></div>
       </div>
       <div class="trust-item">
         <div class="trust-icon amber">&#9989;</div>
-        <div><span class="trust-num">100%</span><br><span class="trust-label">Credentials Verified</span></div>
+        <div><span class="trust-num">100%</span><br><span class="trust-label">Lizenzen verifiziert</span></div>
       </div>
       <div class="trust-item">
         <div class="trust-icon purple">&#11088;</div>
-        <div><span class="trust-num">4.8</span><br><span class="trust-label">Avg Rating</span></div>
+        <div><span class="trust-num">4.8</span><br><span class="trust-label">Ø Bewertung</span></div>
       </div>
       <div class="trust-item">
         <div class="trust-icon blue">&#128101;</div>
-        <div><span class="trust-num">200+</span><br><span class="trust-label">Happy Parents</span></div>
+        <div><span class="trust-num">200+</span><br><span class="trust-label">Zufriedene Eltern</span></div>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
   <section class="results-section" id="results">
     <div class="container">
       <div class="results-header">
-        <h2 id="results-title">All Verified Coaches</h2>
+        <h2 id="results-title">Alle geprüften Trainer</h2>
         <p id="results-count" class="results-count"></p>
       </div>
       <div class="coach-grid" id="coach-grid">
@@ -110,9 +110,9 @@
       </div>
       <div class="no-results" id="no-results" style="display:none;">
         <div class="no-results-icon">&#128269;</div>
-        <h3>No coaches found</h3>
-        <p>Try adjusting your filters — change the sport, age, or clear your search.</p>
-        <button class="btn-clear" id="clear-btn">Clear Filters</button>
+        <h3>Keine Trainer gefunden</h3>
+        <p>Versuche, deine Filter anzupassen — ändere die Sportart, das Alter oder setze die Suche zurück.</p>
+        <button class="btn-clear" id="clear-btn">Filter zurücksetzen</button>
       </div>
     </div>
   </section>
@@ -120,22 +120,22 @@
   <!-- HOW IT WORKS -->
   <section class="how-section" id="how-it-works">
     <div class="container">
-      <h2 class="section-title">How Trovr Works</h2>
+      <h2 class="section-title">So funktioniert Trovr</h2>
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-num">1</div>
-          <h3>Search</h3>
-          <p>Enter your child's age. We show you every verified football coach across Berlin.</p>
+          <h3>Suchen</h3>
+          <p>Gib das Alter deines Kindes ein. Wir zeigen dir jeden geprüften Fußballtrainer in Berlin.</p>
         </div>
         <div class="step-card">
           <div class="step-num">2</div>
-          <h3>Compare</h3>
-          <p>View credentials, background check status, parent reviews, and pricing. All verified — no guesswork.</p>
+          <h3>Vergleichen</h3>
+          <p>Sieh dir Lizenzen, Hintergrundprüfungen, Elternbewertungen und Preise an. Alles verifiziert — kein Rätselraten.</p>
         </div>
         <div class="step-card">
           <div class="step-num">3</div>
-          <h3>Contact</h3>
-          <p>Reach out directly to book your first session. Your child's next great coach is one click away.</p>
+          <h3>Kontaktieren</h3>
+          <p>Kontaktiere den Trainer direkt, um deine erste Einheit zu buchen. Der nächste großartige Trainer deines Kindes ist nur einen Klick entfernt.</p>
         </div>
       </div>
     </div>
@@ -146,14 +146,14 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <a href="index.html" class="logo">trovr<span>.</span></a>
-        <p>The verified youth football coach directory for Berlin. Background-checked, DFB-credential-verified coaches found by parents who care.</p>
+        <p>Das Verzeichnis für geprüfte Jugend-Fußballtrainer in Berlin. Hintergrund-geprüft, DFB-lizenz-verifiziert — gefunden von Eltern, denen es wichtig ist.</p>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Trovr. All rights reserved.</span>
+        <span>&copy; 2026 Trovr. Alle Rechte vorbehalten.</span>
       </div>
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="app-de.js"></script>
 </body>
 </html>
