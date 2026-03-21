@@ -5,7 +5,9 @@
       "Bash(cp -r app/* site/app/)",
       "Bash(cp \"Landing Pages/index.html\" site/index.html)",
       "Bash(netlify deploy:*)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "WebFetch(domain:youth-sports-coach.netlify.app)",
+      "Bash(ls -d */)"
     ],
     "additionalDirectories": [
       "c:\\Users\\andre\\Downloads\\Vibe Coding 2026\\Youth Sports Coach\\Landing Pages"
