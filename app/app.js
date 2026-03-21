@@ -129,14 +129,9 @@ function renderResults(coaches) {
   grid.innerHTML = coaches.map(renderCoachCard).join('');
   countEl.textContent = `${coaches.length} verified coach${coaches.length !== 1 ? 'es' : ''} found`;
 
-  const sport = document.getElementById('sport-select')?.value;
   const age = document.getElementById('age-input')?.value;
-  if (sport || age) {
-    let title = '';
-    if (sport) title += `${sport} `;
-    title += 'Coaches';
-    if (age) title += ` for Age ${age}`;
-    titleEl.textContent = title;
+  if (age) {
+    titleEl.textContent = `Football Coaches for Age ${age}`;
   } else {
     titleEl.textContent = 'All Verified Coaches';
   }
@@ -146,14 +141,13 @@ function renderResults(coaches) {
 function initSearchPage() {
   const searchBtn = document.getElementById('search-btn');
   const clearBtn = document.getElementById('clear-btn');
-  const sportSelect = document.getElementById('sport-select');
   const ageInput = document.getElementById('age-input');
   const sortSelect = document.getElementById('sort-select');
 
   if (!searchBtn) return;
 
   function doSearch() {
-    const sport = sportSelect.value;
+    const sport = 'Football';
     const age = ageInput.value;
     const sort = sortSelect.value;
     const filtered = filterCoaches(coachesData, sport, age, sort);
@@ -173,7 +167,6 @@ function initSearchPage() {
   sortSelect.addEventListener('change', doSearch);
 
   clearBtn?.addEventListener('click', () => {
-    sportSelect.value = '';
     ageInput.value = '';
     sortSelect.value = 'rating';
     renderResults(coachesData);
