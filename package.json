@@ -1,0 +1,24 @@
+{
+  "name": "youth-sports-coach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindfulaiacademy/Youth-Sports-Coach.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mindfulaiacademy/Youth-Sports-Coach/issues"
+  },
+  "homepage": "https://github.com/mindfulaiacademy/Youth-Sports-Coach#readme",
+  "devDependencies": {
+    "supabase": "^2.83.0"
+  }
+}

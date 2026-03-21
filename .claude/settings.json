@@ -17,7 +17,12 @@
       "Bash(curl -sL \"https://randomuser.me/api/portraits/women/28.jpg\" -o coach-007.jpg)",
       "Bash(curl -sL \"https://randomuser.me/api/portraits/men/46.jpg\" -o coach-008.jpg)",
       "Bash(curl -sL \"https://randomuser.me/api/portraits/men/57.jpg\" -o coach-009.jpg)",
-      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/33.jpg\" -o coach-010.jpg)"
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/33.jpg\" -o coach-010.jpg)",
+      "WebSearch",
+      "Bash(code --install-extension Supabase.vscode-supabase-extension)",
+      "Bash(where code:*)",
+      "Bash('/c/Users/andre/AppData/Local/Programs/Microsoft VS Code/code' --list-extensions)",
+      "Bash(npx supabase:*)"
     ],
     "additionalDirectories": [
       "c:\\Users\\andre\\Downloads\\Vibe Coding 2026\\Youth Sports Coach\\Landing Pages"
