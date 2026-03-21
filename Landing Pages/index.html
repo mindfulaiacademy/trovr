@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Trovr connects parents with verified youth sports coaches. Background-checked, credential-verified coaches with real reviews. Find the right coach for your child today.">
-  <meta name="keywords" content="youth sports coach, find sports coach, verified coach, youth basketball coach, youth soccer coach, kids sports training, private coach">
-  <title>Trovr — Find Verified Youth Sports Coaches Near You</title>
+  <meta name="description" content="Trovr connects parents with verified youth football coaches in Berlin. Background-checked, DFB-licensed coaches with real reviews. Find the right private training for your child today.">
+  <meta name="keywords" content="Fußballtrainer Berlin, youth football coach Berlin, private football training, DFB Lizenz Trainer, private football coach, kids football training Berlin, Jugend Fußball Trainer">
+  <title>Trovr — Find Verified Youth Football Coaches in Berlin</title>
+  <!-- Google Analytics — replace G-XXXXXXXXXX with your actual Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    if (localStorage.getItem('trovr_cookies') === 'accepted') {
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -80,6 +90,11 @@
       letter-spacing: -0.03em;
     }
     .logo span { color: var(--accent); }
+    .lang-switch { display: flex; align-items: center; gap: 4px; font-size: 0.85rem; font-weight: 600; }
+    .lang-link { text-decoration: none; color: var(--gray-400); transition: color 0.2s; }
+    .lang-link:hover { color: var(--primary); }
+    .lang-active { color: var(--primary); }
+    .lang-sep { color: var(--gray-300); margin: 0 2px; }
     .nav-links { display: flex; align-items: center; gap: 32px; }
     .nav-links a {
       text-decoration: none;
@@ -1070,7 +1085,8 @@
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
-        <a href="../app/index.html" class="btn btn-primary btn-sm">Find a Coach</a>
+        <div class="lang-switch"><a href="de/index.html" class="lang-link">DE</a><span class="lang-sep">|</span><span class="lang-active">EN</span></div>
+        <a href="app/index.html" class="btn btn-primary btn-sm">Find a Coach</a>
       </div>
     </div>
   </nav>
@@ -1081,16 +1097,16 @@
       <div class="hero-content">
         <div class="hero-badge">
           <div class="dot"></div>
-          Now live in Austin, TX
+          Now live in Berlin, Germany
         </div>
         <h1>
           Your kid deserves a <span class="highlight">verified</span> coach, not a random search result
         </h1>
         <p class="hero-sub">
-          Trovr is the only directory where every youth sports coach is background-checked, credential-verified, and reviewed by real parents. Find, compare, and connect — all in one place.
+          Trovr is the only directory where every youth football coach is background-checked, DFB-credential-verified, and reviewed by real parents. Find, compare, and book private training — all in one place.
         </p>
         <div class="hero-ctas">
-          <a href="../app/index.html" class="btn btn-primary btn-lg">Find a Coach Near You</a>
+          <a href="app/index.html" class="btn btn-primary btn-lg">Find a Coach Near You</a>
           <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
         </div>
         <div class="hero-proof">
@@ -1102,7 +1118,7 @@
             <div class="avatar" style="background:#DC2626">A</div>
           </div>
           <div class="hero-proof-text">
-            <strong>160+ athletes</strong> already train with Trovr coaches
+            <strong>200+ athletes</strong> already train with Trovr coaches in Berlin
           </div>
         </div>
       </div>
@@ -1110,18 +1126,18 @@
       <div class="hero-visual">
         <div class="hero-card">
           <div class="coach-card-header">
-            <div class="coach-avatar">MR</div>
+            <div class="coach-avatar">MH</div>
             <div class="coach-info">
-              <h3>Coach Marcus Robinson</h3>
-              <span class="sport-tag">Soccer</span>
-              <span class="sport-tag">Ages 6-14</span>
-              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; 4.9 (47 reviews)</div>
+              <h3>Coach Markus Hoffmann</h3>
+              <span class="sport-tag">Football</span>
+              <span class="sport-tag">Ages 5-14</span>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; 4.9 (52 reviews)</div>
             </div>
           </div>
           <div class="verified-badges">
             <div class="v-badge"><span class="check">&#10003;</span> Background Check</div>
-            <div class="v-badge"><span class="check">&#10003;</span> USSF Licensed</div>
-            <div class="v-badge"><span class="check">&#10003;</span> CPR Certified</div>
+            <div class="v-badge"><span class="check">&#10003;</span> DFB B-Lizenz</div>
+            <div class="v-badge"><span class="check">&#10003;</span> Erste Hilfe</div>
           </div>
           <div class="coach-stats">
             <div class="stat-box">
@@ -1137,13 +1153,13 @@
               <div class="label">Athletes</div>
             </div>
           </div>
-          <a href="../app/index.html" class="btn btn-primary">View Coach Profile — $50/hr</a>
+          <a href="app/index.html" class="btn btn-primary">View Coach Profile — €60/session</a>
         </div>
 
         <div class="floating-review">
           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p>"Marcus helped my son go from recreational to select team in 6 months. Best investment we've made."</p>
-          <div class="reviewer">— Sarah T., parent of 10-yr-old</div>
+          <p>"Markus helped my son go from Kreisliga to being scouted by a Bezirksliga team in 6 months. Best investment we've made."</p>
+          <div class="reviewer">— Julia S., parent of 10-yr-old</div>
         </div>
       </div>
     </div>
@@ -1169,7 +1185,7 @@
       <div class="trust-item">
         <div class="trust-icon" style="background:#EDE9FE;color:#7C3AED;">&#127942;</div>
         <div class="trust-text">
-          <div class="num">8</div>
+          <div class="num">10</div>
           <div class="desc">Verified Coaches</div>
         </div>
       </div>
@@ -1189,22 +1205,22 @@
       <div>
         <div class="section-label">The Problem</div>
         <h2 class="section-title">Finding a great youth coach shouldn't feel like a gamble</h2>
-        <p class="section-sub" style="margin-bottom:32px;">Right now, parents rely on word of mouth, outdated directories, and generic service platforms that treat coaching like any other gig.</p>
+        <p class="section-sub" style="margin-bottom:32px;">Right now, parents rely on word of mouth, Verein connections, and generic platforms that treat coaching like any other service.</p>
 
         <div class="pain-card">
           <div class="icon">&#128557;</div>
           <h4>No way to verify credentials</h4>
-          <p>Anyone can claim "10 years of experience." Without verified credentials and background checks, you're trusting a stranger with your child based on a paragraph of self-written bio.</p>
+          <p>Anyone can claim "10 years of experience." Without verified DFB credentials and background checks, you're trusting a stranger with your child based on a self-written bio.</p>
         </div>
         <div class="pain-card">
           <div class="icon">&#128269;</div>
           <h4>The best coaches are invisible</h4>
-          <p>Coaches with real results and genuine talent stay hidden because their reputation only reaches the edge of the neighborhood. Parents two miles away never find them.</p>
+          <p>Coaches with real results stay hidden because their reputation only reaches the edge of their Bezirk. Parents in Prenzlauer Berg never find the perfect coach in Charlottenburg.</p>
         </div>
         <div class="pain-card">
           <div class="icon">&#128176;</div>
           <h4>Generic platforms miss what matters</h4>
-          <p>Thumbtack and Google can't tell you if a coach has a USSF license, has developed select-level players, or has been reviewed by parents whose kids play the same sport yours does.</p>
+          <p>Google and general service platforms can't tell you if a coach has a DFB-Lizenz, has developed NLZ-level players, or has been reviewed by parents whose kids play football.</p>
         </div>
       </div>
 
@@ -1212,20 +1228,20 @@
         <div class="search-mockup">
           <div class="search-bar">
             <span class="icon">&#128269;</span>
-            <span>"youth soccer coach near me"</span>
+            <span>"Fußballtrainer für Kinder Berlin"</span>
           </div>
           <div class="generic-result">
             <div class="generic-avatar"></div>
             <div class="generic-info">
-              <div class="name">John's Athletic Services</div>
-              <div class="desc">Sports coaching, personal training, pet sitting...</div>
+              <div class="name">Max's Sportservice Berlin</div>
+              <div class="desc">Football coaching, personal training, fitness...</div>
             </div>
             <div class="no-verify-tag">No verification</div>
           </div>
           <div class="generic-result">
             <div class="generic-avatar"></div>
             <div class="generic-info">
-              <div class="name">AllStar Training LLC</div>
+              <div class="name">Berlin Sportakademie</div>
               <div class="desc">2 reviews &bull; Last active 8 months ago</div>
             </div>
             <div class="no-verify-tag">No background check</div>
@@ -1233,8 +1249,8 @@
           <div class="generic-result">
             <div class="generic-avatar"></div>
             <div class="generic-info">
-              <div class="name">Coach Dave</div>
-              <div class="desc">"I love sports!" — no credentials listed</div>
+              <div class="name">Trainer Stefan</div>
+              <div class="desc">"Ich liebe Fußball!" — no credentials listed</div>
             </div>
             <div class="no-verify-tag">No credentials</div>
           </div>
@@ -1257,7 +1273,7 @@
         <div class="solution-card">
           <div class="solution-icon">&#128373;</div>
           <h3>Trust what you see</h3>
-          <p>Background checks, license verification, and CPR certification — confirmed by Trovr, not self-reported. You'll never wonder "is this person actually qualified?" again.</p>
+          <p>Background checks, DFB-Lizenz verification, and Erste Hilfe certification — confirmed by Trovr, not self-reported. You'll never wonder "is this person actually qualified?" again.</p>
         </div>
         <div class="solution-card">
           <div class="solution-icon">&#127909;</div>
@@ -1285,13 +1301,13 @@
       <div class="steps-grid">
         <div class="step">
           <div class="step-num">1</div>
-          <h3>Search by sport and age</h3>
-          <p>Pick a sport and enter your child's age. Trovr shows you every verified coach in the Austin area — ranked by reviews, credentials, and experience.</p>
+          <h3>Search by age group</h3>
+          <p>Enter your child's age. Trovr shows you every verified football coach across Berlin — ranked by reviews, DFB credentials, and experience.</p>
         </div>
         <div class="step">
           <div class="step-num">2</div>
           <h3>Compare verified profiles</h3>
-          <p>View background check status, certifications, session history, and real parent reviews. Everything you need to make a confident choice, in one place.</p>
+          <p>View background check status, DFB-Lizenzen, session history, and real parent reviews. Everything you need to make a confident choice, in one place.</p>
         </div>
         <div class="step">
           <div class="step-num">3</div>
@@ -1322,8 +1338,8 @@
         <div class="feature-card">
           <div class="feature-icon">&#127941;</div>
           <div>
-            <h3>Sport-Specific Credentials</h3>
-            <p>USSF, USA Basketball, NSCAA — we verify the actual licenses and certifications that matter for your child's sport.</p>
+            <h3>DFB-Verified Credentials</h3>
+            <p>DFB C-Lizenz, B-Lizenz, A-Lizenz, Torwarttrainer — we verify the actual DFB licences and certifications that matter for your child's development.</p>
           </div>
         </div>
         <div class="feature-card">
@@ -1370,36 +1386,36 @@
       <div class="testimonials-grid">
         <div class="testimonial-card">
           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <blockquote>"I spent three weeks asking around Facebook groups trying to find a soccer coach for my daughter. Found Coach Marcus on Trovr in five minutes. Background checked, USSF licensed, and 40+ reviews from other parents. Why didn't this exist sooner?"</blockquote>
+          <blockquote>"I spent three weeks asking around in Verein parent groups trying to find a good Einzeltrainer for my daughter. Found Coach Markus on Trovr in five minutes. Background checked, DFB B-Lizenz, and 50+ reviews from other parents. Why didn't this exist sooner?"</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-avatar" style="background:#2563EB;">JM</div>
+            <div class="testimonial-avatar" style="background:#2563EB;">JS</div>
             <div>
-              <div class="testimonial-name">Jessica M.</div>
-              <div class="testimonial-role">Parent of 8-yr-old, Austin TX</div>
+              <div class="testimonial-name">Julia S.</div>
+              <div class="testimonial-role">Parent of 8-yr-old, Charlottenburg</div>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card">
           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <blockquote>"As a coach, I was invisible beyond my neighborhood. Trovr verified my credentials, built my profile with session clips, and within a month I had 12 new families booking weekly sessions. My business doubled."</blockquote>
+          <blockquote>"As a coach, I was invisible beyond my Bezirk. Trovr verified my DFB credentials, built my profile, and within a month I had 12 new families booking weekly private training. My coaching business doubled."</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-avatar" style="background:#1B6B4A;">DR</div>
+            <div class="testimonial-avatar" style="background:#1B6B4A;">DO</div>
             <div>
-              <div class="testimonial-name">Coach David R.</div>
-              <div class="testimonial-role">Basketball Coach, 15 yrs experience</div>
+              <div class="testimonial-name">Coach David O.</div>
+              <div class="testimonial-role">Football Coach, 15 yrs experience</div>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card">
           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <blockquote>"We moved to a new city and knew nobody. Trovr let us find a verified basketball coach for our son within his first week at his new school. The video profiles made it feel like we already knew the coach before we ever met."</blockquote>
+          <blockquote>"We moved to Berlin and knew nobody. Trovr let us find a verified football coach for our son within his first week at his new school. The verified profiles made it feel like we already knew the coach before we ever met."</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-avatar" style="background:#7C3AED;">AT</div>
+            <div class="testimonial-avatar" style="background:#7C3AED;">YT</div>
             <div>
-              <div class="testimonial-name">Amanda & Tom K.</div>
-              <div class="testimonial-role">Parents of 12-yr-old, Austin TX</div>
+              <div class="testimonial-name">Yuki & Taro T.</div>
+              <div class="testimonial-role">Parents of 12-yr-old, Wedding</div>
             </div>
           </div>
         </div>
@@ -1407,11 +1423,11 @@
 
       <div class="proof-stats">
         <div class="proof-stat">
-          <div class="num">270+</div>
+          <div class="num">340+</div>
           <div class="label">Parent reviews</div>
         </div>
         <div class="proof-stat">
-          <div class="num">8</div>
+          <div class="num">10</div>
           <div class="label">Verified coaches</div>
         </div>
         <div class="proof-stat">
@@ -1419,7 +1435,7 @@
           <div class="label">Average coach rating</div>
         </div>
         <div class="proof-stat">
-          <div class="num">1,900+</div>
+          <div class="num">2,500+</div>
           <div class="label">Sessions completed</div>
         </div>
       </div>
@@ -1446,18 +1462,18 @@
             <li><span class="check">&#10003;</span> Read real parent reviews</li>
             <li><span class="check">&#10003;</span> Contact coaches directly</li>
           </ul>
-          <a href="../app/index.html" class="btn btn-outline">Search Coaches Free</a>
+          <a href="app/index.html" class="btn btn-outline">Search Coaches Free</a>
           <div class="best-for">Best for: Parents looking for verified coaches</div>
         </div>
 
         <div class="pricing-card featured">
           <div class="pricing-badge">Most Popular</div>
           <div class="tier-name">Verified Coach Profile</div>
-          <div class="price">$15<span>/mo</span></div>
+          <div class="price">&euro;15<span>/mo</span></div>
           <div class="price-desc">Covers itself in your first session</div>
           <ul class="pricing-features">
             <li><span class="check">&#10003;</span> Verified profile with background check</li>
-            <li><span class="check">&#10003;</span> Credential verification badges</li>
+            <li><span class="check">&#10003;</span> DFB credential verification badges</li>
             <li><span class="check">&#10003;</span> Parent reviews and ratings</li>
             <li><span class="check">&#10003;</span> Online booking <span class="coming-soon-inline">Soon</span></li>
             <li><span class="check">&#10003;</span> Basic session analytics <span class="coming-soon-inline">Soon</span></li>
@@ -1468,7 +1484,7 @@
 
         <div class="pricing-card">
           <div class="tier-name">Complete Showcase</div>
-          <div class="price">$25<span>/mo</span></div>
+          <div class="price">&euro;25<span>/mo</span></div>
           <div class="price-desc">For serious coaches building a brand</div>
           <ul class="pricing-features">
             <li><span class="check">&#10003;</span> Everything in Verified, plus:</li>
@@ -1500,7 +1516,7 @@
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Every coach goes through a comprehensive background check and credential verification before their profile goes live. We verify coaching licenses (USSF, USA Basketball, etc.), CPR certifications, and run national criminal background checks. Verifications are updated annually. No self-reporting — we confirm everything independently.</p>
+            <p>Every coach goes through a comprehensive background check and credential verification before their profile goes live. We verify DFB coaching licences (C-Lizenz, B-Lizenz, A-Lizenz, etc.), Erste Hilfe certifications, and run thorough background checks. Verifications are updated annually. No self-reporting — we confirm everything independently.</p>
           </div>
         </div>
 
@@ -1520,7 +1536,7 @@
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>We're currently live in the Austin, TX metro area with soccer and basketball coaches. We're expanding to additional sports and metros soon. Join the waitlist to be notified when we launch in your area.</p>
+            <p>We're currently live across all of Berlin with football (Fußball) coaches. We're expanding to additional sports and cities soon. Join the waitlist to be notified when we add your sport or city.</p>
           </div>
         </div>
 
@@ -1530,7 +1546,7 @@
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Generic platforms treat coaching like any other service — you get the same listing format whether someone is a plumber or a youth soccer coach. Trovr is built exclusively for youth sports: sport-specific credentials, verified background checks, video portfolios, session history, and reviews from parents whose kids actually play the same sport. Context that matters.</p>
+            <p>Generic platforms treat coaching like any other service — you get the same listing format whether someone is a handyman or a youth football coach. Trovr is built exclusively for youth football: DFB-specific credentials, verified background checks, video portfolios, session history, and reviews from parents whose kids actually play football. Context that matters.</p>
           </div>
         </div>
 
@@ -1540,7 +1556,7 @@
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>A Verified Coach Profile is $15/month. The Complete Showcase with video portfolios and referral tracking is $25/month. Online booking with a small platform fee is coming soon. A coach running three sessions a week at $50 covers the subscription in the first hour of the first week.</p>
+            <p>A Verified Coach Profile is &euro;15/month. The Complete Showcase with video portfolios and referral tracking is &euro;25/month. Online booking with a small platform fee is coming soon. A coach running three sessions a week at &euro;60 covers the subscription in the first session of the first week.</p>
           </div>
         </div>
 
@@ -1573,7 +1589,7 @@
       <h2 class="section-title">Your child's next great coach is already on Trovr</h2>
       <p class="section-sub">Stop gambling on unverified strangers. Every coach on Trovr is background-checked, credential-verified, and reviewed by real parents. Search for free — connect in minutes.</p>
       <div class="cta-buttons">
-        <a href="../app/index.html" class="btn btn-accent btn-lg">Find a Coach Now</a>
+        <a href="app/index.html" class="btn btn-accent btn-lg">Find a Coach Now</a>
         <a href="mailto:mindfulai.academy@gmail.com?subject=Coach%20Verification%20Inquiry" class="btn btn-ghost btn-lg">I'm a Coach — Get Verified</a>
       </div>
       <p class="guarantee">No commitment required. Free for parents. Coaches can cancel anytime.</p>
@@ -1586,7 +1602,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="#" class="logo">trovr<span>.</span></a>
-          <p>The verified youth sports coach directory. Background-checked, credential-verified coaches — found and booked by parents who care.</p>
+          <p>The verified youth football coach directory for Berlin. Background-checked, DFB-credential-verified coaches — found and booked by parents who care.</p>
           <div class="social-links">
             <a href="#" class="social-link" aria-label="Facebook">f</a>
             <a href="#" class="social-link" aria-label="Instagram">in</a>
@@ -1595,7 +1611,7 @@
         </div>
         <div class="footer-col">
           <h4>For Parents</h4>
-          <a href="../app/index.html">Find a Coach</a>
+          <a href="app/index.html">Find a Coach</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#features">Safety Standards</a>
           <a href="#social-proof">Parent Reviews</a>
@@ -1618,15 +1634,39 @@
       <div class="footer-bottom">
         <span>&copy; 2026 Trovr. All rights reserved.</span>
         <div>
-          <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp;
-          <a href="#">Terms of Service</a> &nbsp;&middot;&nbsp;
-          <a href="#">Cookie Policy</a>
+          <a href="privacy.html">Privacy Policy</a> &nbsp;&middot;&nbsp;
+          <a href="impressum.html">Impressum</a> &nbsp;&middot;&nbsp;
+          <a href="privacy.html#cookies">Cookie Policy</a>
         </div>
       </div>
     </div>
   </footer>
 
+  <!-- COOKIE CONSENT BANNER -->
+  <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#1F2937;color:#E5E7EB;padding:16px 24px;font-size:0.9rem;box-shadow:0 -4px 20px rgba(0,0,0,0.15);">
+    <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+      <p style="margin:0;line-height:1.6;flex:1;">We use cookies to improve your experience and analyse site traffic. By clicking "Accept", you consent to the use of analytics cookies. See our <a href="privacy.html#cookies" style="color:#F59E0B;text-decoration:underline;">Cookie Policy</a>.</p>
+      <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button onclick="acceptCookies()" style="background:#1B6B4A;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-weight:600;cursor:pointer;font-family:inherit;font-size:0.9rem;">Accept</button>
+        <button onclick="declineCookies()" style="background:transparent;color:#9CA3AF;border:1px solid #4B5563;padding:10px 24px;border-radius:8px;font-weight:600;cursor:pointer;font-family:inherit;font-size:0.9rem;">Decline</button>
+      </div>
+    </div>
+  </div>
+
   <script>
+    // Cookie consent
+    function acceptCookies() {
+      localStorage.setItem('trovr_cookies', 'accepted');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+    function declineCookies() {
+      localStorage.setItem('trovr_cookies', 'declined');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+    if (!localStorage.getItem('trovr_cookies')) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+
     // Sticky nav shadow
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 10);

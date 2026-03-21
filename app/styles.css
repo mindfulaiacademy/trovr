@@ -56,6 +56,11 @@ nav {
   text-decoration: none; letter-spacing: -0.03em;
 }
 .logo span { color: var(--accent); }
+.lang-switch { display: flex; align-items: center; gap: 4px; font-size: 0.85rem; font-weight: 600; }
+.lang-link { text-decoration: none; color: var(--g400); transition: color 0.2s; }
+.lang-link:hover { color: var(--primary); }
+.lang-active { color: var(--primary); }
+.lang-sep { color: var(--g300); margin: 0 2px; }
 .nav-links { display: flex; align-items: center; gap: 24px; }
 .nav-links a {
   text-decoration: none; color: var(--g600); font-size: 0.9rem;

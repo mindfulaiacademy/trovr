@@ -6,6 +6,9 @@
       "Bash(cp \"Landing Pages/index.html\" site/index.html)",
       "Bash(netlify deploy:*)",
       "Bash(node -e \":*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\andre\\Downloads\\Vibe Coding 2026\\Youth Sports Coach\\Landing Pages"
     ]
   }
 }
