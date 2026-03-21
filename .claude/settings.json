@@ -7,7 +7,17 @@
       "Bash(netlify deploy:*)",
       "Bash(node -e \":*)",
       "WebFetch(domain:youth-sports-coach.netlify.app)",
-      "Bash(ls -d */)"
+      "Bash(ls -d */)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/32.jpg\" -o coach-001.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/44.jpg\" -o coach-002.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/75.jpg\" -o coach-003.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/22.jpg\" -o coach-004.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/65.jpg\" -o coach-005.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/85.jpg\" -o coach-006.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/28.jpg\" -o coach-007.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/46.jpg\" -o coach-008.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/men/57.jpg\" -o coach-009.jpg)",
+      "Bash(curl -sL \"https://randomuser.me/api/portraits/women/33.jpg\" -o coach-010.jpg)"
     ],
     "additionalDirectories": [
       "c:\\Users\\andre\\Downloads\\Vibe Coding 2026\\Youth Sports Coach\\Landing Pages"

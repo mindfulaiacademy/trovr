@@ -81,10 +81,14 @@ function renderCoachCard(coach) {
   const color = getAvatarColor(coach.id);
   const topCredentials = coach.credentials.filter(c => c.verified).slice(0, 2);
 
+  const avatarHtml = coach.photo
+    ? `<img class="card-avatar-img" src="${coach.photo}" alt="Coach ${coach.firstName} ${coach.lastName}">`
+    : `<div class="card-avatar" style="background:${color};">${coach.initials}</div>`;
+
   return `
     <a href="coach.html?id=${coach.id}" class="coach-card">
       <div class="card-top">
-        <div class="card-avatar" style="background:${color};">${coach.initials}</div>
+        ${avatarHtml}
         <div class="card-info">
           <h3>Coach ${coach.firstName} ${coach.lastName}</h3>
           <div class="card-meta">
@@ -197,8 +201,12 @@ function loadCoachProfile(coachId) {
   const color = getAvatarColor(coach.id);
 
   // Header
+  const profileAvatarHtml = coach.photo
+    ? `<img class="profile-avatar-img" src="${coach.photo}" alt="Coach ${coach.firstName} ${coach.lastName}">`
+    : `<div class="profile-avatar" style="background:${color};">${coach.initials}</div>`;
+
   document.getElementById('profile-header').innerHTML = `
-    <div class="profile-avatar" style="background:${color};">${coach.initials}</div>
+    ${profileAvatarHtml}
     <div>
       <h1 class="profile-name">Coach ${coach.firstName} ${coach.lastName}</h1>
       <div class="profile-headline">
