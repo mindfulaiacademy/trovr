@@ -50,7 +50,12 @@
       "WebFetch(domain:www.fussballschule.berlin)",
       "WebFetch(domain:fussballschule.herthabsc.com)",
       "WebFetch(domain:www.efcb.net)",
-      "WebFetch(domain:www.fv-rheinland.de)"
+      "WebFetch(domain:www.fv-rheinland.de)",
+      "Bash(mv \"Landing Pages/landing page prompt\" \"Business/prompts/landing-page-prompt\")",
+      "Bash(mv \"Business/gtm strategy prompt\" \"Business/prompts/gtm-strategy-prompt\")",
+      "Bash(mv \"Business/pricing strategy prompt\" \"Business/prompts/pricing-strategy-prompt\")",
+      "Bash(rm -rf \"Landing Pages/\")",
+      "Bash(rm -rf \"site/\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\andre\\Downloads\\Vibe Coding 2026\\Youth Sports Coach\\Landing Pages"
