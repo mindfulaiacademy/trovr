@@ -414,6 +414,10 @@
     .comparison-table .check { color: var(--primary); font-weight: 700; }
     .comparison-table .cross { color: var(--gray-400); }
 
+    /* RESPONSIVE VISIBILITY */
+    .mobile-only { display: none; }
+    .desktop-only { display: block; }
+
     /* FOUNDER OFFER */
     .founder-section {
       background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -627,6 +631,8 @@
       .comparison-table th:nth-child(3),
       .comparison-table td:nth-child(2),
       .comparison-table td:nth-child(3) { display: none; }
+      .desktop-only { display: none !important; }
+      .mobile-only { display: block !important; }
     }
     @media (max-width: 480px) {
       .hero h1 { font-size: 1.85rem; }
@@ -752,8 +758,10 @@
   <section class="comparison-section">
     <div class="container">
       <div class="section-header">
-        <div class="section-label">Vergleich</div>
-        <h2 class="section-title">Trovr vs. Was du aktuell machst</h2>
+        <div class="section-label desktop-only">Vergleich</div>
+        <div class="section-label mobile-only">Vorteile</div>
+        <h2 class="section-title desktop-only">Trovr vs. Was du aktuell machst</h2>
+        <h2 class="section-title mobile-only">Was Trovr dir bietet</h2>
         <p class="section-sub">Dein Training und Coaching ist exzellent. Deine Sichtbarkeit sollte nicht davon abhängen, wer dich zufällig kennt.</p>
       </div>
 
