@@ -1014,7 +1014,7 @@
   </section>
 
   <!-- WHATSAPP DOKUMENTE -->
-  <section style="padding: 32px 0 64px; background: var(--gray-50);">
+  <section id="whatsapp-section" style="padding: 32px 0 64px; background: var(--gray-50);">
     <div class="container">
       <div style="max-width: 600px; margin: 0 auto; text-align: center;">
         <h2 style="font-size: 1.6rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">DFB-Lizenz, Führungszeugnis & Trainingsvideos per WhatsApp senden</h2>
@@ -1078,6 +1078,8 @@
         form.style.display = 'none';
         success.style.display = 'block';
         success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        var wa = document.getElementById('whatsapp-section');
+        if (wa) wa.style.display = 'none';
       }
     }
   </script>
