@@ -471,7 +471,7 @@
     }
 
     /* FORM SECTION */
-    .form-section { background: var(--gray-50); }
+    .form-section { background: var(--gray-50); padding-bottom: 0; }
     .form-container {
       max-width: 680px;
       margin: 0 auto;
@@ -910,7 +910,7 @@
             <input type="hidden" name="_subject" value="Neue Trainer-Bewerbung — Trovr Early-Bird-Preis">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="https://youth-sports-coach.netlify.app/for-coaches-de.html?submitted=true">
+            <input type="hidden" name="_next" value="https://trovr.netlify.app/for-coaches-de.html?submitted=true">
             <!-- Honeypot -->
             <input type="text" name="_honey" style="display:none">
 
@@ -994,8 +994,19 @@
           <div id="success-message" style="display:none; text-align:center; padding: 48px 24px;">
             <div style="font-size: 3rem; margin-bottom: 16px;">&#10003;</div>
             <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">Bewerbung erhalten!</h3>
-            <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7;">Wir prüfen deine Angaben und melden uns innerhalb von 24 Stunden mit einer Vorschau deines Profils. Willkommen bei Trovr.</p>
-            <a href="https://wa.me/491786259436?text=Hallo%20Trovr!%20Ich%20m%C3%B6chte%20meine%20Dokumente%20und%20Medien%20f%C3%BCr%20mein%20Trainer-Profil%20senden." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; font-weight: 700; font-size: 1rem; padding: 12px 28px; border-radius: 12px; text-decoration: none; margin-top: 20px;">&#128242; Dokumente jetzt per WhatsApp senden</a>
+            <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7; margin-bottom: 24px;">Wir prüfen deine Angaben und melden uns innerhalb von 24 Stunden mit einer Vorschau deines Profils. Willkommen bei Trovr.</p>
+
+            <hr style="border: none; border-top: 1px solid var(--gray-200); margin: 24px 0;">
+
+            <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--dark); margin-bottom: 8px;">Nächster Schritt: DFB-Lizenz, Führungszeugnis & Trainingsvideos senden</h4>
+            <p style="color: var(--gray-600); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">Schick uns einfach ein Foto oder Scan per WhatsApp — wir kümmern uns um den Rest.</p>
+
+            <div style="background: var(--gray-50); border-radius: 16px; padding: 24px; margin-bottom: 20px;">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwa.me%2F491786259436%3Ftext%3DHallo%2520Trovr%21%2520Ich%2520m%25C3%25B6chte%2520meine%2520Dokumente%2520und%2520Medien%2520f%25C3%25BCr%2520mein%2520Trainer-Profil%2520senden." alt="WhatsApp QR Code" style="width: 160px; height: 160px; display: block; margin: 0 auto 16px;">
+              <a href="https://wa.me/491786259436?text=Hallo%20Trovr!%20Ich%20m%C3%B6chte%20meine%20Dokumente%20und%20Medien%20f%C3%BCr%20mein%20Trainer-Profil%20senden." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; font-weight: 700; font-size: 1.05rem; padding: 14px 32px; border-radius: 12px; text-decoration: none;">&#128172; WhatsApp öffnen</a>
+            </div>
+
+            <p style="color: var(--gray-500); font-size: 0.82rem;">Kein Stress — du kannst alles auch später nachreichen.</p>
           </div>
         </div>
       </div>
@@ -1003,13 +1014,12 @@
   </section>
 
   <!-- WHATSAPP DOKUMENTE -->
-  <section style="padding: 64px 0; background: var(--gray-50);">
+  <section style="padding: 32px 0 64px; background: var(--gray-50);">
     <div class="container">
       <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-        <div style="font-size: 3rem; margin-bottom: 16px;">&#128242;</div>
-        <h2 style="font-size: 1.6rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">Dokumente & Videos? Einfach per WhatsApp.</h2>
+        <h2 style="font-size: 1.6rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">DFB-Lizenz, Führungszeugnis & Trainingsvideos per WhatsApp senden</h2>
         <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7; margin-bottom: 24px;">
-          Nach deiner Bewerbung schick uns einfach per WhatsApp:
+          Schick uns einfach ein Foto oder Scan — wir kümmern uns um den Rest:
         </p>
         <ul style="text-align: left; max-width: 400px; margin: 0 auto 32px; list-style: none; padding: 0;">
           <li style="padding: 8px 0; color: var(--gray-700);"><span style="color: var(--primary); margin-right: 8px;">&#10003;</span> Foto deiner DFB-Lizenz</li>
