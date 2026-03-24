@@ -1077,6 +1077,7 @@
       if (form && success) {
         form.style.display = 'none';
         success.style.display = 'block';
+        success.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
   </script>
