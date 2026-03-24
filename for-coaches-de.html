@@ -623,6 +623,10 @@
       .form-row { grid-template-columns: 1fr; }
       .comparison-table { font-size: 0.82rem; }
       .comparison-table th, .comparison-table td { padding: 12px; }
+      .comparison-table th:nth-child(2),
+      .comparison-table th:nth-child(3),
+      .comparison-table td:nth-child(2),
+      .comparison-table td:nth-child(3) { display: none; }
     }
     @media (max-width: 480px) {
       .hero h1 { font-size: 1.85rem; }
