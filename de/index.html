@@ -28,6 +28,7 @@
       --primary-light: #E8F5EE;
       --accent: #F59E0B;
       --accent-dark: #D97706;
+      --star: #B45309;
       --dark: #111827;
       --gray-900: #1F2937;
       --gray-700: #374151;
@@ -338,7 +339,7 @@
       margin-right: 6px;
     }
     .coach-info .rating {
-      color: var(--accent);
+      color: var(--star);
       font-size: 0.85rem;
       font-weight: 600;
     }
@@ -401,7 +402,7 @@
       z-index: 3;
       max-width: 280px;
     }
-    .floating-review .stars { color: var(--accent); font-size: 0.85rem; margin-bottom: 6px; }
+    .floating-review .stars { color: var(--star); font-size: 0.85rem; margin-bottom: 6px; }
     .floating-review p {
       font-size: 0.85rem;
       color: var(--gray-600);
@@ -742,7 +743,7 @@
       position: relative;
     }
     .testimonial-card .stars {
-      color: var(--accent);
+      color: var(--star);
       font-size: 0.9rem;
       margin-bottom: 16px;
     }
@@ -1037,6 +1038,52 @@
     }
     .footer-bottom a:hover { color: var(--white); }
 
+    /* HAMBURGER MENU */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--dark);
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 72px; left: 0; right: 0; bottom: 0;
+      background: var(--white);
+      padding: 8px 24px 32px;
+      z-index: 99;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      display: block;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--gray-100);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--dark);
+      text-decoration: none;
+    }
+    .mobile-nav a:last-child { border-bottom: none; }
+    .mobile-nav .btn { margin-top: 24px; text-align: center; }
+
     /* RESPONSIVE */
     @media (max-width: 1024px) {
       .hero h1 { font-size: 2.8rem; }
@@ -1044,15 +1091,19 @@
       .pricing-card.featured { transform: none; }
     }
     @media (max-width: 768px) {
+      .hamburger { display: flex; }
       .nav-links { display: none; }
-      .hero { padding: 110px 0 60px; }
+      .hero { padding: 100px 0 48px; }
       .hero-grid,
       .problem-grid {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 32px;
       }
       .hero h1 { font-size: 2.2rem; }
       .section-title { font-size: 2rem; }
+      section { padding: 64px 0; }
+      .section-header { margin-bottom: 40px; }
+      .container { padding: 0 16px; }
       .solution-grid,
       .steps-grid,
       .testimonials-grid,
@@ -1085,11 +1136,22 @@
         <a href="#features">Funktionen</a>
         <a href="#pricing">Preise</a>
         <a href="#faq">FAQ</a>
-        <div class="lang-switch"><span class="lang-active">DE</span><span class="lang-sep">|</span><a href="../index.html" class="lang-link">EN</a></div>
         <a href="../app/de/index.html" class="btn btn-primary btn-sm">Trainer finden</a>
       </div>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#how-it-works">So funktioniert's</a>
+    <a href="#features">Funktionen</a>
+    <a href="#pricing">Preise</a>
+    <a href="#faq">FAQ</a>
+    <a href="../app/de/index.html" class="btn btn-primary">Trainer finden →</a>
+  </div>
 
   <!-- HERO -->
   <section class="hero">
@@ -1103,7 +1165,7 @@
           Dein Kind verdient einen <span class="highlight">geprüften</span> Trainer — kein Zufallsergebnis
         </h1>
         <p class="hero-sub">
-          Trovr ist das einzige Verzeichnis, in dem jeder Jugend-Fußballtrainer hintergrund-geprüft, DFB-lizenz-verifiziert und von echten Eltern bewertet ist. Finden, vergleichen und Einzeltraining buchen — alles an einem Ort.
+          Trovr ist das einzige Verzeichnis, in dem jeder Jugend-Fußballtrainer überprüft, mit verifizierter DFB-Lizenz und von echten Eltern bewertet ist. Finden, vergleichen und Einzeltraining buchen — alles an einem Ort.
         </p>
         <div class="hero-ctas">
           <a href="../app/de/index.html" class="btn btn-primary btn-lg">Trainer in deiner Nähe finden</a>
@@ -1266,7 +1328,7 @@
       <div class="section-header">
         <div class="section-label">Die Lösung</div>
         <h2 class="section-title">Trovr: Wo geprüfte Trainer auf engagierte Eltern treffen</h2>
-        <p class="section-sub">Jeder Trainer ist hintergrund-geprüft und lizenz-verifiziert, bevor sein Profil online geht. Jede Bewertung stammt aus einer echten, gebuchten Trainingseinheit. Keine Fälschungen. Kein Rätselraten.</p>
+        <p class="section-sub">Jeder Trainer ist überprüft und seine Lizenz verifiziert, bevor sein Profil online geht. Jede Bewertung stammt aus einer echten, gebuchten Trainingseinheit. Keine Fälschungen. Kein Rätselraten.</p>
       </div>
 
       <div class="solution-grid">
@@ -1587,7 +1649,7 @@
   <section class="final-cta" id="cta">
     <div class="container">
       <h2 class="section-title">Der nächste großartige Trainer deines Kindes ist schon auf Trovr</h2>
-      <p class="section-sub">Hör auf, bei unverifizierten Fremden zu pokern. Jeder Trainer auf Trovr ist hintergrund-geprüft, lizenz-verifiziert und von echten Eltern bewertet. Kostenlos suchen — in Minuten verbinden.</p>
+      <p class="section-sub">Hör auf, bei unverifizierten Fremden zu pokern. Jeder Trainer auf Trovr ist überprüft, mit verifizierter Lizenz und von echten Eltern bewertet. Kostenlos suchen — in Minuten verbinden.</p>
       <div class="cta-buttons">
         <a href="../app/de/index.html" class="btn btn-accent btn-lg">Jetzt Trainer finden</a>
         <a href="mailto:mindfulai.academy@gmail.com?subject=Trainer-Verifizierung" class="btn btn-ghost btn-lg">Ich bin Trainer — Jetzt verifizieren</a>
@@ -1671,6 +1733,24 @@
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 10);
     });
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobile-nav');
+    if (hamburger) {
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        mobileNav.classList.toggle('open');
+        document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+      });
+      mobileNav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          hamburger.classList.remove('open');
+          mobileNav.classList.remove('open');
+          document.body.style.overflow = '';
+        });
+      });
+    }
 
     // FAQ accordion
     document.querySelectorAll('.faq-question').forEach(btn => {

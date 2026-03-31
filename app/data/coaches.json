@@ -1,10 +1,10 @@
 {
   "coaches": [
     {
-      "id": "coach-001",
+      "id": "markus-hoffmann",
       "firstName": "Markus",
       "lastName": "Hoffmann",
-      "photo": "images/coaches/coach-001.jpg",
+      "photo": "images/coaches/markus-hoffmann.jpg",
       "initials": "MH",
       "sport": "Football",
       "city": "Berlin",
@@ -17,9 +17,23 @@
       "ageRangeMax": 14,
       "sessionPrice": 60,
       "credentials": [
-        { "name": "DFB B-Lizenz", "verified": true },
-        { "name": "DFB Torwarttrainer-Lizenz", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Torwarttrainer-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Taktik",
+        "Torwarttraining"
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,
@@ -57,10 +71,10 @@
       ]
     },
     {
-      "id": "coach-002",
+      "id": "elena-petrov",
       "firstName": "Elena",
       "lastName": "Petrov",
-      "photo": "images/coaches/coach-002.jpg",
+      "photo": "images/coaches/elena-petrov.jpg",
       "initials": "EP",
       "sport": "Football",
       "city": "Berlin",
@@ -73,12 +87,26 @@
       "ageRangeMax": 18,
       "sessionPrice": 70,
       "credentials": [
-        { "name": "DFB B-Lizenz", "verified": true },
-        { "name": "DFB Vereinsmanager-Lizenz", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Vereinsmanager-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Probetraining-Vorbereitung"
       ],
       "backgroundCheck": "passed",
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 34,
       "totalSessions": 230,
       "activeAthletes": 18,
@@ -107,10 +135,10 @@
       ]
     },
     {
-      "id": "coach-003",
+      "id": "david-okafor",
       "firstName": "David",
       "lastName": "Okafor",
-      "photo": "images/coaches/coach-003.jpg",
+      "photo": "images/coaches/david-okafor.jpg",
       "initials": "DO",
       "sport": "Football",
       "city": "Berlin",
@@ -123,9 +151,23 @@
       "ageRangeMax": 17,
       "sessionPrice": 65,
       "credentials": [
-        { "name": "DFB A-Lizenz", "verified": true },
-        { "name": "DFB Stützpunkttrainer", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB A-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Stützpunkttrainer",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Athletik",
+        "Skills",
+        "Taktik"
       ],
       "backgroundCheck": "passed",
       "rating": 4.8,
@@ -157,10 +199,10 @@
       ]
     },
     {
-      "id": "coach-004",
+      "id": "jan-krause",
       "firstName": "Jan",
       "lastName": "Krause",
-      "photo": "images/coaches/coach-004.jpg",
+      "photo": "images/coaches/jan-krause.jpg",
       "initials": "JK",
       "sport": "Football",
       "city": "Berlin",
@@ -173,9 +215,23 @@
       "ageRangeMax": 16,
       "sessionPrice": 55,
       "credentials": [
-        { "name": "DFB B-Lizenz", "verified": true },
-        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Kindertrainer-Zertifikat",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Probetraining-Vorbereitung",
+        "Taktik"
       ],
       "backgroundCheck": "passed",
       "rating": 4.7,
@@ -207,10 +263,10 @@
       ]
     },
     {
-      "id": "coach-005",
+      "id": "sarah-bergmann",
       "firstName": "Sarah",
       "lastName": "Bergmann",
-      "photo": "images/coaches/coach-005.jpg",
+      "photo": "images/coaches/sarah-bergmann.jpg",
       "initials": "SB",
       "sport": "Football",
       "city": "Berlin",
@@ -223,9 +279,22 @@
       "ageRangeMax": 16,
       "sessionPrice": 60,
       "credentials": [
-        { "name": "DFB Torwarttrainer-Lizenz", "verified": true },
-        { "name": "DFB C-Lizenz", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB Torwarttrainer-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Torwarttraining",
+        "Taktik"
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,
@@ -251,10 +320,10 @@
       ]
     },
     {
-      "id": "coach-006",
+      "id": "andre-mbeki",
       "firstName": "Andre",
       "lastName": "Mbeki",
-      "photo": "images/coaches/coach-006.jpg",
+      "photo": "images/coaches/andre-mbeki.jpg",
       "initials": "AM",
       "sport": "Football",
       "city": "Berlin",
@@ -267,9 +336,24 @@
       "ageRangeMax": 18,
       "sessionPrice": 75,
       "credentials": [
-        { "name": "DFB B-Lizenz", "verified": true },
-        { "name": "DOSB Sportphysiotherapie", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DOSB Sportphysiotherapie",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik",
+        "Probetraining-Vorbereitung"
       ],
       "backgroundCheck": "passed",
       "rating": 4.8,
@@ -301,10 +385,10 @@
       ]
     },
     {
-      "id": "coach-007",
+      "id": "maria-santos",
       "firstName": "Maria",
       "lastName": "Santos",
-      "photo": "images/coaches/coach-007.jpg",
+      "photo": "images/coaches/maria-santos.jpg",
       "initials": "MS",
       "sport": "Football",
       "city": "Berlin",
@@ -317,12 +401,25 @@
       "ageRangeMax": 10,
       "sessionPrice": 50,
       "credentials": [
-        { "name": "DFB C-Lizenz", "verified": true },
-        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Kindertrainer-Zertifikat",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Skills"
       ],
       "backgroundCheck": "passed",
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 24,
       "totalSessions": 160,
       "activeAthletes": 22,
@@ -333,7 +430,7 @@
         {
           "parentName": "Christian A.",
           "rating": 5,
-          "comment": "Maria is AMAZING with little kids. My 5-year-old was scared of the ball and now she's dribbling around the flat. Maria makes every session feel like a game, not practice. Can't recommend enough.",
+          "comment": "Maria is AMAZING with little kids. My 5-year-old was scared of the ball and now she's Skills around the flat. Maria makes every session feel like a game, not practice. Can't recommend enough.",
           "date": "2026-03-08"
         },
         {
@@ -351,10 +448,10 @@
       ]
     },
     {
-      "id": "coach-008",
+      "id": "kevin-brandt",
       "firstName": "Kevin",
       "lastName": "Brandt",
-      "photo": "images/coaches/coach-008.jpg",
+      "photo": "images/coaches/kevin-brandt.jpg",
       "initials": "KB",
       "sport": "Football",
       "city": "Berlin",
@@ -367,10 +464,26 @@
       "ageRangeMax": 18,
       "sessionPrice": 75,
       "credentials": [
-        { "name": "DFB A-Lizenz", "verified": true },
-        { "name": "DOSB Fitness-A-Lizenz", "verified": true },
-        { "name": "DFB Athletiktrainer-Zertifikat", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB A-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DOSB Fitness-A-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Athletiktrainer-Zertifikat",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Athletik",
+        "Probetraining-Vorbereitung"
       ],
       "backgroundCheck": "passed",
       "rating": 4.7,
@@ -396,10 +509,10 @@
       ]
     },
     {
-      "id": "coach-009",
+      "id": "ali-hassan",
       "firstName": "Ali",
       "lastName": "Hassan",
-      "photo": "images/coaches/coach-009.jpg",
+      "photo": "images/coaches/ali-hassan.jpg",
       "initials": "AH",
       "sport": "Football",
       "city": "Berlin",
@@ -412,9 +525,23 @@
       "ageRangeMax": 14,
       "sessionPrice": 50,
       "credentials": [
-        { "name": "DFB C-Lizenz", "verified": true },
-        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Kindertrainer-Zertifikat",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik"
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,
@@ -446,10 +573,10 @@
       ]
     },
     {
-      "id": "coach-010",
+      "id": "lena-fischer",
       "firstName": "Lena",
       "lastName": "Fischer",
-      "photo": "images/coaches/coach-010.jpg",
+      "photo": "images/coaches/lena-fischer.jpg",
       "initials": "LF",
       "sport": "Football",
       "city": "Berlin",
@@ -462,9 +589,23 @@
       "ageRangeMax": 16,
       "sessionPrice": 55,
       "credentials": [
-        { "name": "DFB B-Lizenz", "verified": true },
-        { "name": "DFB Kindertrainer-Zertifikat", "verified": true },
-        { "name": "Erste Hilfe Zertifikat", "verified": true }
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Kindertrainer-Zertifikat",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik"
       ],
       "backgroundCheck": "passed",
       "rating": 4.9,

@@ -13,13 +13,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Werde verifizierter Fußballtrainer auf Trovr in Berlin. Werde von Eltern gefunden, erstelle dein verifiziertes Profil mit DFB-Lizenzen und baue dein Trainer-Geschäft aus. Die ersten 25 Trainer starten kostenlos.">
+  <meta name="description" content="Werde verifizierter Fußballtrainer auf Trovr. Werde von Eltern gefunden, erstelle dein verifiziertes Profil mit DFB-Lizenzen und baue dein Trainer-Geschäft aus. Die ersten 25 Trainer starten kostenlos.">
   <meta name="keywords" content="Fußballtrainer werden, Privattrainer Berlin, DFB Lizenz Trainer Plattform, Trovr für Trainer, Fußball Einzeltraining Berlin, Jugendtrainer Berlin">
-  <title>Trovr — Für Fussballtrainer | Werde sichtbar für Berliner Eltern</title>
+  <title>Trovr - Für Fussballtrainer | Werde sichtbar für Berliner Eltern</title>
 
   <!-- Open Graph for WhatsApp / Social sharing -->
-  <meta property="og:title" content="Trovr — Werde sichtbar für Berliner Eltern">
-  <meta property="og:description" content="Die erste Plattform speziell für private Fußballtrainer in Berlin. DFB-verifiziert, Bewertungen, Video-Profil. Jetzt kostenlos starten.">
+  <meta property="og:title" content="Trovr - Werde sichtbar für Berliner Eltern">
+  <meta property="og:description" content="Die erste KI-unterstützte Plattform speziell für private Fußballtrainer. DFB-verifiziert, Bewertungen, Video-Profil. Jetzt kostenlos starten.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="app/images/trovr-coaches-og.jpg">
 
@@ -270,7 +270,7 @@
       margin-bottom: 32px;
     }
 
-    /* HERO VISUAL — ROI Card */
+    /* HERO VISUAL - ROI Card */
     .roi-card {
       background: var(--white);
       border: 1px solid var(--gray-200);
@@ -440,7 +440,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 60px;
-      align-items: center;
+      align-items: start;
     }
     .founder-terms {
       background: rgba(255,255,255,0.1);
@@ -556,6 +556,55 @@
       color: var(--gray-400);
       line-height: 1.6;
     }
+
+    /* WIZARD */
+    .wizard-progress { margin-bottom: 36px; }
+    .wizard-steps-indicator {
+      display: flex; align-items: center; justify-content: center; gap: 0;
+    }
+    .wstep {
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+    }
+    .wstep-num {
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.88rem; font-weight: 700;
+      background: var(--gray-200); color: var(--gray-500);
+      transition: all 0.2s;
+    }
+    .wstep.active .wstep-num { background: var(--primary); color: var(--white); }
+    .wstep.done .wstep-num { background: var(--primary-light); color: var(--primary); }
+    .wstep-label {
+      font-size: 0.72rem; font-weight: 600; color: var(--gray-400);
+      white-space: nowrap;
+    }
+    .wstep.active .wstep-label { color: var(--primary); }
+    .wstep.done .wstep-label { color: var(--primary); }
+    .wstep-line {
+      flex: 1; height: 2px; background: var(--gray-200);
+      min-width: 40px; margin: 0 8px; margin-bottom: 22px;
+      transition: background 0.2s;
+    }
+    .wstep-line.done { background: var(--primary-light); }
+
+    .form-step { display: none; }
+    .form-step.active { display: block; }
+
+    .step-intro {
+      background: var(--primary-light); border-radius: 10px;
+      padding: 14px 18px; margin-bottom: 28px;
+      font-size: 0.88rem; color: var(--primary); line-height: 1.6;
+    }
+    .step-prompt {
+      font-size: 0.8rem; color: var(--gray-400);
+      font-style: italic; margin-top: 4px; line-height: 1.5;
+    }
+
+    .wizard-nav {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-top: 32px; gap: 12px;
+    }
+    .wizard-nav .btn { min-width: 140px; justify-content: center; }
 
     /* HOW IT WORKS */
     .steps-grid {
@@ -697,28 +746,28 @@
       <div class="hero-content">
         <div class="hero-badge">
           <div class="dot"></div>
-          Jetzt als Fussballtrainer in Berlin bewerben
+          Jetzt als Fussballtrainer bewerben
         </div>
         <h1>Eltern suchen dich. <span class="highlight">Sei auffindbar.</span></h1>
-        <p class="hero-sub">Trovr ist die erste Plattform speziell für private Fußballtrainer in Berlin. Verifizierte DFB-Lizenzen, Elternbewertungen, Video-Profile. Die Eltern, die dich brauchen, können dich endlich finden.</p>
+        <p class="hero-sub">Trovr ist die erste KI-unterstützte Plattform speziell für private Fußballtrainer. Verifizierte DFB-Lizenzen, Elternbewertungen, Video-Profile. Die Eltern, die dich brauchen, können dich endlich finden.</p>
 
         <!-- Persönliche Einladung -->
         <div style="display: flex; align-items: center; gap: 16px; background: var(--gray-50); border-radius: 16px; padding: 20px; margin: 24px 0;">
           <img src="app/images/andreas-lehner.jpg" alt="Andreas Lehner" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0;">
           <p style="font-size: 0.95rem; color: var(--gray-700); line-height: 1.6; margin: 0;">
-            <strong style="color: var(--dark);">Hi, ich bin Andreas Lehner</strong> — ich baue Trovr, weil ich glaube, dass gute Fussballtrainer mehr Sichtbarkeit verdienen. Ich lade dich persönlich ein, einer der ersten 25 Trainer auf der Plattform zu werden.
+            <strong style="color: var(--dark);">Hi, ich bin Andreas Lehner</strong> - ich baue Trovr, weil ich glaube, dass gute Fussballtrainer mehr Sichtbarkeit verdienen - und Profile, die Anfragen bringen. Ich lade dich persönlich ein, einer der ersten 25 Trainer auf der Plattform zu werden.
           </p>
         </div>
 
         <div class="hero-ctas">
-          <a href="#bewerbung" class="btn btn-primary btn-lg">Jetzt bewerben — Kostenlos</a>
+          <a href="#bewerbung" class="btn btn-primary btn-lg">Jetzt bewerben - Kostenlos</a>
           <a href="#vorteile" class="btn btn-outline btn-lg">Vorteile ansehen</a>
         </div>
       </div>
 
       <div class="hero-visual">
         <div class="roi-card">
-          <h3>Dein ROI auf Trovr <span style="font-weight:400; font-size:0.8rem; color:var(--gray-400);">— Beispiel</span></h3>
+          <h3>Dein Verdienst mit Trovr <span style="font-weight:400; font-size:0.8rem; color:var(--gray-400);">- Beispiel</span></h3>
           <div class="roi-row">
             <span class="roi-label">Dein Stundensatz</span>
             <span class="roi-value">60 €/Einheit</span>
@@ -736,7 +785,7 @@
             <span class="roi-value negative">15 €/Monat</span>
           </div>
           <div class="roi-row">
-            <span class="roi-label">Trovr als % vom Umsatz</span>
+            <span class="roi-label">Trovr Kosten im Vergleich zu deinem Verdienst</span>
             <span class="roi-value">2,1 %</span>
           </div>
           <div class="roi-total">
@@ -761,7 +810,7 @@
         <div class="benefit-card">
           <div class="benefit-icon" style="background: var(--primary-light); color: var(--primary);">&#10003;</div>
           <h3>DFB-Lizenz-Verifizierung</h3>
-          <p>Deine C-Lizenz, B-Lizenz, A-Lizenz, Torwarttrainer- oder Kindertrainer-Zertifizierung — verifiziert und mit einem Vertrauens-Badge angezeigt. Eltern sehen sofort, dass du qualifiziert bist.</p>
+          <p>Deine C-Lizenz, B-Lizenz, A-Lizenz, Torwarttrainer- oder Kindertrainer-Zertifizierung - verifiziert und mit einem Vertrauens-Badge angezeigt. Eltern sehen sofort, dass du qualifiziert bist.</p>
         </div>
         <div class="benefit-card">
           <div class="benefit-icon" style="background: #FEF3C7; color: var(--accent-dark);">&#9733;</div>
@@ -771,7 +820,7 @@
         <div class="benefit-card">
           <div class="benefit-icon" style="background: #EDE9FE; color: #7C3AED;">&#9654;</div>
           <h3>Video-Portfolio</h3>
-          <p>Lade Trainingsclips, Highlights und ein 60-Sekunden-Video-Intro hoch. Videos konvertieren 3x besser als Text — lass Eltern deinen Trainingsstil sehen.</p>
+          <p>Lade Trainingsclips, Highlights und ein 60-Sekunden-Video-Intro hoch. Videos konvertieren 3x besser als Text - lass Eltern deinen Trainingsstil sehen.</p>
         </div>
         <div class="benefit-card">
           <div class="benefit-icon" style="background: #DBEAFE; color: #2563EB;">&#128269;</div>
@@ -779,14 +828,14 @@
           <p>Eltern suchen nach Bezirk, Altersgruppe und Lizenzstufe. Verifizierte Trainer mit vollständigen Profilen ranken höher. Werde von Familien außerhalb deines aktuellen Netzwerks entdeckt.</p>
         </div>
         <div class="benefit-card">
-          <div class="benefit-icon" style="background: #FCE7F3; color: #DB2777;">&#128101;</div>
-          <h3>Empfehlungs-Tracking</h3>
-          <p>Sieh, welche Eltern andere auf dein Profil verweisen. Deine besten Kunden werden dein Marketing-Team — und du siehst genau, wer neue Anfragen bringt.</p>
+          <div class="benefit-icon" style="background: #EDE9FE; color: #7C3AED;">&#129302;</div>
+          <h3>Dein Profil - mit KI-Unterstützung</h3>
+          <p>Du weißt, was du kannst - die Trovr KI hilft dir, das überzeugend zu zeigen. Ein kurzes Interview reicht: Die KI erstellt einen Profil-Vorschlag auf Basis bewährter Best Practices für Kundengewinnung.</p>
         </div>
         <div class="benefit-card">
           <div class="benefit-icon" style="background: #D1FAE5; color: #059669;">&#128176;</div>
           <h3>Kostenlos für Eltern</h3>
-          <p>Eltern suchen und kontaktieren dich völlig kostenlos — kein Abo, keine Barriere. Anders als bei anderen Plattformen, wo Eltern bezahlen müssen, nur um dir eine Nachricht zu senden.</p>
+          <p>Eltern suchen und kontaktieren dich völlig kostenlos - kein Abo, keine Barriere. Anders als bei anderen Plattformen, wo Eltern bezahlen müssen, nur um dir eine Nachricht zu senden.</p>
         </div>
       </div>
     </div>
@@ -872,7 +921,7 @@
       <div class="section-header">
         <div class="section-label">So funktioniert's</div>
         <h2 class="section-title">In 24 Stunden online</h2>
-        <p class="section-sub">Von der Bewerbung bis zum fertigen Profil — wir kümmern uns um den Rest.</p>
+        <p class="section-sub">Von der Bewerbung bis zum fertigen Profil - wir kümmern uns um den Rest.</p>
       </div>
 
       <div class="steps-grid">
@@ -890,6 +939,7 @@
           <div class="step-num">3</div>
           <h3>Wir erstellen dein Profil</h3>
           <p>Dein Profil geht live mit Foto, Bio, Lizenzen und Preisen. Wir schicken dir vorher eine Vorschau zur Freigabe.</p>
+          <a href="app/de/coach.html?id=felix-gruber" target="_blank" style="display: inline-block; margin-top: 12px; font-size: 0.9rem; font-weight: 600; color: var(--primary); text-decoration: underline;">Beispiel-Profil ansehen &rarr;</a>
         </div>
         <div class="step-card">
           <div class="step-num">4</div>
@@ -905,7 +955,7 @@
     <div class="container">
       <div class="section-header">
         <div class="section-label">Early-Bird-Preis</div>
-        <h2 class="section-title">Early-Bird-Preis — für die ersten 25 Fussballtrainer</h2>
+        <h2 class="section-title">Early-Bird-Preis - für die ersten 25 Fussballtrainer</h2>
         <p class="section-sub">Du trittst nicht einfach einer Plattform bei. Du gestaltest sie mit. Die ersten 25 Trainer bekommen ein Angebot, das es nie wieder geben wird.</p>
       </div>
 
@@ -916,21 +966,22 @@
             25 von 25 Plätzen verfügbar
           </div>
           <h3 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 16px;">Komplettes Showcase-Profil.<br>3 Monate kostenlos.<br>Danach 15 €/Monat. Für immer.</h3>
-          <p style="color: rgba(255,255,255,0.8); font-size: 1.05rem; line-height: 1.7; margin-bottom: 28px;">Das komplette Showcase-Profil kostet normalerweise 25 €/Monat. Als Early-Bird-Trainer bekommst du es 3 Monate kostenlos — danach für immer auf 15 €/Monat festgeschrieben. Dieser Preis ändert sich nie, auch wenn die Plattform wächst und die Preise steigen.</p>
+          <p style="color: rgba(255,255,255,0.8); font-size: 1.05rem; line-height: 1.7; margin-bottom: 28px;">Das komplette Showcase-Profil kostet normalerweise 25 €/Monat. Als Early-Bird-Trainer bekommst du es 3 Monate kostenlos - danach für immer auf 15 €/Monat festgeschrieben. Dieser Preis ändert sich nie, auch wenn die Plattform wächst und die Preise steigen.</p>
           <a href="#bewerbung" class="btn btn-accent btn-lg">Platz sichern</a>
+          <a href="app/de/coach.html?id=felix-gruber" target="_blank" style="display: block; margin-top: 16px; font-size: 0.9rem; font-weight: 600; color: rgba(255,255,255,0.75); text-decoration: underline;">Beispiel-Profil ansehen &rarr;</a>
         </div>
 
         <div class="founder-terms">
           <h3>Was im Early-Bird-Preis enthalten ist</h3>
           <ul>
             <li><span class="check">&#10003;</span> Komplettes Showcase-Profil (normalerweise 25 €/Monat)</li>
-            <li><span class="check">&#10003;</span> 3 Monate komplett kostenlos — keine Karte nötig</li>
-            <li><span class="check">&#10003;</span> Danach auf 15 €/Monat festgeschrieben — für immer</li>
+            <li><span class="check">&#10003;</span> 3 Monate komplett kostenlos - keine Karte nötig</li>
+            <li><span class="check">&#10003;</span> Danach auf 15 €/Monat festgeschrieben - für immer</li>
             <li><span class="check">&#10003;</span> DFB-Lizenz-Verifizierungs-Badge</li>
             <li><span class="check">&#10003;</span> Führungszeugnis-Badge</li>
             <li><span class="check">&#10003;</span> Video-Portfolio (bis zu 10 Clips + Video-Intro)</li>
             <li><span class="check">&#10003;</span> Bevorzugte Platzierung in der Suche</li>
-            <li><span class="check">&#10003;</span> Empfehlungs-Tracking-Dashboard</li>
+            <li><span class="check">&#10003;</span> KI-Profil-Assistent (Interview + automatisch generiertes Profil)</li>
             <li><span class="check">&#10003;</span> Erweiterte Statistiken</li>
           </ul>
           <h3 style="margin-bottom: 12px;">Im Gegenzug bitten wir dich:</h3>
@@ -950,175 +1001,246 @@
       <div class="section-header">
         <div class="section-label">Jetzt bewerben</div>
         <h2 class="section-title">Werde Early-Bird-Trainer bei Trovr</h2>
-        <p class="section-sub">Fülle das kurze Formular aus — dauert nur 2 Minuten. Dokumente und Medien kannst du uns danach bequem per WhatsApp schicken.</p>
+        <p class="section-sub">Fülle das kurze Formular aus - dauert nur 2 Minuten. Dokumente und Medien kannst du uns danach bequem per WhatsApp schicken.</p>
       </div>
 
       <div class="form-container">
         <div class="form-card">
           <form id="coach-form" action="https://formsubmit.co/andreas.official.lehner@gmail.com" method="POST">
             <!-- FormSubmit config -->
-            <input type="hidden" name="_subject" value="Neue Trainer-Bewerbung — Trovr Early-Bird-Preis">
+            <input type="hidden" name="_subject" value="Neue Trainer-Bewerbung - Trovr Early-Bird-Preis">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="https://trovr.netlify.app/for-coaches-de.html?submitted=true">
-            <!-- Honeypot -->
             <input type="text" name="_honey" style="display:none">
 
-            <div class="form-section-title">&#128100; Persönliche Angaben</div>
+            <!-- PROGRESS BAR -->
+            <div class="wizard-progress">
+              <div class="wizard-steps-indicator">
+                <div class="wstep active" id="wstep-1">
+                  <div class="wstep-num">1</div>
+                  <div class="wstep-label">Über dich</div>
+                </div>
+                <div class="wstep-line" id="wline-1"></div>
+                <div class="wstep" id="wstep-2">
+                  <div class="wstep-num">2</div>
+                  <div class="wstep-label">Dein Training</div>
+                </div>
+                <div class="wstep-line" id="wline-2"></div>
+                <div class="wstep" id="wstep-3">
+                  <div class="wstep-num">3</div>
+                  <div class="wstep-label">Dein Profil</div>
+                </div>
+              </div>
+            </div>
 
-            <div class="form-row">
-              <div class="form-group">
-                <label for="firstName">Vorname *</label>
-                <input type="text" id="firstName" name="Vorname" placeholder="Andreas" required>
+            <!-- STEP 1: ÜBER DICH -->
+            <div class="form-step active" id="step-1">
+              <div class="step-intro">Schritt 1 von 3 - Nur 4 Felder, dauert 1 Minute.</div>
+              <div class="form-section-title">&#128100; Persönliche Angaben</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">Vorname *</label>
+                  <input type="text" id="firstName" name="Vorname" placeholder="Andreas" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Nachname *</label>
+                  <input type="text" id="lastName" name="Nachname" placeholder="Lehner" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">E-Mail *</label>
+                  <input type="email" id="email" name="E-Mail" placeholder="du@email.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">WhatsApp / Telefon *</label>
+                  <input type="tel" id="phone" name="Telefon" placeholder="+49 176 ..." required>
+                </div>
+              </div>
+              <div class="wizard-nav">
+                <div></div>
+                <button type="button" class="btn btn-primary" onclick="wizardNext(1)">Weiter &rarr;</button>
+              </div>
+            </div>
+
+            <!-- STEP 2: DEIN TRAINING -->
+            <div class="form-step" id="step-2">
+              <div class="step-intro">Schritt 2 von 3 - Deine Trainingsdetails. Diese erscheinen direkt auf deinem Profil.</div>
+              <div class="form-section-title">&#9917; Trainingsdetails</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bezirk">Bezirk(e), in denen du trainierst *</label>
+                  <input type="text" id="bezirk" name="Bezirk" placeholder="z.B. Charlottenburg, Prenzlauer Berg" required>
+                </div>
+                <div class="form-group">
+                  <label for="credential">DFB-Lizenz *</label>
+                  <select id="credential" name="DFB Lizenz" required>
+                    <option value="">Lizenz auswählen...</option>
+                    <option value="DFB C-Lizenz">DFB C-Lizenz</option>
+                    <option value="DFB B-Lizenz">DFB B-Lizenz</option>
+                    <option value="DFB A-Lizenz">DFB A-Lizenz</option>
+                    <option value="Torwarttrainer-Lizenz">Torwarttrainer-Lizenz</option>
+                    <option value="Kindertrainer-Zertifikat">Kindertrainer-Zertifikat</option>
+                    <option value="Andere">Andere / Mehrere</option>
+                    <option value="In Ausbildung">Aktuell in der Lizenz-Ausbildung</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="ageGroups">Altersgruppen *</label>
+                  <input type="text" id="ageGroups" name="Altersgruppen" placeholder="z.B. 6–14 Jahre" required>
+                </div>
+                <div class="form-group">
+                  <label for="experience">Jahre Trainingserfahrung *</label>
+                  <input type="number" id="experience" name="Jahre Erfahrung" placeholder="5" min="1" max="50" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="price">Preis pro Einheit (€) *</label>
+                  <input type="number" id="price" name="Preis pro Einheit EUR" placeholder="60" min="15" max="300" required>
+                </div>
+                <div class="form-group">
+                  <label for="paketpreise">Paketpreise (optional)</label>
+                  <input type="text" id="paketpreise" name="Paketpreise" placeholder="z.B. 5er-Paket 250€">
+                  <div class="hint">Pakete binden Spieler langfristig.</div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="trainingsort">Trainingsort</label>
+                  <select id="trainingsort" name="Trainingsort">
+                    <option value="">Bitte auswählen...</option>
+                    <option value="Ich komme zum Spieler">Ich komme zum Spieler</option>
+                    <option value="Spieler kommt zu mir">Spieler kommt zu mir</option>
+                    <option value="Beides möglich">Beides möglich</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="trainingsformat">Format</label>
+                  <select id="trainingsformat" name="Trainingsformat">
+                    <option value="">Bitte auswählen...</option>
+                    <option value="Einzeltraining">Einzeltraining (1:1)</option>
+                    <option value="Kleingruppe">Kleingruppe (2–3 Spieler)</option>
+                    <option value="Beides">Beides</option>
+                  </select>
+                </div>
               </div>
               <div class="form-group">
-                <label for="lastName">Nachname *</label>
-                <input type="text" id="lastName" name="Nachname" placeholder="Lehner" required>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="form-group">
-                <label for="email">E-Mail *</label>
-                <input type="email" id="email" name="E-Mail" placeholder="du@email.com" required>
+                <label for="vereine">Vereine / Stationen</label>
+                <input type="text" id="vereine" name="Vereine" placeholder="z.B. Hertha BSC U15, TeBe Berlin U17">
+                <div class="hint">Vereinsnamen wirken stärker als Jahreszahlen.</div>
               </div>
               <div class="form-group">
-                <label for="phone">WhatsApp / Telefon *</label>
-                <input type="tel" id="phone" name="Telefon" placeholder="+49 176 ..." required>
+                <label>Trainingsschwerpunkte *</label>
+                <div style="display:flex; flex-direction:column; gap:6px; margin-top:4px;">
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Technik" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Technik (Kontrolle, Passspiel, Schusstechnik)
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Skills" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Skills & Tricks
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Athletik" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Athletik & Fitness
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Taktik" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Taktik
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Torwarttraining" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Torwarttraining
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Mentales Training" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Mentales Training
+                  </label>
+                  <label style="font-weight:500;font-size:0.92rem;display:flex;align-items:center;gap:10px;cursor:pointer;background:var(--gray-50);border:1.5px solid var(--gray-200);border-radius:10px;padding:12px 16px;">
+                    <input type="checkbox" name="Schwerpunkte" value="Probetraining-Vorbereitung" style="accent-color:var(--primary);width:18px;height:18px;flex-shrink:0;"> Probetraining-Vorbereitung (NLZ / Verein)
+                  </label>
+                </div>
+                <input type="text" name="Schwerpunkte Sonstige" placeholder="Weitere Schwerpunkte, z.B. Beidfüßigkeit, Freistoßtraining..." style="margin-top:8px;">
+              </div>
+              <div class="wizard-nav">
+                <button type="button" class="btn btn-outline" onclick="wizardBack(2)">&larr; Zurück</button>
+                <button type="button" class="btn btn-primary" onclick="wizardNext(2)">Weiter &rarr;</button>
               </div>
             </div>
 
-            <hr class="form-divider">
-            <div class="form-section-title">&#9917; Trainingsdetails</div>
+            <!-- STEP 3: DEIN PROFIL -->
+            <div class="form-step" id="step-3">
+              <div class="step-intro">
+                Schritt 3 von 3 - Dein Profil (optional). Alle Felder können auch später ausgefüllt werden. Wer sie jetzt ausfüllt, bekommt ein fertiges, hochkonvertierendes Profil - direkt von uns aufgebaut.
+              </div>
 
-            <div class="form-row">
+              <div class="form-section-title">&#128161; Deine Trainingsphilosophie</div>
               <div class="form-group">
-                <label for="bezirk">Bezirk(e), in denen du trainierst *</label>
-                <input type="text" id="bezirk" name="Bezirk" placeholder="z.B. Charlottenburg, Prenzlauer Berg" required>
+                <label for="philosophy">Was ist dir beim Training mit jungen Spielern am wichtigsten? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
+                <textarea id="philosophy" name="Trainingsphilosophie" rows="3" placeholder="z.B. Ich glaube, dass Kinder, die Spaß am Spiel haben, die besten Fortschritte machen. Deshalb steht bei mir Freude vor Druck - jede Einheit soll das Kind stärker und hungriger auf Fußball machen."></textarea>
+                <div class="step-prompt">2–3 Sätze. Schreib direkt an die Eltern - sie wollen wissen, ob du ihr Kind wirklich verstehst.</div>
               </div>
+
+              <hr class="form-divider">
+              <div class="form-section-title">&#127919; Dein Ansatz</div>
               <div class="form-group">
-                <label for="credential">DFB-Lizenz *</label>
-                <select id="credential" name="DFB Lizenz" required>
-                  <option value="">Lizenz auswählen...</option>
-                  <option value="DFB C-Lizenz">DFB C-Lizenz</option>
-                  <option value="DFB B-Lizenz">DFB B-Lizenz</option>
-                  <option value="DFB A-Lizenz">DFB A-Lizenz</option>
-                  <option value="Torwarttrainer-Lizenz">Torwarttrainer-Lizenz</option>
-                  <option value="Kindertrainer-Zertifikat">Kindertrainer-Zertifikat</option>
-                  <option value="Andere">Andere / Mehrere</option>
-                  <option value="In Ausbildung">Aktuell in der Lizenz-Ausbildung</option>
-                </select>
+                <label for="methodology">Was macht deinen Trainingsansatz besonders? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
+                <textarea id="methodology" name="Trainingsansatz" rows="3" placeholder="z.B. Jedes Kind hat immer einen Ball - niemand steht in der Reihe. Ich lobe den Einsatz, nicht das Ergebnis. Kurze Erklärungen, viel Spielzeit."></textarea>
+                <div class="step-prompt">Nenne 2–3 konkrete Dinge, die du im Training immer beachtest. Konkret schlägt allgemein.</div>
               </div>
-            </div>
 
-            <div class="form-row">
+              <hr class="form-divider">
+              <div class="form-section-title">&#9201; Eine typische Einheit</div>
               <div class="form-group">
-                <label for="price">Preis pro Einheit (€/Stunde) *</label>
-                <input type="number" id="price" name="Preis pro Einheit EUR" placeholder="60" min="15" max="300" required>
+                <label for="session">Wie sieht eine typische Einheit bei dir aus? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
+                <textarea id="session" name="Typische Einheit" rows="4" placeholder="z.B. 0–10 Min: Aufwärmen mit Koordinationsspielen. 10–25 Min: Technischer Fokus (z.B. Dribbling). 25–45 Min: Spielformen 1:1 oder zu zweit. 45–55 Min: Abschluss-Challenge. 55–60 Min: Feedback & ein persönlicher Tipp."></textarea>
+                <div class="step-prompt">Eltern wollen verstehen, was ihr Kind konkret erwartet. Eine kurze Struktur schafft sofort Vertrauen.</div>
               </div>
+
+              <hr class="form-divider">
+              <div class="form-section-title">&#127942; Dein Weg</div>
               <div class="form-group">
-                <label for="ageGroups">Altersgruppen, die du trainierst *</label>
-                <input type="text" id="ageGroups" name="Altersgruppen" placeholder="z.B. 6-14 Jahre" required>
+                <label for="career">Deine Trainer- und Spielerkarriere in 2–3 Sätzen <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
+                <textarea id="career" name="Karriere" rows="3" placeholder="z.B. Ich bin seit 8 Jahren als Jugendtrainer aktiv - zuletzt U17-Trainer im NLZ bei Eintracht Braunschweig. Als Spieler war ich in der U19-Regionalliga aktiv. Diese Erfahrung bringe ich direkt ins individuelle Training."></textarea>
+                <div class="step-prompt">Vereine und Lizenzen konkret nennen - das schafft Glaubwürdigkeit. Nicht zu lang, der erste Satz zählt am meisten.</div>
               </div>
-            </div>
 
-            <div class="form-group">
-              <label>Trainingsschwerpunkte *</label>
-              <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 4px;">
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Balltechnik" required style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Balltechnik (Kontrolle, Passspiel, Schusstechnik)
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Dribbling & 1-gegen-1" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Dribbling & 1-gegen-1
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Schnelligkeit & Athletik" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Schnelligkeit & Athletik
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Taktik & Spielverständnis" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Taktik & Spielverständnis
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Torwarttraining" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Torwarttraining
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Mentales Training" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Mentales Training
-                </label>
-                <label style="font-weight: 500; font-size: 0.92rem; display: flex; align-items: center; gap: 10px; cursor: pointer; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: 10px; padding: 12px 16px;">
-                  <input type="checkbox" name="Schwerpunkte" value="Probetraining-Vorbereitung" style="accent-color: var(--primary); width: 18px; height: 18px; flex-shrink: 0;"> Probetraining-Vorbereitung (NLZ / Verein)
-                </label>
-              </div>
-              <input type="text" id="schwerpunkteSonstige" name="Schwerpunkte Sonstige" placeholder="Sonstiges, z.B. Freistoßtraining, Beidfüßigkeit, ..." style="margin-top: 8px;">
-              <div class="hint">Wähle alle Bereiche aus, die du anbietest. Eigene Schwerpunkte kannst du oben eintragen.</div>
-            </div>
-
-            <div class="form-group">
-              <label for="bio">Kurze Bio *</label>
-              <textarea id="bio" name="Bio" rows="4" placeholder="Erzähle Eltern von deiner Trainingsphilosophie, Erfahrung und was dein Training besonders macht. 3-5 Sätze sind perfekt." required></textarea>
-              <div class="hint">Dies erscheint auf deinem Trovr-Profil. Schreibe für Eltern, nicht für andere Trainer.</div>
-            </div>
-
-            <div class="form-group">
-              <label for="experience">Jahre Trainingserfahrung *</label>
-              <input type="number" id="experience" name="Jahre Erfahrung" placeholder="5" min="1" max="50" required>
-            </div>
-
-            <div class="form-group">
-              <label for="vereine">Vereine / Stationen</label>
-              <input type="text" id="vereine" name="Vereine" placeholder="z.B. Hertha BSC U15, TeBe Berlin U17, Union Berlin U11">
-              <div class="hint">Vereinsnamen wirken stärker als Jahreszahlen — Eltern erkennen sofort dein Niveau.</div>
-            </div>
-
-            <div class="form-row">
+              <hr class="form-divider">
+              <div class="form-section-title">&#127775; Dein Versprechen an Eltern</div>
               <div class="form-group">
-                <label for="trainingsort">Trainingsort & Mobilität</label>
-                <select id="trainingsort" name="Trainingsort">
-                  <option value="">Bitte auswählen...</option>
-                  <option value="Ich komme zum Spieler">Ich komme zum Spieler</option>
-                  <option value="Spieler kommt zu mir">Spieler kommt zu mir</option>
-                  <option value="Beides möglich">Beides möglich</option>
-                </select>
+                <label for="outcome">Was erreichen Kinder durch dein Training? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
+                <input type="text" id="outcome" name="Versprechen an Eltern" placeholder="z.B. Mehr Ballsicherheit, mehr Selbstvertrauen auf dem Platz - und noch mehr Lust auf Fußball.">
+                <div class="step-prompt">Ein Satz, der das Ergebnis beschreibt - nicht den Prozess. Eltern buchen Ergebnisse, keine Trainingseinheiten.</div>
               </div>
-              <div class="form-group">
-                <label for="trainingsformat">Einzel- oder Gruppentraining?</label>
-                <select id="trainingsformat" name="Trainingsformat">
-                  <option value="">Bitte auswählen...</option>
-                  <option value="Einzeltraining">Einzeltraining</option>
-                  <option value="Gruppentraining">Gruppentraining</option>
-                  <option value="Beides">Beides</option>
-                </select>
+
+              <button type="submit" class="btn btn-accent btn-lg" style="width:100%; margin-top:24px;">Bewerbung absenden &#10003;</button>
+              <div class="wizard-nav" style="margin-top:16px;">
+                <button type="button" class="btn btn-outline btn-sm" onclick="wizardBack(3)">&larr; Zurück</button>
+                <div></div>
+              </div>
+              <div class="form-footer">
+                Deine Daten werden gemäß DSGVO verarbeitet.<br>
+                Ich melde mich persönlich innerhalb von 24 Stunden bei dir. - Andreas
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="paketpreise">Paketpreise (optional)</label>
-              <input type="text" id="paketpreise" name="Paketpreise" placeholder="z.B. 5er-Paket 250€, 10er-Paket 450€">
-              <div class="hint">Pakete helfen Eltern bei der Entscheidung und binden Spieler langfristig.</div>
-            </div>
-
-            <button type="submit" class="btn btn-accent btn-lg" style="width: 100%; margin-top: 8px;">Bewerbung absenden</button>
-            <div class="form-footer">
-              Deine Daten werden gemäß DSGVO verarbeitet.<br>
-              Ich melde mich persönlich innerhalb von 24 Stunden bei dir. — Andreas
-            </div>
           </form>
 
           <!-- Success message (shown after form submit redirect) -->
           <div id="success-message" style="display:none; text-align:center; padding: 48px 24px;">
             <div style="font-size: 3rem; margin-bottom: 16px;">&#10003;</div>
             <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">Bewerbung erhalten!</h3>
-            <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7; margin-bottom: 24px;">Ich prüfe deine Angaben und melde mich persönlich innerhalb von 24 Stunden mit einer Vorschau deines Profils. Willkommen bei Trovr! — Andreas</p>
+            <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7; margin-bottom: 24px;">Ich prüfe deine Angaben und melde mich persönlich innerhalb von 24 Stunden mit einer Vorschau deines Profils. Willkommen bei Trovr! - Andreas</p>
 
             <hr style="border: none; border-top: 1px solid var(--gray-200); margin: 24px 0;">
 
             <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--dark); margin-bottom: 8px;">Nächster Schritt: DFB-Lizenz, Führungszeugnis & Trainingsvideos senden</h4>
-            <p style="color: var(--gray-600); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">Schick uns einfach ein Foto oder Scan per WhatsApp — wir kümmern uns um den Rest.</p>
+            <p style="color: var(--gray-600); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">Schick uns einfach ein Foto oder Scan per WhatsApp - wir kümmern uns um den Rest.</p>
 
             <div style="background: var(--gray-50); border-radius: 16px; padding: 24px; margin-bottom: 20px;">
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwa.me%2F491786259436%3Ftext%3DHallo%2520Andreas%21%2520Ich%2520m%25C3%25B6chte%2520meine%2520Dokumente%2520und%2520Medien%2520f%25C3%25BCr%2520mein%2520Trainer-Profil%2520senden." alt="WhatsApp QR Code" style="width: 160px; height: 160px; display: block; margin: 0 auto 16px;">
-              <a href="https://wa.me/491786259436?text=Hallo%20Andreas!%20Ich%20m%C3%B6chte%20meine%20Dokumente%20und%20Medien%20f%C3%BCr%20mein%20Trainer-Profil%20senden." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; font-weight: 700; font-size: 1.05rem; padding: 14px 32px; border-radius: 12px; text-decoration: none;">&#128172; Schreib mir direkt — Andreas</a>
+              <a href="https://wa.me/491786259436?text=Hallo%20Andreas!%20Ich%20m%C3%B6chte%20meine%20Dokumente%20und%20Medien%20f%C3%BCr%20mein%20Trainer-Profil%20senden." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; font-weight: 700; font-size: 1.05rem; padding: 14px 32px; border-radius: 12px; text-decoration: none;">&#128172; Schreib mir direkt - Andreas</a>
             </div>
 
-            <p style="color: var(--gray-500); font-size: 0.82rem;">Kein Stress — du kannst alles auch später nachreichen.</p>
+            <p style="color: var(--gray-500); font-size: 0.82rem;">Kein Stress - du kannst alles auch später nachreichen.</p>
           </div>
         </div>
       </div>
@@ -1131,7 +1253,7 @@
       <div style="max-width: 600px; margin: 0 auto; text-align: center;">
         <h2 style="font-size: 1.6rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">DFB-Lizenz, Führungszeugnis & Trainingsvideos per WhatsApp senden</h2>
         <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.7; margin-bottom: 24px;">
-          Schick uns einfach ein Foto oder Scan — wir kümmern uns um den Rest:
+          Schick uns einfach ein Foto oder Scan - wir kümmern uns um den Rest:
         </p>
         <ul style="text-align: left; max-width: 400px; margin: 0 auto 32px; list-style: none; padding: 0;">
           <li style="padding: 8px 0; color: var(--gray-700);"><span style="color: var(--primary); margin-right: 8px;">&#10003;</span> Foto deiner DFB-Lizenz</li>
@@ -1146,20 +1268,20 @@
           <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fwa.me%2F491786259436%3Ftext%3DHallo%2520Andreas%21%2520Ich%2520m%25C3%25B6chte%2520meine%2520Dokumente%2520und%2520Medien%2520f%25C3%25BCr%2520mein%2520Trainer-Profil%2520senden." alt="WhatsApp QR Code" style="width: 200px; height: 200px; display: block;">
         </div>
 
-        <p style="color: var(--gray-500); font-size: 0.85rem; margin-bottom: 20px;">QR-Code scannen oder direkt klicken — du schreibst direkt an mich:</p>
+        <p style="color: var(--gray-500); font-size: 0.85rem; margin-bottom: 20px;">QR-Code scannen oder direkt klicken - du schreibst direkt an mich:</p>
 
         <a href="https://wa.me/491786259436?text=Hallo%20Andreas!%20Ich%20m%C3%B6chte%20meine%20Dokumente%20und%20Medien%20f%C3%BCr%20mein%20Trainer-Profil%20senden." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; font-weight: 700; font-size: 1.05rem; padding: 14px 32px; border-radius: 12px; text-decoration: none; transition: transform 0.15s;">
-          &#128172; Schreib mir direkt — Andreas
+          &#128172; Schreib mir direkt - Andreas
         </a>
 
-        <p style="color: var(--gray-500); font-size: 0.82rem; margin-top: 16px;">Kein Stress — du kannst alles auch später nachreichen.</p>
+        <p style="color: var(--gray-500); font-size: 0.82rem; margin-top: 16px;">Kein Stress - du kannst alles auch später nachreichen.</p>
       </div>
     </div>
   </section>
 
   <!-- STICKY MOBILE CTA -->
   <div class="sticky-cta" id="sticky-cta">
-    <a href="#bewerbung" class="btn btn-accent btn-lg">Jetzt bewerben — Kostenlos</a>
+    <a href="#bewerbung" class="btn btn-accent btn-lg">Jetzt bewerben - Kostenlos</a>
   </div>
 
   <!-- FOOTER -->
@@ -1195,6 +1317,47 @@
         var rect = formSection.getBoundingClientRect();
         stickyCta.classList.toggle('hidden', rect.top < window.innerHeight);
       });
+    }
+
+    // WIZARD NAVIGATION
+    function wizardNext(fromStep) {
+      // Validate required fields in current step
+      const step = document.getElementById('step-' + fromStep);
+      const required = step.querySelectorAll('[required]');
+      let valid = true;
+      required.forEach(field => {
+        if (!field.value.trim()) {
+          field.style.borderColor = 'var(--red)';
+          valid = false;
+        } else {
+          field.style.borderColor = '';
+        }
+      });
+      if (!valid) {
+        step.querySelector('[required]').focus();
+        return;
+      }
+      const nextStep = fromStep + 1;
+      step.classList.remove('active');
+      document.getElementById('step-' + nextStep).classList.add('active');
+      // Update progress indicators
+      document.getElementById('wstep-' + fromStep).classList.remove('active');
+      document.getElementById('wstep-' + fromStep).classList.add('done');
+      document.getElementById('wline-' + fromStep).classList.add('done');
+      document.getElementById('wstep-' + nextStep).classList.add('active');
+      // Scroll to top of form card
+      document.getElementById('bewerbung').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function wizardBack(fromStep) {
+      const prevStep = fromStep - 1;
+      document.getElementById('step-' + fromStep).classList.remove('active');
+      document.getElementById('step-' + prevStep).classList.add('active');
+      document.getElementById('wstep-' + fromStep).classList.remove('active');
+      document.getElementById('wstep-' + prevStep).classList.remove('done');
+      document.getElementById('wstep-' + prevStep).classList.add('active');
+      document.getElementById('wline-' + prevStep).classList.remove('done');
+      document.getElementById('bewerbung').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     // Show success message if redirected after form submit

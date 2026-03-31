@@ -9,3 +9,11 @@ Thumbs.db
 
 # Claude Code local settings
 .claude/
+
+# Local-only folders (not needed to run the site)
+Business/
+Product/
+Research/
+database/
+supabase/
+.vscode/

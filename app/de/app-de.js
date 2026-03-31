@@ -30,9 +30,10 @@ function formatDate(dateStr) {
 // ---- LOAD DATA ----
 async function loadCoaches() {
   try {
-    const res = await fetch('../data/coaches.json');
+    const res = await fetch('/data/coaches-superprof.json');
     const data = await res.json();
-    coachesData = data.coaches;
+    // Only display Berlin coaches
+    coachesData = data.coaches.filter(c => c.city === 'Berlin');
     return coachesData;
   } catch (err) {
     console.error('Fehler beim Laden der Trainer:', err);
@@ -40,8 +41,59 @@ async function loadCoaches() {
   }
 }
 
+// ---- CHIP FILTER HELPERS ----
+function getSelectedChips(groupId) {
+  const group = document.getElementById(groupId);
+  if (!group) return [];
+  const checked = [...group.querySelectorAll('input[type="checkbox"]:checked')]
+    .filter(cb => cb.value !== '')
+    .map(cb => cb.value);
+  // Also check extra chips container (for district overflow)
+  const extra = document.getElementById(groupId + '-extra');
+  if (extra) {
+    extra.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => {
+      if (cb.value) checked.push(cb.value);
+    });
+  }
+  return checked;
+}
+
+function initChipGroup(groupId) {
+  const group = document.getElementById(groupId);
+  if (!group) return;
+  const chips = group.querySelectorAll('.chip');
+  const allChip = group.querySelector('input[value=""]');
+
+  group.addEventListener('change', (e) => {
+    const cb = e.target;
+    if (cb.value === '') {
+      // "Alle" clicked — uncheck all others
+      chips.forEach(chip => {
+        const input = chip.querySelector('input');
+        if (input.value !== '') { input.checked = false; chip.classList.remove('active'); }
+      });
+      cb.checked = true;
+      cb.closest('.chip').classList.add('active');
+    } else {
+      // Specific chip clicked — uncheck "Alle"
+      if (allChip) { allChip.checked = false; allChip.closest('.chip').classList.remove('active'); }
+      cb.closest('.chip').classList.toggle('active', cb.checked);
+
+      // If nothing selected, re-check "Alle"
+      const anyChecked = [...group.querySelectorAll('input[value]:not([value=""])')].some(i => i.checked);
+      if (!anyChecked && allChip) {
+        allChip.checked = true;
+        allChip.closest('.chip').classList.add('active');
+      }
+    }
+  });
+
+  // Set initial "Alle" active state
+  if (allChip && allChip.checked) allChip.closest('.chip').classList.add('active');
+}
+
 // ---- SEARCH & FILTER ----
-function filterCoaches(coaches, sport, age, sort) {
+function filterCoaches(coaches, sport, age, districts, specialties) {
   let filtered = [...coaches];
 
   if (sport) {
@@ -53,25 +105,16 @@ function filterCoaches(coaches, sport, age, sort) {
     filtered = filtered.filter(c => ageNum >= c.ageRangeMin && ageNum <= c.ageRangeMax);
   }
 
-  switch (sort) {
-    case 'rating':
-      filtered.sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
-      break;
-    case 'price-low':
-      filtered.sort((a, b) => a.sessionPrice - b.sessionPrice);
-      break;
-    case 'price-high':
-      filtered.sort((a, b) => b.sessionPrice - a.sessionPrice);
-      break;
-    case 'experience':
-      filtered.sort((a, b) => b.yearsExperience - a.yearsExperience);
-      break;
-    case 'reviews':
-      filtered.sort((a, b) => b.reviewCount - a.reviewCount);
-      break;
-    default:
-      filtered.sort((a, b) => b.rating - a.rating);
+  if (districts.length > 0) {
+    filtered = filtered.filter(c => districts.includes(c.district));
   }
+
+  if (specialties.length > 0) {
+    filtered = filtered.filter(c => c.specialties && specialties.some(s => c.specialties.includes(s)));
+  }
+
+  // Default sort: best rating
+  filtered.sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
 
   return filtered;
 }
@@ -82,7 +125,7 @@ function renderCoachCard(coach) {
   const topCredentials = coach.credentials.filter(c => c.verified).slice(0, 2);
 
   const avatarHtml = coach.photo
-    ? `<img class="card-avatar-img" src="../${coach.photo}" alt="Trainer ${coach.firstName} ${coach.lastName}">`
+    ? `<img class="card-avatar-img" src="../${coach.photo}" alt="${coach.firstName} ${coach.lastName}">`
     : `<div class="card-avatar" style="background:${color};">${coach.initials}</div>`;
 
   return `
@@ -90,19 +133,21 @@ function renderCoachCard(coach) {
       <div class="card-top">
         ${avatarHtml}
         <div class="card-info">
-          <h3>Trainer ${coach.firstName} ${coach.lastName}</h3>
+          <h3>${coach.firstName} ${coach.lastName}</h3>
           <div class="card-meta">
             <span class="sport-tag">Fußball</span>
             <span class="sport-tag">Alter ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
             <span class="card-rating">&#9733; ${coach.rating} (${coach.reviewCount})</span>
           </div>
           <span class="card-location">${coach.district || coach.city}, Berlin</span>
+          ${coach.languages && coach.languages !== 'Deutsch' ? `<span class="lang-tag">${coach.languages}</span>` : ''}
         </div>
       </div>
       <div class="card-badges">
-        <span class="badge"><span class="check">&#10003;</span> Hintergrundprüfung</span>
+        <span class="badge"><span class="check">&#10003;</span> Führungszeugnis</span>
         ${topCredentials.map(c => `<span class="badge"><span class="check">&#10003;</span> ${c.name}</span>`).join('')}
       </div>
+      ${coach.specialties && coach.specialties.length ? `<div class="card-specialties">${coach.specialties.map(s => `<span class="specialty-tag">${s}</span>`).join('')}</div>` : ''}
       <div class="card-bio">${coach.bio}</div>
       <div class="card-bottom">
         <div class="card-price">&euro;${coach.sessionPrice}<span>/Einheit</span></div>
@@ -137,7 +182,61 @@ function renderResults(coaches) {
   if (age) {
     titleEl.textContent = `Fußballtrainer für Alter ${age}`;
   } else {
-    titleEl.textContent = 'Alle geprüften Trainer';
+    titleEl.textContent = 'Alle Fußballtrainer';
+  }
+}
+
+// ---- BUILD FILTER CHIPS FROM DATA ----
+function buildFilterChips(coaches) {
+  // Count districts with trainers, sorted by count
+  const districtCounts = {};
+  const specialtyCounts = {};
+  coaches.forEach(c => {
+    if (c.district) districtCounts[c.district] = (districtCounts[c.district] || 0) + 1;
+    if (c.specialties) c.specialties.forEach(s => { specialtyCounts[s] = (specialtyCounts[s] || 0) + 1; });
+  });
+
+  const districtsSorted = Object.entries(districtCounts).sort((a, b) => b[1] - a[1]);
+  const specialtiesSorted = Object.entries(specialtyCounts).sort((a, b) => b[1] - a[1]);
+
+  const MAX_VISIBLE = 6;
+
+  // Build district chips
+  const districtGroup = document.getElementById('district-chips');
+  if (districtGroup) {
+    districtsSorted.forEach(([name], i) => {
+      const label = document.createElement('label');
+      label.className = 'chip' + (i >= MAX_VISIBLE ? ' chip-hidden' : '');
+      if (i >= MAX_VISIBLE) label.style.display = 'none';
+      label.innerHTML = `<input type="checkbox" value="${name}"> ${name}`;
+      districtGroup.appendChild(label);
+    });
+    if (districtsSorted.length > MAX_VISIBLE) {
+      const moreBtn = document.createElement('button');
+      moreBtn.type = 'button';
+      moreBtn.className = 'chip-more';
+      moreBtn.textContent = `+${districtsSorted.length - MAX_VISIBLE} mehr`;
+      moreBtn.addEventListener('click', () => {
+        districtGroup.querySelectorAll('.chip-hidden').forEach(el => {
+          el.style.display = '';
+          el.classList.remove('chip-hidden');
+        });
+        districtGroup.classList.remove('chip-group-nowrap');
+        moreBtn.remove();
+      });
+      districtGroup.appendChild(moreBtn);
+    }
+  }
+
+  // Build specialty chips
+  const specialtyGroup = document.getElementById('specialty-chips');
+  if (specialtyGroup) {
+    specialtiesSorted.forEach(([name]) => {
+      const label = document.createElement('label');
+      label.className = 'chip';
+      label.innerHTML = `<input type="checkbox" value="${name}"> ${name}`;
+      specialtyGroup.appendChild(label);
+    });
   }
 }
 
@@ -146,35 +245,45 @@ function initSearchPage() {
   const searchBtn = document.getElementById('search-btn');
   const clearBtn = document.getElementById('clear-btn');
   const ageInput = document.getElementById('age-input');
-  const sortSelect = document.getElementById('sort-select');
-
   if (!searchBtn) return;
 
   function doSearch() {
     const sport = 'Football';
     const age = ageInput.value;
-    const sort = sortSelect.value;
-    const filtered = filterCoaches(coachesData, sport, age, sort);
+    const districts = getSelectedChips('district-chips');
+    const specialties = getSelectedChips('specialty-chips');
+    const filtered = filterCoaches(coachesData, sport, age, districts, specialties);
     renderResults(filtered);
-
-    document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
   }
 
-  searchBtn.addEventListener('click', doSearch);
+  // Init chip groups — auto-filter on change
+  initChipGroup('district-chips');
+  initChipGroup('specialty-chips');
+
+  document.getElementById('district-chips')?.addEventListener('change', doSearch);
+  document.getElementById('specialty-chips')?.addEventListener('change', doSearch);
+
+  searchBtn.addEventListener('click', () => {
+    doSearch();
+    document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+  });
 
   // Allow Enter key to trigger search
   ageInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') doSearch();
+    if (e.key === 'Enter') {
+      doSearch();
+      document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+    }
   });
-
-  // Sort changes apply immediately
-  sortSelect.addEventListener('change', doSearch);
 
   clearBtn?.addEventListener('click', () => {
     ageInput.value = '';
-    sortSelect.value = 'rating';
+    document.querySelectorAll('#district-chips .chip, #specialty-chips .chip').forEach(chip => {
+      const input = chip.querySelector('input');
+      if (input.value === '') { input.checked = true; chip.classList.add('active'); }
+      else { input.checked = false; chip.classList.remove('active'); }
+    });
     renderResults(coachesData);
-    document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
   });
 
   // Initial load — show all
@@ -196,27 +305,34 @@ function loadCoachProfile(coachId) {
   }
 
   // Page title
-  document.title = `Trainer ${coach.firstName} ${coach.lastName} — Trovr`;
+  document.title = `${coach.firstName} ${coach.lastName} — Trovr`;
 
   const color = getAvatarColor(coach.id);
 
   // Header
   const profileAvatarHtml = coach.photo
-    ? `<img class="profile-avatar-img" src="../${coach.photo}" alt="Trainer ${coach.firstName} ${coach.lastName}">`
+    ? `<img class="profile-avatar-img" src="../${coach.photo}" alt="${coach.firstName} ${coach.lastName}">`
     : `<div class="profile-avatar" style="background:${color};">${coach.initials}</div>`;
 
   document.getElementById('profile-header').innerHTML = `
     ${profileAvatarHtml}
     <div>
-      <h1 class="profile-name">Trainer ${coach.firstName} ${coach.lastName}</h1>
+      <h1 class="profile-name">${coach.firstName} ${coach.lastName}</h1>
       <div class="profile-headline">
         <span class="sport-tag">Fußball</span>
         <span class="sport-tag">Alter ${coach.ageRangeMin}–${coach.ageRangeMax}</span>
         <span class="profile-rating">&#9733; ${coach.rating} (${coach.reviewCount} Bewertungen)</span>
       </div>
-      <div class="profile-location">${coach.district || coach.city}, Berlin &bull; ${coach.yearsExperience} Jahre Erfahrung</div>
+      <div class="profile-location">${coach.district || coach.city}, Berlin &bull; ${coach.yearsExperience} Jahre Erfahrung &bull; Sprache: ${coach.languages || 'Deutsch'}</div>
+      ${coach.outcome ? `<p class="profile-outcome">${coach.outcome}</p>` : ''}
     </div>
   `;
+
+  // Populate mobile booking bar
+  const mobileBar = document.getElementById('mobile-booking-bar');
+  const mobilePriceEl = document.getElementById('mobile-price');
+  if (mobileBar) mobileBar.style.display = '';
+  if (mobilePriceEl) mobilePriceEl.textContent = '\u20AC' + coach.sessionPrice;
 
   // Main content
   const credBadges = coach.credentials
@@ -236,16 +352,75 @@ function loadCoachProfile(coachId) {
     </div>
   `).join('');
 
-  document.getElementById('profile-main').innerHTML = `
+  // Build the "Über mich" section — rich if new fields exist, fallback for other coaches
+  const aboutSection = coach.philosophy ? `
     <div class="profile-section">
-      <h2>Über den Trainer</h2>
-      <p class="profile-bio">${coach.bio}</p>
+      <h2>Über mich</h2>
+
+      <h3 class="profile-subsection-title">Meine Trainingsphilosophie</h3>
+      <p class="profile-bio">${coach.philosophy}</p>
+
+      <h3 class="profile-subsection-title">Mein Ansatz mit jungen Talenten</h3>
+      <ul class="profile-method-list">
+        ${coach.methodology.map(m => `<li>${m}</li>`).join('')}
+      </ul>
+
+      <h3 class="profile-subsection-title">Eine typische Einheit (60 Minuten)</h3>
+      <div class="session-walkthrough">
+        ${coach.sessionWalkthrough.map(s => `
+          <div class="session-step">
+            <div class="session-time">${s.time}</div>
+            <div class="session-body">
+              <div class="session-title">${s.title}</div>
+              <div class="session-desc">${s.description}</div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <h3 class="profile-subsection-title">Mein Weg</h3>
+      ${coach.career.split('\n\n').map(p => `<p class="profile-bio" style="margin-top:10px;">${p}</p>`).join('')}
     </div>
+  ` : `
+    <div class="profile-section">
+      <h2>Über mich</h2>
+      <p class="profile-bio">${coach.bio}</p>
+      ${coach.aboutMe ? `<p class="profile-bio" style="margin-top:12px;">${coach.aboutMe}</p>` : ''}
+    </div>
+  `;
+
+  const videoSection = coach.videoUrl
+    ? `<div class="profile-section profile-video-section">
+        <div class="video-wrapper">
+          <iframe src="${coach.videoUrl}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>`
+    : `<div class="profile-section profile-video-section">
+        <div class="video-placeholder">
+          <div class="video-placeholder-inner">
+            <div class="video-play-icon">&#9654;</div>
+            <div class="video-placeholder-text">
+              <strong>${coach.firstName} stellt sich vor</strong>
+              <span>Video folgt in Kürze</span>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+  document.getElementById('profile-main').innerHTML = `
+    ${videoSection}
+    ${aboutSection}
+
+    ${coach.specialties && coach.specialties.length ? `
+    <div class="profile-section">
+      <h2>Schwerpunkte</h2>
+      <div class="specialty-list">${coach.specialties.map(s => `<span class="specialty-tag">${s}</span>`).join('')}</div>
+    </div>` : ''}
 
     <div class="profile-section">
       <h2>Verifizierte Lizenzen</h2>
       <div class="cred-list">
-        <span class="bg-badge"><span class="check">&#10003;</span> Hintergrundprüfung bestanden</span>
+        <span class="bg-badge"><span class="check">&#10003;</span> Führungszeugnis</span>
         ${credBadges}
       </div>
     </div>
@@ -285,13 +460,24 @@ function loadCoachProfile(coachId) {
   document.getElementById('profile-sidebar').innerHTML = `
     <div class="sidebar-card">
       <div class="sidebar-price">&euro;${coach.sessionPrice}<span>/Einheit</span></div>
+
+      ${coach.valueIncludes ? `
+      <ul class="sidebar-value-stack">
+        ${coach.valueIncludes.map(v => `<li><span class="check">&#10003;</span> ${v}</li>`).join('')}
+      </ul>` : ''}
+
       <div class="sidebar-avail">
         <strong>Verfügbarkeit:</strong><br>${coach.availability}
       </div>
+
+      ${coach.responseTime ? `<div class="sidebar-response">&#9679; Antwortet meist innerhalb ${coach.responseTime}</div>` : ''}
+
       <button class="btn-contact" onclick="openContact()">Trainer kontaktieren</button>
-      <a href="mailto:${coach.contactEmail}" class="btn-contact-secondary">E-Mail senden</a>
+
+      <div class="sidebar-risk">Nicht zufrieden nach der ersten Einheit? Sprich Marc direkt an — gemeinsam findet ihr eine Lösung.</div>
+
       <div class="sidebar-trust">
-        <div class="sidebar-trust-item"><span class="check">&#10003;</span> Hintergrundprüfung bestanden</div>
+        <div class="sidebar-trust-item"><span class="check">&#10003;</span> Führungszeugnis</div>
         ${coach.credentials.filter(c => c.verified).map(c =>
           `<div class="sidebar-trust-item"><span class="check">&#10003;</span> ${c.name}</div>`
         ).join('')}
@@ -303,7 +489,7 @@ function loadCoachProfile(coachId) {
     <div class="modal-overlay" id="contact-modal">
       <div class="modal">
         <button class="modal-close" onclick="closeContact()">&times;</button>
-        <h2>Trainer ${coach.firstName} kontaktieren</h2>
+        <h2>${coach.firstName} kontaktieren</h2>
         <p>Nimm Kontakt auf, um deine erste Einheit zu vereinbaren. Erwähne, dass du ihn auf Trovr gefunden hast!</p>
         <div class="contact-row">
           <div>
@@ -314,7 +500,10 @@ function loadCoachProfile(coachId) {
         <div class="contact-row">
           <div>
             <div class="label">Telefon</div>
-            <div class="value"><a href="tel:${coach.contactPhone.replace(/\D/g, '')}">${coach.contactPhone}</a></div>
+            <div class="value">
+              <span id="phone-masked">+49 *** *** ****</span>
+              <a id="phone-reveal" href="#" onclick="revealPhone(event, '${coach.contactPhone || ''}'); return false;" style="margin-left:8px; font-size:0.85rem; color:var(--primary); text-decoration:underline;">Anzeigen</a>
+            </div>
           </div>
         </div>
       </div>
@@ -324,6 +513,15 @@ function loadCoachProfile(coachId) {
 
 function openContact() {
   document.getElementById('contact-modal').classList.add('active');
+}
+
+function revealPhone(e, phone) {
+  const masked = document.getElementById('phone-masked');
+  const link = document.getElementById('phone-reveal');
+  if (!masked || !link || !phone) return;
+  const digits = phone.replace(/\D/g, '');
+  masked.innerHTML = `<a href="tel:${digits}">${phone}</a>`;
+  link.remove();
 }
 
 function closeContact() {
