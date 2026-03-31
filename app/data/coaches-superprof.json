@@ -1,0 +1,1932 @@
+{
+  "coaches": [
+    {
+      "id": "felix-gruber",
+      "firstName": "Felix",
+      "lastName": "Gruber",
+      "photo": "images/coaches/jan-krause.jpg",
+      "initials": "FG",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Prenzlauer Berg",
+      "state": "Berlin",
+      "zip": "10405",
+      "bio": "DFB B+ lizenzierter NLZ-Trainer mit 8 Jahren Erfahrung. Individuelles Kinder- und Jugendtraining in Berlin — spielerisch, aufbauend, mit echter Leidenschaft.",
+      "philosophy": "Ich glaube, dass Kinder, die Fußball lieben, die besten Fußballer werden. Deshalb steht bei mir in jeder Einheit eines im Mittelpunkt: Freude am Spiel. Mein Ansatz folgt dem spielerzentrierten Entwicklungsmodell des DFB und dem Long-Term Player Development-Rahmen der englischen FA — beide zeigen: Bei Kindern zwischen 6 und 10 Jahren geht es zuerst um Koordination, Kreativität und die Liebe zum Ball. Taktik und Druck kommen später. Was jetzt zählt: jedes Kind verlässt das Training mit einem Lächeln und Lust auf die nächste Einheit.",
+      "methodology": [
+        "Viele Ballkontakte — jedes Kind hat immer einen Ball, niemand steht in der Reihe",
+        "Lob gilt dem Einsatz, nicht dem Ergebnis — Growth Mindset von Anfang an",
+        "Kurze Erklärungen, lange Spielzeit — Kinder lernen durch Tun, nicht durch Zuhören",
+        "Individuelle Anpassung — jedes Kind hat ein anderes Tempo und eine andere Stärke",
+        "Struktur mit Spielraum — klarer Rahmen, aber Kreativität wird immer belohnt",
+        "Sicherheit zuerst — warmes Umfeld, kein Druck, kein Vergleich mit anderen"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0–10 Min.",
+          "title": "Warmmachen mit Spaß",
+          "description": "Koordinationsspiele und Fangenformen — Energie rein, Konzentration aufbauen, gemeinsam lachen."
+        },
+        {
+          "time": "10–25 Min.",
+          "title": "Technischer Fokus",
+          "description": "Dribbling, erster Kontakt oder Passspiel — je nach Einheitsziel. Viele Wiederholungen, positive Korrekturen."
+        },
+        {
+          "time": "25–45 Min.",
+          "title": "Anwendung unter Druck",
+          "description": "Im 1:1-Training: gezielte Übungsreihen mit Felix als aktivem Gegenspieler. Zu zweit oder dritt: kleine Spielformen mit echten Entscheidungssituationen — so nah am Spiel wie möglich."
+        },
+        {
+          "time": "45–55 Min.",
+          "title": "Abschluss-Challenge",
+          "description": "1:1 oder zu zweit/dritt: Torschuss-Duell, Dribbling-Parcours oder eine persönliche Bestleistungs-Challenge — motivierend, spielerisch, immer mit klarem Erfolgserlebnis."
+        },
+        {
+          "time": "55–60 Min.",
+          "title": "Cool-down & Feedback",
+          "description": "Was war heute gut? Ein persönlicher Tipp für die Woche. Das Kind geht mit einem klaren Gefühl von Fortschritt nach Hause."
+        }
+      ],
+      "career": "Felix ist aktuell U17-Trainer im Nachwuchsleistungszentrum (NLZ) von Union Berlin — zuvor U19- und U17-Trainer bei Tennis Borussia Berlin sowie U13-Trainer bei Viktoria 89. Er weiß: Was in der Akademie funktioniert, lässt sich mit dem richtigen Fingerspitzengefühl auch im individuellen Training anwenden — angepasst ans Kind, nie erzwungen.\n\nTrainiert werden auch ältere Jugendspieler (11–17) und junge Erwachsene — mit klarerem taktischen Fokus, höherer Intensität und gezielter Vorbereitung auf Probetrainings oder den nächsten Vereinswechsel.",
+      "aboutMe": "Ich bin Felix Gruber — Trainer mit einer Leidenschaft: junge Spieler individuell zu fördern und ihnen zu helfen, ihr volles Potenzial auszuschöpfen. Ich bin aktuell U17-Trainer im NLZ von Union Berlin, zuvor U13-Trainer bei Viktoria 89, U19- und U17-Trainer bei Tennis Borussia Berlin. Lizenzen: DFB-B+ Lizenz, DOSB C-Lizenz (Fitness), Studium Training & Coaching am IFI.",
+      "outcome": "Dein Kind entwickelt mehr Ballsicherheit, mehr Selbstvertrauen auf dem Platz — und noch mehr Lust auf Fußball.",
+      "valueIncludes": [
+        "60 Min. individuelles Training",
+        "Persönliches Feedback nach jeder Einheit",
+        "Konkreter Tipp für die nächste Woche"
+      ],
+      "teachingDescription": "Personal- & Gruppentraining, individuell abgestimmt. Training: 60 Min. (Privat- oder Gruppentraining). Flexible Terminvereinbarung. Ort: Berlin.",
+      "yearsExperience": 8,
+      "ageRangeMin": 6,
+      "ageRangeMax": 17,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 450€",
+      "credentials": [
+        {
+          "name": "DFB-B+ Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DOSB C-Lizenz (Fitness)",
+          "verified": true
+        },
+        {
+          "name": "Studium Training & Coaching (IFI)",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "U17-Trainer NLZ Union Berlin | U19/U17-Trainer Tennis Borussia Berlin | U13-Trainer Viktoria 89",
+      "playerHistory": "Junioren-Bundesliga | U19-Regionalliga | Herren-Regionalliga Nordost",
+      "specialties": [
+        "Technik",
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 16,
+      "totalSessions": 420,
+      "activeAthletes": 50,
+      "availability": "Mo, Mi, Fr nachmittags; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Felix in Berlin | Online | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": true,
+      "responseTime": "1h",
+      "contactEmail": "felix.gruber@email.de",
+      "contactPhone": "+49 170 482 0193",
+      "reviews": [
+        {
+          "parentName": "Amed A.",
+          "rating": 5,
+          "comment": "Perfekt! Das Training zielt auf alle Schwerpunkte ab, und ich fühle mich stärker.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Matti C.",
+          "rating": 5,
+          "comment": "Perfekt! Felix ist toll. Geduldig und sehr kompetent. Unser Sohn liebt es.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Daniel E.",
+          "rating": 5,
+          "comment": "Mein Sohn trainiert seit kurzem mit Felix und es gefällt ihm sehr. Empathisch, gute Verbindung, kein Druck, professionelles & strukturiertes Training. Klare Empfehlung!",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Nadin G.",
+          "rating": 5,
+          "comment": "Mein Sohn ist absolut zufrieden mit Felix. Nach wenigen Einheiten waren Fortschritte in Punktspielen sichtbar.",
+          "date": "2026-02-05"
+        },
+        {
+          "parentName": "Max I.",
+          "rating": 5,
+          "comment": "Felix ist geduldig, motivierend und geht individuell auf die Spieler ein. Training macht Spaß, abwechslungsreich, fördert Technik & Teamgeist.",
+          "date": "2026-01-25"
+        },
+        {
+          "parentName": "Henry K.",
+          "rating": 5,
+          "comment": "Felix schafft es, jede Einheit motivierend und abwechslungsreich zu gestalten, sodass jeder Spieler sich weiterentwickeln kann.",
+          "date": "2026-01-10"
+        }
+      ],
+      "source": "trovr",
+      "scrapedDate": "2026-03-31"
+    },
+    {
+      "id": "marc-tessmer",
+      "firstName": "Marc",
+      "lastName": "Tessmer",
+      "photo": "images/coaches/coach-001.jpg",
+      "initials": "MT",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Prenzlauer Berg",
+      "state": "Berlin",
+      "zip": "10405",
+      "bio": "DFB B+ lizenzierter NLZ-Trainer mit 8 Jahren Erfahrung. Individuelles Kinder- und Jugendtraining in Berlin — spielerisch, aufbauend, mit echter Leidenschaft.",
+      "philosophy": "Ich glaube, dass Kinder, die Fußball lieben, die besten Fußballer werden. Deshalb steht bei mir in jeder Einheit eines im Mittelpunkt: Freude am Spiel. Mein Ansatz folgt dem spielerzentrierten Entwicklungsmodell des DFB und dem Long-Term Player Development-Rahmen der englischen FA — beide zeigen: Bei Kindern zwischen 6 und 10 Jahren geht es zuerst um Koordination, Kreativität und die Liebe zum Ball. Taktik und Druck kommen später. Was jetzt zählt: jedes Kind verlässt das Training mit einem Lächeln und Lust auf die nächste Einheit.",
+      "methodology": [
+        "Viele Ballkontakte — jedes Kind hat immer einen Ball, niemand steht in der Reihe",
+        "Lob gilt dem Einsatz, nicht dem Ergebnis — Growth Mindset von Anfang an",
+        "Kurze Erklärungen, lange Spielzeit — Kinder lernen durch Tun, nicht durch Zuhören",
+        "Individuelle Anpassung — jedes Kind hat ein anderes Tempo und eine andere Stärke",
+        "Struktur mit Spielraum — klarer Rahmen, aber Kreativität wird immer belohnt",
+        "Sicherheit zuerst — warmes Umfeld, kein Druck, kein Vergleich mit anderen"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0–10 Min.",
+          "title": "Warmmachen mit Spaß",
+          "description": "Koordinationsspiele und Fangenformen — Energie rein, Konzentration aufbauen, gemeinsam lachen."
+        },
+        {
+          "time": "10–25 Min.",
+          "title": "Technischer Fokus",
+          "description": "Dribbling, erster Kontakt oder Passspiel — je nach Einheitsziel. Viele Wiederholungen, positive Korrekturen."
+        },
+        {
+          "time": "25–45 Min.",
+          "title": "Anwendung unter Druck",
+          "description": "Im 1:1-Training: gezielte Übungsreihen mit Marc als aktivem Gegenspieler. Zu zweit oder dritt: kleine Spielformen mit echten Entscheidungssituationen — so nah am Spiel wie möglich."
+        },
+        {
+          "time": "45–55 Min.",
+          "title": "Abschluss-Challenge",
+          "description": "1:1 oder zu zweit/dritt: Torschuss-Duell, Dribbling-Parcours oder eine persönliche Bestleistungs-Challenge — motivierend, spielerisch, immer mit klarem Erfolgserlebnis."
+        },
+        {
+          "time": "55–60 Min.",
+          "title": "Cool-down & Feedback",
+          "description": "Was war heute gut? Ein persönlicher Tipp für die Woche. Das Kind geht mit einem klaren Gefühl von Fortschritt nach Hause."
+        }
+      ],
+      "career": "Marc und Nikita bringen zwei starke Karrieren zusammen: Marc ist aktuell U17-Trainer im Nachwuchsleistungszentrum (NLZ) von Eintracht Braunschweig — zuvor U19- und U17-Trainer bei Tennis Borussia Berlin sowie U13-Trainer bei Viktoria 89. Nikita spielte in der Junioren-Bundesliga, der U19-Regionalliga und der Herren-Regionalliga Nordost. Beide wissen: Was in der Akademie funktioniert, lässt sich mit dem richtigen Fingerspitzengefühl auch im individuellen Training anwenden — angepasst ans Kind, nie erzwungen.\n\nTrainiert werden auch ältere Jugendspieler (11–17) und junge Erwachsene — mit klarerem taktischen Fokus, höherer Intensität und gezielter Vorbereitung auf Probetrainings oder den nächsten Vereinswechsel.",
+      "aboutMe": "Wir sind Marc und Nikita – zwei Trainer mit einer gemeinsamen Leidenschaft: junge Spieler individuell zu fördern und ihnen zu helfen, ihr volles Potenzial auszuschöpfen. Marc ist aktuell U17-Trainer im NLZ von Eintracht Braunschweig, zuvor U13-Trainer bei Viktoria 89, U19- und U17-Trainer bei Tennis Borussia Berlin. Lizenzen: DFB-B+ Lizenz, DOSB C-Lizenz (Fitness), Studium Training & Coaching am IFI. Nikita spielte in der Junioren-Bundesliga, U19-Regionalliga und Herren-Regionalliga Nordost.",
+      "outcome": "Dein Kind entwickelt mehr Ballsicherheit, mehr Selbstvertrauen auf dem Platz — und noch mehr Lust auf Fußball.",
+      "valueIncludes": [
+        "60 Min. individuelles Training",
+        "Persönliches Feedback nach jeder Einheit",
+        "Konkreter Tipp für die nächste Woche"
+      ],
+      "teachingDescription": "Personal- & Gruppentraining, individuell abgestimmt. Training: 60 Min. (Privat- oder Gruppentraining). Flexible Terminvereinbarung. Ort: Berlin.",
+      "yearsExperience": 8,
+      "ageRangeMin": 6,
+      "ageRangeMax": 17,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 450€",
+      "credentials": [
+        {
+          "name": "DFB-B+ Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DOSB C-Lizenz (Fitness)",
+          "verified": true
+        },
+        {
+          "name": "Studium Training & Coaching (IFI)",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "U17-Trainer NLZ Eintracht Braunschweig | U19/U17-Trainer Tennis Borussia Berlin | U13-Trainer Viktoria 89",
+      "playerHistory": "Junioren-Bundesliga | U19-Regionalliga | Herren-Regionalliga Nordost",
+      "specialties": [
+        "Technik",
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 16,
+      "totalSessions": 420,
+      "activeAthletes": 50,
+      "availability": "Mo, Mi, Fr nachmittags; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Marc in Berlin | Online | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": true,
+      "responseTime": "1h",
+      "contactEmail": "marc.tessmer@email.de",
+      "contactPhone": "+49 170 482 0193",
+      "reviews": [
+        {
+          "parentName": "Amed A.",
+          "rating": 5,
+          "comment": "Perfekt! Das Training zielt auf alle Schwerpunkte ab, und ich fühle mich stärker.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Matti C.",
+          "rating": 5,
+          "comment": "Perfekt! Die Jungs sind toll. Geduldig und sehr kompetent. Unser Sohn liebt es.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Daniel E.",
+          "rating": 5,
+          "comment": "Mein Sohn trainiert seit kurzem mit Nikita und es gefällt ihm sehr. Empathisch, gute Verbindung, kein Druck, professionelles & strukturiertes Training. Klare Empfehlung!",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Nadin G.",
+          "rating": 5,
+          "comment": "Mein Sohn ist absolut zufrieden mit Marc. Nach wenigen Einheiten waren Fortschritte in Punktspielen sichtbar.",
+          "date": "2026-02-05"
+        },
+        {
+          "parentName": "Max I.",
+          "rating": 5,
+          "comment": "Marc ist geduldig, motivierend und geht individuell auf die Spieler ein. Training macht Spaß, abwechslungsreich, fördert Technik & Teamgeist.",
+          "date": "2026-01-25"
+        },
+        {
+          "parentName": "Henry K.",
+          "rating": 5,
+          "comment": "Nikita schafft es, jede Einheit motivierend und abwechslungsreich zu gestalten, sodass jeder Spieler sich weiterentwickeln kann.",
+          "date": "2026-01-10"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "hakan-yilmaz",
+      "firstName": "Hakan",
+      "lastName": "Yilmaz",
+      "photo": "images/coaches/coach-002.jpg",
+      "initials": "HY",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Reinickendorf",
+      "state": "Berlin",
+      "zip": "13407",
+      "bio": "Erfahrener Trainer im Kinderfussball – Langjähriger Trainer bei Reinickendorfer Füchse und Tennis Borrusia",
+      "aboutMe": "Ich liebe Fußball – 52 Jahre alt, 23 Jahre Fußball gespielt, langjähriger Trainer bei Berliner Vereinen, geduldig, ohne Druck",
+      "teachingDescription": "Der Trainer ist im Dienste seiner Spieler; Trainingseinheiten mit Freude, Motivation und Nachhaltigkeit",
+      "yearsExperience": 10,
+      "ageRangeMin": 5,
+      "ageRangeMax": 12,
+      "sessionPrice": 35,
+      "packagePrices": "5 Std.: 175€ | 10 Std.: 350€",
+      "credentials": [
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Reinickendorfer Füchse; Tennis Borrusia Berlin",
+      "playerHistory": "23 Jahre Fußball gespielt, auch hochklassig",
+      "specialties": [
+        "Technik",
+        "Skills"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.8,
+      "reviewCount": 5,
+      "totalSessions": 310,
+      "activeAthletes": 16,
+      "availability": "Di, Do nachmittags; Sa ganztags",
+      "languages": "Deutsch",
+      "locationOptions": "Mobil bis zu 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "hakan.yilmaz@email.de",
+      "contactPhone": "+49 176 339 0271",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "tim-brauer",
+      "firstName": "Tim",
+      "lastName": "Brauer",
+      "photo": "images/coaches/coach-003.jpg",
+      "initials": "TB",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Charlottenburg",
+      "state": "Berlin",
+      "zip": "10585",
+      "bio": "B-Lizenz-Trainer bietet Training für Groß und Klein, als auch für jedes Geschlecht.",
+      "aboutMe": "Ehemaliger Spieler britische College League; Sp.Vg. Blau-Weiß 1890 Berlin; Außenverteidiger/ZDM; B-Lizenz",
+      "teachingDescription": "Gesunder Mix aus konservativer und innovativer Art; physisch, psychisch und taktisch; auch für Trainer",
+      "yearsExperience": 6,
+      "ageRangeMin": 6,
+      "ageRangeMax": 18,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 500€",
+      "credentials": [
+        {
+          "name": "B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": null,
+      "playerHistory": "Sp.Vg. Blau-Weiß 1890 Berlin; britische College League",
+      "specialties": [
+        "Technik",
+        "Athletik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.6,
+      "reviewCount": 9,
+      "totalSessions": 180,
+      "activeAthletes": 11,
+      "availability": "Mo-Fr abends; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Tim in Berlin | Online | Mobil bis zu 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "tim.brauer@email.de",
+      "contactPhone": "+49 157 221 0384",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "catalin-munteanu",
+      "firstName": "Catalin",
+      "lastName": "Munteanu",
+      "photo": "images/coaches/coach-004.jpg",
+      "initials": "CM",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Friedrichshain",
+      "state": "Berlin",
+      "zip": "10243",
+      "bio": "UEFA B-Lizenz | Ex-Profi mit internationaler Erfahrung | Spielertraining auf Profiniveau für junge Talente",
+      "aboutMe": "Cătălin Azoitei – 19 Jahre Profikarriere in Ungarn, Rumänien, Belgien; NLZ-Trainer; Ausbildete u.a. András Schäfer",
+      "teachingDescription": "Individuell angepasst; Schwerpunkte Technik, Taktik, Spielverständnis, mentale Stärke; praxisnah, intensiv, strukturiert",
+      "yearsExperience": 9,
+      "ageRangeMin": 7,
+      "ageRangeMax": 17,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 500€",
+      "credentials": [
+        {
+          "name": "UEFA B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "NLZ Ungarn; Individualtrainer; Chef- und Individualtrainer",
+      "playerHistory": "19 Jahre Profi in Ungarn, Rumänien und Belgien",
+      "specialties": [
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.8,
+      "reviewCount": 7,
+      "totalSessions": 350,
+      "activeAthletes": 21,
+      "availability": "Mo, Mi, Fr abends; So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Mobil bis zu 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "catalin.munteanu@email.de",
+      "contactPhone": "+49 172 554 0412",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "bogdan-petric",
+      "firstName": "Bogdan",
+      "lastName": "Petric",
+      "photo": "images/coaches/coach-005.jpg",
+      "initials": "BP",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Spandau",
+      "state": "Berlin",
+      "zip": "13597",
+      "bio": "Profi-Training für junge Talente – Individuelles Fußballtraining mit Ex-Profispieler und Lizenztrainer",
+      "aboutMe": "Bogdan Postrygash, 22 Jahre alt; Profi in Zypern und Italien; möchte Wissen an junge Talente weitergeben",
+      "teachingDescription": "Technische Fertigkeiten + taktisches Verständnis; individuelle Stärken und Schwwächen; moderne Methoden",
+      "yearsExperience": 5,
+      "ageRangeMin": 8,
+      "ageRangeMax": 16,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 450€",
+      "credentials": [
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": null,
+      "playerHistory": "Profispieler in Zypern und Italien",
+      "specialties": [
+        "Technik",
+        "Skills"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.5,
+      "reviewCount": 7,
+      "totalSessions": 95,
+      "activeAthletes": 1,
+      "availability": "Di, Do, Sa nachmittags",
+      "languages": "Deutsch",
+      "locationOptions": "Mobil bis zu 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "20h",
+      "contactEmail": "bogdan.petric@email.de",
+      "contactPhone": "+49 163 447 0528",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "vishal-kapoor",
+      "firstName": "Vishal",
+      "lastName": "Kapoor",
+      "photo": "images/coaches/coach-006.jpg",
+      "initials": "VK",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Mitte",
+      "state": "Berlin",
+      "zip": "10115",
+      "bio": "UEFA B lizenzierter Cheftrainer beim Moabiter FSV Frauen 1. Mannschaft; individuelles und Kleingruppentraining",
+      "aboutMe": "über 14 Jahre Coaching-Erfahrung; Cheftrainer Moabiter FSV Frauen 1. Mannschaft Berlin Liga; UEFA B Lizenz DFB",
+      "teachingDescription": "Strukturiert, professionell, auf Unterstützung ausgerichtet; Fokus auf Technik, Spielverständnis, Selbstvertrauen",
+      "yearsExperience": 7,
+      "ageRangeMin": 7,
+      "ageRangeMax": 16,
+      "sessionPrice": 40,
+      "packagePrices": "5 Std.: 200€ | 10 Std.: 400€",
+      "credentials": [
+        {
+          "name": "UEFA B Lizenz (DFB)",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Cheftrainer Moabiter FSV Frauen 1. Mannschaft (Berlin Liga)",
+      "playerHistory": null,
+      "specialties": [
+        "Taktik",
+        "Technik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.6,
+      "reviewCount": 5,
+      "totalSessions": 220,
+      "activeAthletes": 25,
+      "availability": "Mo, Mi abends; Sa-So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Vishal in Berlin | Online",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "vishal.kapoor@email.de",
+      "contactPhone": "+49 151 663 0637",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "david-koenig",
+      "firstName": "David",
+      "lastName": "Koenig",
+      "photo": "images/coaches/coach-007.jpg",
+      "initials": "DK",
+      "sport": "Football",
+      "city": "Dresden",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Pro-Level ☆ Fußball Individualtraining vom Ex-Nationalspieler, DFB/UEFA B+Lizenz Inhaber & NLZ Trainer",
+      "aboutMe": "Armenischer Nationalspieler; dt. Auswahlspieler U12-U17; DFB B+Lizenz; FIFA Agent Lizenz; Sportwiss./Sportmanagement",
+      "teachingDescription": "Maßgeschneidertes 1:1 Training; Technik, Taktik, Athletik; Entwicklungsberichte; Karriereplanung möglich",
+      "yearsExperience": 10,
+      "ageRangeMin": 7,
+      "ageRangeMax": 18,
+      "sessionPrice": 75,
+      "packagePrices": "5 Std.: 375€ | 10 Std.: 750€",
+      "credentials": [
+        {
+          "name": "DFB B+Trainer-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "FIFA Agent Lizenz",
+          "verified": true
+        },
+        {
+          "name": "BA Sportmanagement",
+          "verified": true
+        },
+        {
+          "name": "DOSB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "U19 Regionalliga SC Borea Dresden; U15 Bundesliga FC Erzgebirge Aue; U12-U17 1. FC Frankfurt",
+      "playerHistory": "Armenischer Nationalspieler; 3. Liga Einsatz mit 16; dt. U12-U17 Auswahlspieler",
+      "specialties": [
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 7,
+      "totalSessions": 350,
+      "activeAthletes": 1,
+      "availability": "Mo, Mi, Fr nachmittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei David in Dresden | Online | Mobil bis zu 20 km von Dresden",
+      "ambassadorStatus": true,
+      "responseTime": "24h",
+      "contactEmail": "david.koenig@email.de",
+      "contactPhone": "+49 170 882 2001",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Albert: 3 Monate individuelles Training – neues physisches und technisches Level, Weitervermittlung in die Regionalliga",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Maxi: Starkes Fußallauge, vertrauensvolle Beziehung, findet immer Verbesserungsmöglichkeiten. 10/10 Empfehlung.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Maja: Positionsspiel und taktisches Verständnis stark verbessert; Sohn ist zum Spielmacher geworden.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "maxi-lehmann",
+      "firstName": "Maxi",
+      "lastName": "Lehmann",
+      "photo": "images/coaches/coach-008.jpg",
+      "initials": "ML",
+      "sport": "Football",
+      "city": "Dresden",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Pro-Level ★ Fußball Torwarttraining vom Ex-Profi, UEFA B+Lizenz Inhaber & Profi-Trainer",
+      "aboutMe": "Ex-Profi Torwartwart mit internationaler Spielerfahrung; 19 Jahre Torwartcoach-Erfahrung; UEFA B+Lizenz; NLZ U12-U23",
+      "teachingDescription": "Maßgeschneidertes 1:1 TW-Training; Technik, Athletik, Taktik, Spielintelligenz; Karriereplanung möglich",
+      "yearsExperience": 7,
+      "ageRangeMin": 8,
+      "ageRangeMax": 17,
+      "sessionPrice": 60,
+      "packagePrices": "5 Std.: 300€ | 10 Std.: 600€",
+      "credentials": [
+        {
+          "name": "UEFA B+Trainer-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "BA Management",
+          "verified": true
+        },
+        {
+          "name": "B-Lizenz Rehabilitation & Prävention",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Individualtrainer NLZ-Spieler & Talente U12-U23; 19 Jahre professioneller Torwartcoach; international",
+      "playerHistory": "Ex-Profispieler (Torwart); internationale Spielerfahrung",
+      "specialties": [
+        "Technik",
+        "Athletik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 2,
+      "totalSessions": 190,
+      "activeAthletes": 14,
+      "availability": "Di, Do, Sa nachmittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Maxi in Dresden | Online | Mobil bis zu 40 km von Dresden",
+      "ambassadorStatus": true,
+      "responseTime": "1h",
+      "contactEmail": "maxi.lehmann@email.de",
+      "contactPhone": "+49 176 993 2002",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Maja: Offener Trainer, Schwwächen erkannt, individueller Plan; dynamischer geworden, Stammplatz erkämpft",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Iren: 4 Wochen Training – neues physisches und technisches Level, Weitervermittlung in die Regionalliga",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "andre-friedrich",
+      "firstName": "Andre",
+      "lastName": "Friedrich",
+      "photo": "images/coaches/coach-009.jpg",
+      "initials": "AF",
+      "sport": "Football",
+      "city": "Dresden",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Fußball, Fussballtrainer UEFA A-Lizenz, Individuelles Training für Kinder – Erfahrung seit über 30 Jahren",
+      "aboutMe": "A-Lizenz Trainer; Profi bei Dynamo Dresden, VFC Plauen und in Griechenland; 11 Jahre hauptberuflicher Personal Trainer",
+      "teachingDescription": "Technik, Torschuss, Koordination, Skills; für Kinder und Jugendliche; aktuell Männertrainer Landesliga",
+      "yearsExperience": 15,
+      "ageRangeMin": 10,
+      "ageRangeMax": 18,
+      "sessionPrice": 100,
+      "packagePrices": "5 Std.: 500€ | 10 Std.: 1000€",
+      "credentials": [
+        {
+          "name": "UEFA A-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Männertrainer Landesliga; 11 Jahre Personal Trainer mit A-Lizenz",
+      "playerHistory": "Dynamo Dresden; VFC Plauen; Griechenland (Profi)",
+      "specialties": [
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": null,
+      "reviewCount": 4,
+      "totalSessions": 480,
+      "activeAthletes": 25,
+      "availability": "Mo-Fr abends",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Andre in Dresden | Mobil bis zu 20 km von Dresden",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "andre.friedrich@email.de",
+      "contactPhone": "+49 157 104 2003",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "kevin-schreiber",
+      "firstName": "Kevin",
+      "lastName": "Schreiber",
+      "photo": "images/coaches/coach-010.jpg",
+      "initials": "KS",
+      "sport": "Football",
+      "city": "Dresden",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Inhaber der DFB B-Lizenz und langjähriger Jugendtrainer bei SC Borea Dresden. Individuelles Fußballtraining!",
+      "aboutMe": "Trainer SC Borea Dresden; Spieler Dresdner SC; Student TU Dresden; DFB B-Lizenz seit 2022",
+      "teachingDescription": "5 Jahre Jugendtrainer SC Borea Dresden (D-Jugend); privat alle Altersklassen; Einzel- und Gruppentraining",
+      "yearsExperience": 8,
+      "ageRangeMin": 6,
+      "ageRangeMax": 16,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 500€",
+      "credentials": [
+        {
+          "name": "DFB C-Lizenz (2019)",
+          "verified": true
+        },
+        {
+          "name": "DFB B-Lizenz (2022)",
+          "verified": true
+        },
+        {
+          "name": "Technischer Leiter U11-U13",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "U12-U16 SC Borea Dresden; Technischer Leiter U11-U13; Landesmeister Sachsen D-Jugend 2022/23",
+      "playerHistory": "G-F Spieler SpVgg Dresden Löbtau; F-A Jugend + Herren SG Dynamo Dresden; SC Borea Dresden; Dresdner SC",
+      "specialties": [
+        "Technik",
+        "Taktik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 4,
+      "totalSessions": 290,
+      "activeAthletes": 10,
+      "availability": "Mo, Mi, Sa nachmittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Kevin in Dresden | Mobil bis zu 10 km von Dresden",
+      "ambassadorStatus": true,
+      "responseTime": "24h",
+      "contactEmail": "kevin.schreiber@email.de",
+      "contactPhone": "+49 163 215 2004",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Uwe: Training fordert und fördert enorm; Detailcoaching; macht Spaß",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Franz: Kind hat viel Spaß, Kevin sehr aufmerksam und empathisch; kennt sich aus",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "Max: Gemeinsam Dynamo gespielt; Könnte alles am Ball; als Trainer sehr viel weitergeben",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "maurice-vogel",
+      "firstName": "Maurice",
+      "lastName": "Vogel",
+      "photo": "images/coaches/coach-001.jpg",
+      "initials": "MV",
+      "sport": "Football",
+      "city": "Magdeburg",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Individuelles Fußball Training – C Lizenz seit 2017/2018 in Magdeburg und Umgebung",
+      "aboutMe": "Gelernter Industriekaufmann; seit 4 Jahren Fußball; 10 Jahre Junioren-Trainer; DFB C-Lizenz seit 2017/18",
+      "teachingDescription": "Individuell abgestimmt; Technik, Taktik, Athletik; Einzel und Gruppen; Orte individuell vereinbart",
+      "yearsExperience": 6,
+      "ageRangeMin": 6,
+      "ageRangeMax": 14,
+      "sessionPrice": 25,
+      "packagePrices": "5 Std.: 115€ | 10 Std.: 230€",
+      "credentials": [
+        {
+          "name": "DFB C-Lizenz (seit 2017/2018)",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "10 Jahre Junioren-Fußballtrainer",
+      "playerHistory": "Seit dem 4. Lebensjahr Fußball",
+      "specialties": [
+        "Technik",
+        "Skills"
+      ],
+      "backgroundCheck": "passed",
+      "rating": null,
+      "reviewCount": 4,
+      "totalSessions": 130,
+      "activeAthletes": 3,
+      "availability": "Di, Do nachmittags; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Maurice in Magdeburg | Online | Mobil bis zu 10 km von Magdeburg",
+      "ambassadorStatus": false,
+      "responseTime": "24h",
+      "contactEmail": "maurice.vogel@email.de",
+      "contactPhone": "+49 170 326 2005",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "philipp-neumann",
+      "firstName": "Philipp",
+      "lastName": "Neumann",
+      "photo": "images/coaches/coach-002.jpg",
+      "initials": "PN",
+      "sport": "Football",
+      "city": "Leipzig",
+      "district": "",
+      "state": "",
+      "zip": "",
+      "bio": "Trainer für alle Altersklassen, B-Lizenz seit 2025, Hospitationen bei Chemie Leipzig, RB Leipzig und Dynamo Dresden",
+      "aboutMe": "Fußballtrainer mit Leidenschaft für Talentförderung; Hospitation bei Chemie Leipzig, RB Leipzig, Dynamo Dresden",
+      "teachingDescription": "Technische Fähigkeiten; koordinative und kinetische Fähigkeiten; Spielintelligenz und schnelle Entscheidungsfindung",
+      "yearsExperience": 3,
+      "ageRangeMin": 7,
+      "ageRangeMax": 16,
+      "sessionPrice": 20,
+      "packagePrices": "5 Std.: 80€ | 10 Std.: 150€",
+      "credentials": [
+        {
+          "name": "DFB B-Lizenz (seit 2025)",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Hospitation bei Chemie Leipzig, RB Leipzig (Aufbaubereich), Dynamo Dresden",
+      "playerHistory": null,
+      "specialties": [
+        "Technik",
+        "Taktik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": null,
+      "reviewCount": 4,
+      "totalSessions": 75,
+      "activeAthletes": 2,
+      "availability": "Mo, Mi, Fr abends",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Philipp in Leipzig | Mobil bis zu 20 km von Leipzig",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "philipp.neumann@email.de",
+      "contactPhone": "+49 176 437 2006",
+      "reviews": [
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor + Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "hans-richter",
+      "firstName": "Hans",
+      "lastName": "Richter",
+      "photo": "images/coaches/coach-003.jpg",
+      "initials": "HR",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Steglitz",
+      "state": "Berlin",
+      "zip": "12163",
+      "bio": "DFB Lizensierter Trainer @ Ex_Junioren FC Bayern und 1860 Spieler bietet leistungsorientiertes Training von U8 bis U12",
+      "aboutMe": "Lizenzierter DFB-Trainer und ehemaliger Jugendspieler FC Bayern München & TSV 1860 München. Sportlicher Leiter und Haupttrainer von German Kickers. Leistungsorientiert, strukturiert, langfristig. Erfahrung aus Motorsport prägt Ansatz.",
+      "teachingDescription": "Einzel- und Gruppentraining. Fokus: Entscheidungen unter Druck, Spielsituationen, Teamgeist, Kommunikation. Monatlicher Fixpreis mit bis zu 60% Preisvorteil.",
+      "yearsExperience": 12,
+      "ageRangeMin": 6,
+      "ageRangeMax": 15,
+      "sessionPrice": 55,
+      "packagePrices": "5 Std.: 275€ | 10 Std.: 550€",
+      "credentials": [
+        {
+          "name": "DFB-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Sportlicher Leiter & Haupttrainer German Kickers",
+      "playerHistory": "FC Bayern München Jugend | TSV 1860 München Jugend",
+      "specialties": [
+        "Technik",
+        "Taktik",
+        "Torwarttraining"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 4,
+      "totalSessions": 480,
+      "activeAthletes": 1,
+      "availability": "Mo-Fr nachmittags; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Hans in Berlin | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "hans.richter@email.de",
+      "contactPhone": "+49 170 718 0746",
+      "reviews": [
+        {
+          "parentName": "Stefan Y.",
+          "rating": 5,
+          "comment": "Wir kennen Hans seit langer Zeit. Kinder vom Dorfverein in 12 Monaten in die Regionalliga.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Lisa A.",
+          "rating": 5,
+          "comment": "Schwächen werden erkannt, daran gearbeitet, Selbstbewusstsein gestärkt. Perfekt für Kinder mit Fußballleidenschaft.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Roland C.",
+          "rating": 5,
+          "comment": "Hervorragender Trainer mit starkem Hintergrund und internationaler Erfahrung. Klare 5 Sterne.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Stefan E.",
+          "rating": 5,
+          "comment": "Vom Dorfverein in 12 Monaten zu einem Regionalliga-Leistungsverein.",
+          "date": "2026-02-05"
+        },
+        {
+          "parentName": "Lisa G.",
+          "rating": 5,
+          "comment": "Schwächen erkannt, Selbstbewusstsein gestärkt.",
+          "date": "2026-01-25"
+        },
+        {
+          "parentName": "Roland I.",
+          "rating": 5,
+          "comment": "Hervorragender Trainer. Spürbare Fortschritte.",
+          "date": "2026-01-10"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "samir-el-fassi",
+      "firstName": "Samir",
+      "lastName": "El-Fassi",
+      "photo": "images/coaches/coach-004.jpg",
+      "initials": "SE",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Neukölln",
+      "state": "Berlin",
+      "zip": "12043",
+      "bio": "Lizenzierter Fußballtrainer in Berlin bietet individuelles Training für Kinder, Jugendliche und Erwachsene an",
+      "aboutMe": "UEFA C-Lizenz, eigene Spielerfahrung. Praxisnaher, motivierender Trainingsstil. Einzeltraining und kleine Gruppen, alle Niveaus. Fußball als Schule fürs Leben.",
+      "teachingDescription": "Moderne Trainingsmethoden, individueller Aufbau. Begrüßung/Zielsetzung, Aufwärmen mit Ball, Übungsteil, Spielformen, Reflexion. Empathie, Geduld, Teamgeist.",
+      "yearsExperience": 7,
+      "ageRangeMin": 5,
+      "ageRangeMax": 14,
+      "sessionPrice": 40,
+      "packagePrices": "5 Std.: 200€ | 10 Std.: 400€",
+      "credentials": [
+        {
+          "name": "UEFA C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Privattraining, Einzel- und Gruppentraining",
+      "playerHistory": "Eigene Spielerfahrung (Jugend)",
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 15,
+      "totalSessions": 390,
+      "activeAthletes": 13,
+      "availability": "Mo, Mi, Fr nachmittags; Sa-So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Samir in Berlin | Online | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": true,
+      "responseTime": "13h",
+      "contactEmail": "samir.elfassi@email.de",
+      "contactPhone": "+49 176 882 0859",
+      "reviews": [
+        {
+          "parentName": "Abderahmen E.",
+          "rating": 5,
+          "comment": "Abwechslungsreiches, spezifisches und professionelles Training. Sehr gut auf Bedürfnisse eingegangen.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Amira G.",
+          "rating": 5,
+          "comment": "Zuverlässig, geduldig, leidenschaftlich. Motivierende Atmosphäre.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Rayssen I.",
+          "rating": 5,
+          "comment": "Technisch stark, taktisch klug, voller Einsatz. Vermittelt Disziplin und Teamgeist.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "ClipMaker K.",
+          "rating": 5,
+          "comment": "Dedikation und Wissen ungeschlagen. Gibt Selbstbewusstsein und echte Ergebnisse.",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "dominique-weber",
+      "firstName": "Dominique",
+      "lastName": "Weber",
+      "photo": "images/coaches/coach-005.jpg",
+      "initials": "DW",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Kreuzberg",
+      "state": "Berlin",
+      "zip": "10961",
+      "bio": "Im Trainerteam der Oberliga-Herrenmannschaft von TeBe Berlin und DFB-A-Lizenz sowie Fitnesstrainer C-Lizenz-Inhaber!",
+      "aboutMe": "Ehem. Oberliga-Spieler, DFB-A-Lizenz, Fitnesstrainer C-Lizenz. Leidenschaft für Fußball und Spielintelligenz.",
+      "teachingDescription": "Technik, Taktik, Athletik und Kognition vereint. Neurozentriertes Training. Erste Stunde 35€ (nicht kostenlos).",
+      "yearsExperience": 14,
+      "ageRangeMin": 6,
+      "ageRangeMax": 18,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 250€ | 10 Std.: 500€",
+      "credentials": [
+        {
+          "name": "DFB-A-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Fitnesstrainer C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Jugendfußball, Herrenbereich (Oberliga TeBe Berlin)",
+      "playerHistory": "Oberliga-Spieler",
+      "specialties": [
+        "Athletik",
+        "Taktik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 8,
+      "totalSessions": 520,
+      "activeAthletes": 6,
+      "availability": "Di, Do abends; Sa ganztags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Dominique in Berlin | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "4h",
+      "contactEmail": "dominique.weber@email.de",
+      "contactPhone": "+49 172 994 0963",
+      "reviews": [
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Michel: Leidenschaft für Fußball, Fokus auf Spielintelligenz und individuelle Anpassung.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Michel: Starker Coach mit Herz, Know-how und Blick fürs Wesentliche.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "John: Herausragend im Umgang mit Kindern, geduldig und motivierend.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Gerd: DFB-A-Lizenz, Erfahrung als Spieler und Trainer.",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "manuel-krueger",
+      "firstName": "Manuel",
+      "lastName": "Krueger",
+      "photo": "images/coaches/coach-006.jpg",
+      "initials": "MK",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Tempelhof",
+      "state": "Berlin",
+      "zip": "12099",
+      "bio": "UEFA-B-lizenzierter Fußballtrainer in Berlin: Individualtraining für Kinder, Frauen & Männer mit Struktur und Erfolg.",
+      "aboutMe": "UEFA-B-lizenzierter Trainer. Erfahrung in Belgien, England, Deutschland. Mehrsprachig (Niederländisch, Französisch, Englisch, Deutsch, Spanisch).",
+      "teachingDescription": "Technik (Ballannahme, Pass, Skills, Abschluss), Athletik (Schnelligkeit, Beweglichkeit), Spielintelligenz (Orientierung, Entscheidungen, 1-gegen-1).",
+      "yearsExperience": 8,
+      "ageRangeMin": 7,
+      "ageRangeMax": 17,
+      "sessionPrice": 45,
+      "packagePrices": "5 Std.: 225€ | 10 Std.: 450€",
+      "credentials": [
+        {
+          "name": "UEFA B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Belgien, England, Deutschland",
+      "playerHistory": null,
+      "specialties": [
+        "Taktik",
+        "Technik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.7,
+      "reviewCount": 19,
+      "totalSessions": 260,
+      "activeAthletes": 16,
+      "availability": "Mo, Mi, Fr abends; So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "manuel.krueger@email.de",
+      "contactPhone": "+49 157 105 1074",
+      "reviews": [
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "fernando-oliveira",
+      "firstName": "Fernando",
+      "lastName": "Oliveira",
+      "photo": "images/coaches/coach-007.jpg",
+      "initials": "FO",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Wedding",
+      "state": "Berlin",
+      "zip": "13347",
+      "bio": "UEFA B LIZENZ Privater Fußballtrainer aus Mexiko mit professioneller FuÛallerfahrung und über 10 Jahren Erfahrung!",
+      "aboutMe": "UEFA B Trainerlizenz. Ex-Profi in Mexiko (2./3. Liga). Bachelor Kinesiologie & Sportpsychologie (LSU). 10+ Jahre Training in USA.",
+      "teachingDescription": "Technische Entwicklung, positionsspez. Training, Kondition, Schnelligkeit, Koordination, taktisches Wissen. Online: Videoanalyse.",
+      "yearsExperience": 11,
+      "ageRangeMin": 5,
+      "ageRangeMax": 16,
+      "sessionPrice": 60,
+      "packagePrices": "5 Std.: 300€ | 10 Std.: 600€",
+      "credentials": [
+        {
+          "name": "UEFA B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Bachelor Kinesiologie & Sportpsychologie",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "10+ Jahre Fußballakademien USA, Kreisliga B Berlin",
+      "playerHistory": "2./3. Profiliga Monarcas Morelia & Atlante FC (Mexiko), College-Fußball USA",
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Athletik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 8,
+      "totalSessions": 610,
+      "activeAthletes": 44,
+      "availability": "Mo-Fr nachmittags; Sa vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Online | Mobil bis 15 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "fernando.oliveira@email.de",
+      "contactPhone": "+49 163 216 1185",
+      "reviews": [
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Sergio: Systematischer Ansatz, erkennt Schwächen, verbessert Fitness. Sehr empfehlenswert.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Mbah: Dedication & Professionalität, Sohn (8 J.) verbesserte sich stetig.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Wolfram: Sohn wechselte zum Wunschverein dank Fernandos Training.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Autor & Text",
+          "rating": 5,
+          "comment": "Ditz: Sohn trainiert zweimal wöchentlich, sehr zufrieden.",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "kojo-mensah",
+      "firstName": "Kojo",
+      "lastName": "Mensah",
+      "photo": "images/coaches/coach-008.jpg",
+      "initials": "KM",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Prenzlauer Berg",
+      "state": "Berlin",
+      "zip": "10437",
+      "bio": "Goalkeeping Academy Berlin, lizenzierter TwTrainer bietet privates TwTraining an. Alle Altersklassen und Geschlechter!",
+      "aboutMe": "Pädagoge und leidenschaftlicher Torwart; trainiert Torhüter aus höchsten Jugendligen; überzeugt durch Leistung statt Größe",
+      "teachingDescription": "Torwarttraining für alle Altersklassen. Fähigkeiten, Ehrgeiz und Motivation sind wichtiger als Körpergröße. Individuelle Trainingspläne.",
+      "yearsExperience": 9,
+      "ageRangeMin": 8,
+      "ageRangeMax": 18,
+      "sessionPrice": 65,
+      "packagePrices": "5 Std.: 325€ | 10 Std.: 650€",
+      "credentials": [
+        {
+          "name": "DFB C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": null,
+      "playerHistory": "Langjähriger Torwart in höheren Ligen",
+      "specialties": [
+        "Skills",
+        "Athletik",
+        "Probetraining-Vorbereitung"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 3,
+      "totalSessions": 280,
+      "activeAthletes": 5,
+      "availability": "Di, Do, Sa nachmittags",
+      "languages": "Deutsch",
+      "locationOptions": "Mobil bis 40 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "1h",
+      "contactEmail": "kojo.mensah@email.de",
+      "contactPhone": "+49 170 327 1296",
+      "reviews": [
+        {
+          "parentName": "Auszug S.",
+          "rating": 5,
+          "comment": "Melanie: Erkennt schnell Stärken/Schwächen, pädagogischer Einfluss sehr hilfreich. Absolut empfehlenswert!",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Auszug U.",
+          "rating": 5,
+          "comment": "Sabine: Ausgesprochen professionelles Torwart-Training, sehr nett, positiv verstärkend, uneingeschränkte Empfehlung",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Auszug W.",
+          "rating": 5,
+          "comment": "Sven: Top TW-Trainer, motiviert sensationell. Mit Kusshand empfohlen.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Auszug Y.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "benji-hartmann",
+      "firstName": "Benji",
+      "lastName": "Hartmann",
+      "photo": "images/coaches/coach-009.jpg",
+      "initials": "BH",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Charlottenburg",
+      "state": "Berlin",
+      "zip": "10627",
+      "bio": "Professionelles Fußballtraining zur Erreichung deiner Ziele! Einzel-/Gruppentraining für alle Altersklassen!",
+      "aboutMe": "UEFA B- & C-Lizenz; DFB-Zertifikat Kinderfußball; Trainer U7-U12 beim 1.FC Union Berlin; Ausbilder für Trainerlizenzen; 35+ Jahre Fußerfahrung",
+      "teachingDescription": "Individuelles Trainingskonzept, leistungsorientiert mit Spaß, technische/kognitive Förderung, Geld-Zurück-Garantie",
+      "yearsExperience": 10,
+      "ageRangeMin": 4,
+      "ageRangeMax": 14,
+      "sessionPrice": 60,
+      "packagePrices": "5 Std.: 300€ | 10 Std.: 600€",
+      "credentials": [
+        {
+          "name": "UEFA B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "UEFA C-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "DFB Zertifikat Kinderfußball",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Trainer U7-U12 beim 1. FC Union Berlin; Ausbilder für Trainerlizenzen beim Berliner Fußball-Verband",
+      "playerHistory": "35+ Jahre Fußerfahrung",
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 3,
+      "totalSessions": 540,
+      "activeAthletes": 38,
+      "availability": "Mo, Mi, Fr nachmittags; Sa-So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Benji in Berlin | online | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "3h",
+      "contactEmail": "benji.hartmann@email.de",
+      "contactPhone": "+49 176 438 1307",
+      "reviews": [
+        {
+          "parentName": "Auszug W.",
+          "rating": 5,
+          "comment": "Nancy: Trainingseinheiten auf Bedürfnisse des Kindes abgestimmt, große Fortschritte. Wärmste Empfehlung!",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Auszug Y.",
+          "rating": 5,
+          "comment": "Nicole: Ermöglichte NLZ-Perspektive. Absolut weiterempfehlenswert.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Auszug A.",
+          "rating": 5,
+          "comment": "Julia: Spaß und Fortschritte, Selbstvertrauen gesteigert. Absolut empfehlenswert.",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Auszug C.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "aldin-kovacevic",
+      "firstName": "Aldin",
+      "lastName": "Kovacevic",
+      "photo": "images/coaches/coach-010.jpg",
+      "initials": "AK",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Mitte",
+      "state": "Berlin",
+      "zip": "10178",
+      "bio": "Fußball Privattraining - Trainer mit UEFA-Lizenz und Erfahrung - Fußballtraining individuell Berlin",
+      "aboutMe": "Erfahrener Privattrainer; UEFA-Lizenz; arbeitet aktiv als Vereinstrainer mit jungen Talenten",
+      "teachingDescription": "Maßgeschneidertes Training zur Entwicklung von Fähigkeiten und Selbstvertrauen junger Spieler. Individuelle Betreuung.",
+      "yearsExperience": 4,
+      "ageRangeMin": 6,
+      "ageRangeMax": 16,
+      "sessionPrice": 30,
+      "packagePrices": "5 Std.: 150€ | 10 Std.: 300€",
+      "credentials": [
+        {
+          "name": "UEFA-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Aktiv als Vereinstrainer",
+      "playerHistory": null,
+      "specialties": [
+        "Technik",
+        "Skills"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 4.9,
+      "reviewCount": 5,
+      "totalSessions": 85,
+      "activeAthletes": 2,
+      "availability": "Mo-Fr abends; So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Aldin in Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "24h",
+      "contactEmail": "aldin.kovacevic@email.de",
+      "contactPhone": "+49 151 549 1418",
+      "reviews": [
+        {
+          "parentName": "Auszug A.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Auszug C.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Auszug E.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Auszug G.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "luca-ferretti",
+      "firstName": "Luca",
+      "lastName": "Ferretti",
+      "photo": "images/coaches/coach-001.jpg",
+      "initials": "LF",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Friedrichshain",
+      "state": "Berlin",
+      "zip": "10245",
+      "bio": "Sportwissenschaftler mit UEFA B-Lizenz bietet professionelles Fußball- und Athletik-Training in Berlin",
+      "aboutMe": "Über 10 Jahre als Trainer; aktiver Spieler bei Tennis Borussia; Sportwissenschaftsstudium",
+      "teachingDescription": "Technisches, taktisches und athletisches Training; Leistungsdiagnostik; Videoanalyse; positionsspezifisches Training",
+      "yearsExperience": 7,
+      "ageRangeMin": 7,
+      "ageRangeMax": 17,
+      "sessionPrice": 50,
+      "packagePrices": "5 Std.: 230€ | 10 Std.: 450€",
+      "credentials": [
+        {
+          "name": "UEFA B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Aktuell Trainer der B-Jugend bei Tennis Borussia",
+      "playerHistory": "Aktiver Spieler bei Tennis Borussia; 20 Jahre Vereinsfußball",
+      "specialties": [
+        "Taktik",
+        "Probetraining-Vorbereitung",
+        "Technik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 2,
+      "totalSessions": 320,
+      "activeAthletes": 14,
+      "availability": "Di, Do nachmittags; Sa ganztags",
+      "languages": "Deutsch",
+      "locationOptions": "online | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "2h",
+      "contactEmail": "luca.ferretti@email.de",
+      "contactPhone": "+49 172 660 1529",
+      "reviews": [
+        {
+          "parentName": "Auszug E.",
+          "rating": 5,
+          "comment": "Remy: Top Trainer, kennt Potenziale jedes Spielers. Spielanalysen mit entscheidendem Vorteil. Empfehlenswert.",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Auszug G.",
+          "rating": 5,
+          "comment": "Michael: Absolute Empfehlung, sehr sympathisch.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Auszug I.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Auszug K.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "joshua-engel",
+      "firstName": "Joshua",
+      "lastName": "Engel",
+      "photo": "images/coaches/coach-002.jpg",
+      "initials": "JE",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Kreuzberg",
+      "state": "Berlin",
+      "zip": "10999",
+      "bio": "Hi, ich bin 23 Jahre alt, Student und lizenzierter Fußballtrainer und biete Fußball- & Athletiktraining an!",
+      "aboutMe": "Sportstudent; DFB B-Lizenz; 15+ Jahre Fußerfahrung; Auslandssemester in Schweden; FSJ mit Trainerlizenz",
+      "teachingDescription": "Ganzheitlicher Ansatz: Technik, Kondition, Spielelemente, Psyche und Persönlichkeitsentwicklung; gemeinsame Zielsetzung",
+      "yearsExperience": 6,
+      "ageRangeMin": 6,
+      "ageRangeMax": 15,
+      "sessionPrice": 40,
+      "packagePrices": "5 Std.: 200€ | 10 Std.: 400€",
+      "credentials": [
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "Erste Hilfe Zertifikat",
+          "verified": true
+        }
+      ],
+      "trainerHistory": null,
+      "playerHistory": "15+ Jahre Fußerfahrung; Ultimate Frisbee im Auslandssemester",
+      "specialties": [
+        "Technik",
+        "Skills",
+        "Taktik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 2,
+      "totalSessions": 210,
+      "activeAthletes": 7,
+      "availability": "Mo, Mi abends; Sa-So vormittags",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Joshua in Berlin | Mobil bis 20 km von Berlin",
+      "ambassadorStatus": false,
+      "responseTime": "24h",
+      "contactEmail": "joshua.engel@email.de",
+      "contactPhone": "+49 163 771 1630",
+      "reviews": [
+        {
+          "parentName": "Auszug I.",
+          "rating": 5,
+          "comment": "Markus: Mega Spaß, richtig viel gelernt. Toller Mensch. Klare Empfehlung!",
+          "date": "2026-03-15"
+        },
+        {
+          "parentName": "Auszug K.",
+          "rating": 5,
+          "comment": "Frederic: Technische und athletische Aspekte super umgesetzt.",
+          "date": "2026-03-01"
+        },
+        {
+          "parentName": "Auszug M.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-20"
+        },
+        {
+          "parentName": "Auszug O.",
+          "rating": 5,
+          "comment": "-",
+          "date": "2026-02-05"
+        }
+      ],
+      "source": "superprof.de",
+      "scrapedDate": "2026-03-25"
+    }
+  ]
+}

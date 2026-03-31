@@ -30,7 +30,7 @@ function formatDate(dateStr) {
 // ---- LOAD DATA ----
 async function loadCoaches() {
   try {
-    const res = await fetch('/data/coaches-superprof.json');
+    const res = await fetch('../data/coaches-superprof.json');
     const data = await res.json();
     // Only display Berlin coaches
     coachesData = data.coaches.filter(c => c.city === 'Berlin');
