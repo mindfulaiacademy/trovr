@@ -32,8 +32,10 @@ async function loadCoaches() {
   try {
     const res = await fetch('../data/coaches-superprof.json');
     const data = await res.json();
-    // Only display Berlin coaches
-    coachesData = data.coaches.filter(c => c.city === 'Berlin');
+    // Only display Berlin coaches, sorted newest first
+    coachesData = data.coaches
+      .filter(c => c.city === 'Berlin')
+      .sort((a, b) => (b.scrapedDate || '').localeCompare(a.scrapedDate || ''));
     return coachesData;
   } catch (err) {
     console.error('Fehler beim Laden der Trainer:', err);
@@ -113,8 +115,8 @@ function filterCoaches(coaches, sport, age, districts, specialties) {
     filtered = filtered.filter(c => c.specialties && specialties.some(s => c.specialties.includes(s)));
   }
 
-  // Default sort: best rating
-  filtered.sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
+  // Default sort: newest first (by scrapedDate)
+  filtered.sort((a, b) => (b.scrapedDate || '').localeCompare(a.scrapedDate || ''));
 
   return filtered;
 }

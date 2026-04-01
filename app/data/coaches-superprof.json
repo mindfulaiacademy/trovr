@@ -1927,6 +1927,96 @@
       ],
       "source": "superprof.de",
       "scrapedDate": "2026-03-25"
+    },
+    {
+      "id": "oskar-schlembach",
+      "firstName": "Oskar",
+      "lastName": "Schlembach",
+      "photo": "images/coaches/oskar-schlembach.png",
+      "initials": "OS",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Charlottenburg",
+      "state": "Berlin",
+      "zip": "10711",
+      "bio": "DFB B lizenzierter Trainer und U14-Coach bei Viktoria Berlin mit 6 Jahren Erfahrung. Kleingruppentraining in Charlottenburg, Wilmersdorf und Steglitz - Entwicklung mit echtem Niveau und Spaß vom ersten Tag.",
+      "philosophy": "Ich bin davon überzeugt, dass gutes Training der entscheidende Unterschied ist - nicht nur für die fußballerische Entwicklung, sondern dafür, ob Kinder überhaupt Lust auf Sport haben. Wenn Kinder gerne zum Training kommen, entwickeln sie sich schneller und verbinden Fußball dauerhaft mit etwas Positivem. Mein Ansatz: Jede Einheit soll so gestaltet sein, dass das Kind am Ende mehr Lust auf Fußball hat als vorher. Dafür braucht es Struktur, ehrliches Feedback - und einen Trainer, der weiß, wie man eine Gruppe mit echter Begeisterung führt.",
+      "methodology": [
+        "Kleine Gruppen - jedes Kind bekommt echte Aufmerksamkeit und individuelle Korrekturen",
+        "Spaß als Motor - wer gerne trainiert, trainiert mehr und entwickelt sich schneller",
+        "Erfahrung aus dem Leistungsfußball direkt angewendet - kein Trainingskonzept von der Stange",
+        "Erfolgserlebnisse eingebaut - jede Einheit endet mit einem klaren Fortschritt",
+        "Mensch im Mittelpunkt - Entwicklung, Selbstvertrauen und Freude am Spiel gehen vor Druck",
+        "Individuelle Förderung - kein Kind wird mit anderen verglichen, jedes wird nach seinem Niveau gefordert"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0-10 Min.",
+          "title": "Aktivierung und Aufwärmen",
+          "description": "Koordinations- und Beweglichkeitsübungen mit Ball - Energie rein, Körper vorbereiten, direkt in den Spielmodus kommen."
+        },
+        {
+          "time": "10-25 Min.",
+          "title": "Technischer Schwerpunkt",
+          "description": "Dribbling, Ballkontrolle oder Passspiel - je nach Ziel der Einheit. Viele Wiederholungen, direktes Feedback, positive Korrekturen."
+        },
+        {
+          "time": "25-45 Min.",
+          "title": "Anwendung im Spielkontext",
+          "description": "Kleine Spielformen oder 1:1-Situationen - das Gelernte unter echtem Druck anwenden. So nah am echten Spiel wie möglich."
+        },
+        {
+          "time": "45-55 Min.",
+          "title": "Challenge und Wettkampf",
+          "description": "Torschuss-Duell, Dribbling-Parcours oder eine persönliche Bestleistungs-Challenge - motivierend, spielerisch, mit klarem Erfolgserlebnis."
+        },
+        {
+          "time": "55-60 Min.",
+          "title": "Cool-down & Feedback",
+          "description": "Was war heute stark? Ein konkreter Tipp für die Woche. Das Kind geht mit einem klaren Gefühl von Fortschritt nach Hause."
+        }
+      ],
+      "career": "Mein Hauptprojekt ist Talente Förderung Berlin (TF Berlin) - ein Verein, den ich mit aufgebaut habe, um Kindern Zugang zu Leistungstraining zu geben, das sonst nur NLZ-Spielern vorbehalten ist. Die Ergebnisse sprechen für sich: Spieler aus unserer Arbeit haben den Sprung in die Nachwuchsleistungszentren von Hertha BSC, RB Leipzig, 1.FC Union Berlin, 1.FC Köln und VFL Wolfsburg geschafft.\n\nDavor war ich U14-Trainer bei Viktoria Berlin - mit einem klaren Highlight: Wir wurden Berliner Meister. Diese Erfahrung auf höchstem Berliner Jugendniveau, kombiniert mit meiner Zeit als Spieler bei SpVgg Unterhaching, prägt, wie ich Training denke: strukturiert, fordernd, aber immer mit Freude am Spiel.\n\nIm individuellen Kleingruppentraining übersetze ich das direkt auf den einzelnen Spieler - angepasst an Alter, Niveau und Ziele.",
+      "aboutMe": "Ich bin Oskar Schlembach - DFB B lizenzierter Trainer und Gründer von Talente Förderung Berlin (TF Berlin). Als ehemaliger U14-Trainer bei Viktoria Berlin - wo wir Berliner Meister wurden - und als Spieler bei SpVgg Unterhaching weiß ich, was auf hohem Niveau zählt. Das bringe ich direkt ins Training.",
+      "outcome": "Dein Kind trainiert auf dem Niveau, mit dem ich Spieler bis in die NLZs von Hertha BSC, RB Leipzig und Union Berlin gebracht habe - und macht den Schritt, den normales Vereinstraining nicht schafft.",
+      "valueIncludes": [
+        "60 Min. individuelles Training",
+        "Persönliches Feedback nach jeder Einheit",
+        "Konkreter Tipp für die nächste Woche"
+      ],
+      "teachingDescription": "Kleingruppentraining, individuell abgestimmt. Training: 60 Min. Flexible Terminvereinbarung. Ort: Berlin, Charlottenburg - Wilmersdorf - Steglitz.",
+      "yearsExperience": 6,
+      "ageRangeMin": 8,
+      "ageRangeMax": 18,
+      "sessionPrice": 60,
+      "packagePrices": "TBD",
+      "credentials": [
+        {
+          "name": "DFB B-Lizenz",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "U14-Trainer Viktoria Berlin | Hertha Zehlendorf | Trainer Talente Förderung Berlin e.V.",
+      "playerHistory": "SpVgg Unterhaching",
+      "specialties": [
+        "Technik",
+        "Skills"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 0,
+      "reviewCount": 0,
+      "totalSessions": 0,
+      "activeAthletes": 0,
+      "availability": "TBD",
+      "languages": "Deutsch",
+      "locationOptions": "Bei Oskar in Berlin | Mobil in Charlottenburg, Wilmersdorf & Steglitz",
+      "ambassadorStatus": false,
+      "responseTime": "TBD",
+      "contactEmail": "oskar.schlembach45@gmail.com",
+      "contactPhone": "+49 176 41940461",
+      "reviews": [],
+      "source": "trovr",
+      "scrapedDate": "2026-04-01"
     }
   ]
 }
