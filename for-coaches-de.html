@@ -734,7 +734,6 @@
       <div class="nav-links">
         <a href="#vorteile">Vorteile</a>
         <a href="#gruenderpreis">Early-Bird-Preis</a>
-        <a href="#bewerbung">Bewerben</a>
         <a href="#bewerbung" class="btn btn-accent btn-sm">Jetzt bewerben</a>
       </div>
     </div>
@@ -986,7 +985,7 @@
           </ul>
           <h3 style="margin-bottom: 12px;">Im Gegenzug bitten wir dich:</h3>
           <ul>
-            <li><span class="check">&#10003;</span> Teile deinen Trovr-Profil-Link mit deinen bestehenden Kunden</li>
+            <li><span class="check">&#10003;</span> Lade mindestens 3 weitere hochklassige Trainer zu Trovr ein</li>
             <li><span class="check">&#10003;</span> Bitte 2-3 aktuelle Eltern, eine Bewertung auf deinem Profil zu hinterlassen</li>
             <li><span class="check">&#10003;</span> Gib uns ehrliches Feedback, damit wir die Plattform verbessern können</li>
           </ul>
@@ -1001,7 +1000,8 @@
       <div class="section-header">
         <div class="section-label">Jetzt bewerben</div>
         <h2 class="section-title">Werde Early-Bird-Trainer bei Trovr</h2>
-        <p class="section-sub">Fülle das kurze Formular aus - dauert nur 2 Minuten. Dokumente und Medien kannst du uns danach bequem per WhatsApp schicken.</p>
+        <p class="section-sub">Das folgende Interview führt dich durch einige Fragen.
+          Aus deinen Antworten ergibt sich dann dein Trainerprofil. Dauer: ca. 5 Minuten</p>
       </div>
 
       <div class="form-container">
@@ -1010,30 +1010,8 @@
             <input type="hidden" name="form-name" value="coach-application">
             <input type="text" name="bot-field" style="display:none">
 
-            <!-- PROGRESS BAR -->
-            <div class="wizard-progress">
-              <div class="wizard-steps-indicator">
-                <div class="wstep active" id="wstep-1">
-                  <div class="wstep-num">1</div>
-                  <div class="wstep-label">Über dich</div>
-                </div>
-                <div class="wstep-line" id="wline-1"></div>
-                <div class="wstep" id="wstep-2">
-                  <div class="wstep-num">2</div>
-                  <div class="wstep-label">Dein Training</div>
-                </div>
-                <div class="wstep-line" id="wline-2"></div>
-                <div class="wstep" id="wstep-3">
-                  <div class="wstep-num">3</div>
-                  <div class="wstep-label">Dein Profil</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- STEP 1: ÜBER DICH -->
-            <div class="form-step active" id="step-1">
-              <div class="step-intro">Schritt 1 von 3 - Nur 4 Felder, dauert 1 Minute.</div>
-              <div class="form-section-title">&#128100; Persönliche Angaben</div>
+            <!-- PERSÖNLICHE ANGABEN -->
+            <div class="form-section-title">&#128100; Persönliche Angaben</div>
               <div class="form-row">
                 <div class="form-group">
                   <label for="firstName">Vorname *</label>
@@ -1054,16 +1032,9 @@
                   <input type="tel" id="phone" name="Telefon" placeholder="+49 176 ..." required>
                 </div>
               </div>
-              <div class="wizard-nav">
-                <div></div>
-                <button type="button" class="btn btn-primary" onclick="wizardNext(1)">Weiter &rarr;</button>
-              </div>
-            </div>
-
-            <!-- STEP 2: DEIN TRAINING -->
-            <div class="form-step" id="step-2">
-              <div class="step-intro">Schritt 2 von 3 - Deine Trainingsdetails. Diese erscheinen direkt auf deinem Profil.</div>
-              <div class="form-section-title">&#9917; Trainingsdetails</div>
+            <!-- TRAININGSDETAILS -->
+            <hr class="form-divider">
+            <div class="form-section-title">&#9917; Trainingsdetails</div>
               <div class="form-row">
                 <div class="form-group">
                   <label for="bezirk">Bezirk(e), in denen du trainierst *</label>
@@ -1156,31 +1127,24 @@
                 </div>
                 <input type="text" name="Schwerpunkte Sonstige" placeholder="Weitere Schwerpunkte, z.B. Beidfüßigkeit, Freistoßtraining..." style="margin-top:8px;">
               </div>
-              <div class="wizard-nav">
-                <button type="button" class="btn btn-outline" onclick="wizardBack(2)">&larr; Zurück</button>
-                <button type="button" class="btn btn-primary" onclick="wizardNext(2)">Weiter &rarr;</button>
-              </div>
-            </div>
-
-            <!-- STEP 3: DEIN PROFIL -->
-            <div class="form-step" id="step-3">
-              <div class="step-intro">
-                Schritt 3 von 3 - Dein Profil (optional). Alle Felder können auch später ausgefüllt werden. Wer sie jetzt ausfüllt, bekommt ein fertiges, hochkonvertierendes Profil - direkt von uns aufgebaut.
-              </div>
-
-              <div class="form-section-title">&#128161; Deine Trainingsphilosophie</div>
+            <!-- OPTIONAL: PROFIL -->
+            <hr class="form-divider">
+            <div class="form-section-title">&#128161; Deine Trainingsphilosophie</div>
               <div class="form-group">
                 <label for="philosophy">Was ist dir beim Training mit jungen Spielern am wichtigsten? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
-                <textarea id="philosophy" name="Trainingsphilosophie" rows="3" placeholder="z.B. Ich glaube, dass Kinder, die Spaß am Spiel haben, die besten Fortschritte machen. Deshalb steht bei mir Freude vor Druck - jede Einheit soll das Kind stärker und hungriger auf Fußball machen."></textarea>
-                <div class="step-prompt">2–3 Sätze. Schreib direkt an die Eltern - sie wollen wissen, ob du ihr Kind wirklich verstehst.</div>
+                <textarea id="philosophy" name="Trainingsphilosophie" rows="3" placeholder="Beschreibe in ein paar Sätzen, was dir beim Training von jungen Spielern am wichtigsten ist."></textarea>
+                <div class="step-prompt">Schreib Frei Schnauze was dir gerade einfällt - Rechtschreibung egal - wichtig ist der Inhalt! Unser KI-Assistent verwandelt den Inhalt später in eine für die Eltern ansprechende Profilbeschreibung.</div>
               </div>
 
               <hr class="form-divider">
               <div class="form-section-title">&#127919; Dein Ansatz</div>
               <div class="form-group">
                 <label for="methodology">Was macht deinen Trainingsansatz besonders? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
-                <textarea id="methodology" name="Trainingsansatz" rows="3" placeholder="z.B. Jedes Kind hat immer einen Ball - niemand steht in der Reihe. Ich lobe den Einsatz, nicht das Ergebnis. Kurze Erklärungen, viel Spielzeit."></textarea>
-                <div class="step-prompt">Nenne 2–3 konkrete Dinge, die du im Training immer beachtest. Konkret schlägt allgemein.</div>
+                <textarea id="methodology" name="Trainingsansatz" rows="3" placeholder="Nenne ein paar konkrete Dinge, die dein Training für die Kinder besonders macht. Nenne konkrete Beispiele."></textarea>
+                <div class="step-prompt">
+                  Schreib Frei Schnauze was dir gerade einfällt - Rechtschreibung egal - wichtig ist der Inhalt! Unser KI-Assistent verwandelt den Inhalt später in eine für die Eltern ansprechende Profilbeschreibung.
+
+              </div>
               </div>
 
               <hr class="form-divider">
@@ -1195,27 +1159,22 @@
               <div class="form-section-title">&#127942; Dein Weg</div>
               <div class="form-group">
                 <label for="career">Deine Trainer- und Spielerkarriere in 2–3 Sätzen <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
-                <textarea id="career" name="Karriere" rows="3" placeholder="z.B. Ich bin seit 8 Jahren als Jugendtrainer aktiv - zuletzt U17-Trainer im NLZ bei Eintracht Braunschweig. Als Spieler war ich in der U19-Regionalliga aktiv. Diese Erfahrung bringe ich direkt ins individuelle Training."></textarea>
-                <div class="step-prompt">Vereine und Lizenzen konkret nennen - das schafft Glaubwürdigkeit. Nicht zu lang, der erste Satz zählt am meisten.</div>
+                <textarea id="career" name="Karriere" rows="3" placeholder="Beschreibe in ein paar Sätzen, wie deine Trainer- und Spielerkarriere bisher ausgesehen hat."></textarea>
+                <div class="step-prompt">Vereine und Lizenzen konkret nennen - das schafft Glaubwürdigkeit und Vertrauen bei den Eltern.</div>
               </div>
 
               <hr class="form-divider">
               <div class="form-section-title">&#127775; Dein Versprechen an Eltern</div>
               <div class="form-group">
                 <label for="outcome">Was erreichen Kinder durch dein Training? <span style="color:var(--gray-400);font-weight:400;">(optional)</span></label>
-                <input type="text" id="outcome" name="Versprechen an Eltern" placeholder="z.B. Mehr Ballsicherheit, mehr Selbstvertrauen auf dem Platz - und noch mehr Lust auf Fußball.">
-                <div class="step-prompt">Ein Satz, der das Ergebnis beschreibt - nicht den Prozess. Eltern buchen Ergebnisse, keine Trainingseinheiten.</div>
+                <input type="text" id="outcome" name="Versprechen an Eltern" placeholder="z.B. Mehr Ballsicherheit, mehr Selbstvertrauen auf dem Platz, bessere Dribblings">
+                <div class="step-prompt">Beschreibe einige der Ergebnisse die Eltern erwarten können, wenn ihre Kinder mit dir trainieren.</div>
               </div>
 
-              <button type="submit" class="btn btn-accent btn-lg" style="width:100%; margin-top:24px;">Bewerbung absenden &#10003;</button>
-              <div class="wizard-nav" style="margin-top:16px;">
-                <button type="button" class="btn btn-outline btn-sm" onclick="wizardBack(3)">&larr; Zurück</button>
-                <div></div>
-              </div>
-              <div class="form-footer">
-                Deine Daten werden gemäß DSGVO verarbeitet.<br>
-                Ich melde mich persönlich innerhalb von 24 Stunden bei dir. - Andreas
-              </div>
+            <button type="submit" class="btn btn-accent btn-lg" style="width:100%; margin-top:24px;">Bewerbung absenden &#10003;</button>
+            <div class="form-footer">
+              Deine Daten werden gemäß DSGVO verarbeitet.<br>
+              Ich melde mich persönlich innerhalb von 24 Stunden bei dir. - Andreas
             </div>
 
           </form>
@@ -1313,47 +1272,6 @@
         var rect = formSection.getBoundingClientRect();
         stickyCta.classList.toggle('hidden', rect.top < window.innerHeight);
       });
-    }
-
-    // WIZARD NAVIGATION
-    function wizardNext(fromStep) {
-      // Validate required fields in current step
-      const step = document.getElementById('step-' + fromStep);
-      const required = step.querySelectorAll('[required]');
-      let valid = true;
-      required.forEach(field => {
-        if (!field.value.trim()) {
-          field.style.borderColor = 'var(--red)';
-          valid = false;
-        } else {
-          field.style.borderColor = '';
-        }
-      });
-      if (!valid) {
-        step.querySelector('[required]').focus();
-        return;
-      }
-      const nextStep = fromStep + 1;
-      step.classList.remove('active');
-      document.getElementById('step-' + nextStep).classList.add('active');
-      // Update progress indicators
-      document.getElementById('wstep-' + fromStep).classList.remove('active');
-      document.getElementById('wstep-' + fromStep).classList.add('done');
-      document.getElementById('wline-' + fromStep).classList.add('done');
-      document.getElementById('wstep-' + nextStep).classList.add('active');
-      // Scroll to top of form card
-      document.getElementById('bewerbung').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    function wizardBack(fromStep) {
-      const prevStep = fromStep - 1;
-      document.getElementById('step-' + fromStep).classList.remove('active');
-      document.getElementById('step-' + prevStep).classList.add('active');
-      document.getElementById('wstep-' + fromStep).classList.remove('active');
-      document.getElementById('wstep-' + prevStep).classList.remove('done');
-      document.getElementById('wstep-' + prevStep).classList.add('active');
-      document.getElementById('wline-' + prevStep).classList.remove('done');
-      document.getElementById('bewerbung').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     // Show success message if redirected after form submit
