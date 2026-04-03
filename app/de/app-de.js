@@ -468,15 +468,13 @@ function loadCoachProfile(coachId) {
         ${coach.valueIncludes.map(v => `<li><span class="check">&#10003;</span> ${v}</li>`).join('')}
       </ul>` : ''}
 
-      <div class="sidebar-avail">
-        <strong>Verfügbarkeit:</strong><br>${coach.availability}
-      </div>
+      ${coach.availability && coach.availability !== 'TBD' ? `<div class="sidebar-avail"><strong>Verfügbarkeit:</strong><br>${coach.availability}</div>` : ''}
 
-      ${coach.responseTime ? `<div class="sidebar-response">&#9679; Antwortet meist innerhalb ${coach.responseTime}</div>` : ''}
+      ${coach.responseTime && coach.responseTime !== 'TBD' ? `<div class="sidebar-response">&#9679; Antwortet meist innerhalb ${coach.responseTime}</div>` : ''}
 
       <button class="btn-contact" onclick="openContact()">Trainer kontaktieren</button>
 
-      <div class="sidebar-risk">Nicht zufrieden nach der ersten Einheit? Sprich Marc direkt an — gemeinsam findet ihr eine Lösung.</div>
+      <div class="sidebar-risk">Nicht zufrieden nach der ersten Einheit? Sprich den Trainer direkt an — gemeinsam findet ihr eine Lösung.</div>
 
       <div class="sidebar-trust">
         <div class="sidebar-trust-item"><span class="check">&#10003;</span> Führungszeugnis</div>
