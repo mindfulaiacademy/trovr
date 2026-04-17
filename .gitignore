@@ -12,6 +12,7 @@ Thumbs.db
 .claude/
 
 # Local-only folders (not needed to run the site)
+trainer data/
 Business/
 Product/
 Research/
