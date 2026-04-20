@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const avatarColors = [
   '#1B6B4A', '#2563EB', '#7C3AED', '#DC2626', '#D97706',
@@ -175,7 +176,7 @@ export default function CoachListing({ coaches, city, cityLabel }) {
                   <Link key={coach.id} href={`/fussballtrainer/${city}/${coach.id}/`} className="coach-card">
                     <div className="card-top">
                       {coach.photo
-                        ? <img className="card-avatar-img" src={`/${coach.photo}`} alt={`${coach.firstName} ${coach.lastName}`} />
+                        ? <Image className="card-avatar-img" src={`/${coach.photo}`} alt={`Fußballtrainer ${coach.firstName} ${coach.lastName} in ${cityLabel}`} width={80} height={80} />
                         : <div className="card-avatar" style={{ background: color }}>{coach.initials}</div>
                       }
                       <div className="card-info">

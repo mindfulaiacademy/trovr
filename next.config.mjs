@@ -5,12 +5,12 @@ const nextConfig = {
       {
         source: '/fuer-trainer',
         destination: '/for-coaches-de.html',
-        permanent: false,
+        permanent: true,
       },
       {
         source: '/fuer-trainer/',
         destination: '/for-coaches-de.html',
-        permanent: false,
+        permanent: true,
       },
     ];
   },

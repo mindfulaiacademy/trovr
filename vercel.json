@@ -3,7 +3,7 @@
     {
       "source": "/",
       "destination": "/fussballtrainer/berlin/",
-      "permanent": false
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -14,25 +14,6 @@
     {
       "source": "/fuer-trainer/",
       "destination": "/for-coaches-de.html"
-    },
-    {
-      "source": "/fussballtrainer/berlin/:slug/",
-      "destination": "/fussballtrainer/berlin/coach.html"
-    },
-    {
-      "source": "/fussballtrainer/berlin/:slug",
-      "destination": "/fussballtrainer/berlin/coach.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        }
-      ]
     }
   ]
 }

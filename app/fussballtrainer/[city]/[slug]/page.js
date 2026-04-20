@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { getCoach, getCoachesByCity, getAllCities } from '@/lib/coaches';
 import Nav from '@/components/Nav';
 import ContactSection from '@/components/ContactSection';
@@ -33,10 +34,27 @@ export async function generateMetadata({ params }) {
   const coach = getCoach(city, slug);
   if (!coach) return {};
   const cityLabel = city.charAt(0).toUpperCase() + city.slice(1);
+  const title = `${coach.firstName} ${coach.lastName} — Fußballtrainer ${cityLabel} | Trovr`;
+  const description = coach.bio.slice(0, 155) + '...';
+  const imageUrl = coach.photo ? `https://trovr.de/${coach.photo}` : null;
   return {
-    title: `${coach.firstName} ${coach.lastName} — Fußballtrainer ${cityLabel} | Trovr`,
-    description: coach.bio.slice(0, 155) + '...',
-    robots: { index: false, follow: false },
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://trovr.de/fussballtrainer/${city}/${slug}/`,
+      siteName: 'Trovr',
+      locale: 'de_DE',
+      type: 'profile',
+      ...(imageUrl && { images: [{ url: imageUrl, alt: `Fußballtrainer ${coach.firstName} ${coach.lastName} in ${cityLabel}` }] }),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      ...(imageUrl && { images: [imageUrl] }),
+    },
   };
 }
 
@@ -54,17 +72,42 @@ export default async function CoachProfilePage({ params }) {
     name: `${coach.firstName} ${coach.lastName}`,
     jobTitle: 'Fußballtrainer',
     description: coach.bio,
+    image: coach.photo ? `https://trovr.de/${coach.photo}` : undefined,
     address: { '@type': 'PostalAddress', addressLocality: cityLabel, addressCountry: 'DE' },
     knowsAbout: coach.specialties,
+    ...(coach.rating && coach.reviewCount && {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: String(coach.rating),
+        reviewCount: String(coach.reviewCount),
+        bestRating: '5',
+        worstRating: '1',
+      },
+    }),
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Trovr', item: 'https://trovr.de/' },
+      { '@type': 'ListItem', position: 2, name: `Fußballtrainer ${cityLabel}`, item: `https://trovr.de/fussballtrainer/${city}/` },
+      { '@type': 'ListItem', position: 3, name: `${coach.firstName} ${coach.lastName}` },
+    ],
   };
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Nav backLink={{ href: `/fussballtrainer/${city}/`, label: `← Alle Fußballtrainer in ${cityLabel}` }} />
+
+      <nav className="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href={`/fussballtrainer/${city}/`}>Fußballtrainer {cityLabel}</a></li>
+          <li aria-current="page">{coach.firstName} {coach.lastName}</li>
+        </ol>
+      </nav>
 
       <main className="profile-page">
         <div className="container">
@@ -72,7 +115,7 @@ export default async function CoachProfilePage({ params }) {
           {/* Header */}
           <div className="profile-header">
             {coach.photo
-              ? <img className="profile-avatar-img" src={`/${coach.photo}`} alt={`${coach.firstName} ${coach.lastName}`} />
+              ? <Image className="profile-avatar-img" src={`/${coach.photo}`} alt={`Fußballtrainer ${coach.firstName} ${coach.lastName} in ${cityLabel}`} width={120} height={120} />
               : <div className="profile-avatar" style={{ background: color }}>{coach.initials}</div>
             }
             <div>
