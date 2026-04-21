@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `https://trovr.de/fussballtrainer/${city}/`,
+      url: `https://trovr-football.vercel.app/fussballtrainer/${city}/`,
       siteName: 'Trovr',
       locale: 'de_DE',
       type: 'website',
@@ -40,7 +40,7 @@ export default async function CityListingPage({ params }) {
     '@type': 'LocalBusiness',
     name: `Trovr — Fußballtrainer ${cityLabel}`,
     description: `Geprüfte Jugend-Fußballtrainer in ${cityLabel} finden. DFB-Lizenz und Führungszeugnis verifiziert.`,
-    url: `https://trovr.de/fussballtrainer/${city}/`,
+    url: `https://trovr-football.vercel.app/fussballtrainer/${city}/`,
     areaServed: { '@type': 'City', name: cityLabel },
     serviceType: 'Fußballtraining für Kinder und Jugendliche',
     hasOfferCatalog: {

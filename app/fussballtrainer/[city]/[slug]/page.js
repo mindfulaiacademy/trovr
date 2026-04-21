@@ -36,14 +36,14 @@ export async function generateMetadata({ params }) {
   const cityLabel = city.charAt(0).toUpperCase() + city.slice(1);
   const title = `${coach.firstName} ${coach.lastName} — Fußballtrainer ${cityLabel} | Trovr`;
   const description = coach.bio.slice(0, 155) + '...';
-  const imageUrl = coach.photo ? `https://trovr.de/${coach.photo}` : null;
+  const imageUrl = coach.photo ? `https://trovr-football.vercel.app/${coach.photo}` : null;
   return {
     title,
     description,
     openGraph: {
       title,
       description,
-      url: `https://trovr.de/fussballtrainer/${city}/${slug}/`,
+      url: `https://trovr-football.vercel.app/fussballtrainer/${city}/${slug}/`,
       siteName: 'Trovr',
       locale: 'de_DE',
       type: 'profile',
@@ -72,7 +72,7 @@ export default async function CoachProfilePage({ params }) {
     name: `${coach.firstName} ${coach.lastName}`,
     jobTitle: 'Fußballtrainer',
     description: coach.bio,
-    image: coach.photo ? `https://trovr.de/${coach.photo}` : undefined,
+    image: coach.photo ? `https://trovr-football.vercel.app/${coach.photo}` : undefined,
     address: { '@type': 'PostalAddress', addressLocality: cityLabel, addressCountry: 'DE' },
     knowsAbout: coach.specialties,
     ...(coach.rating && coach.reviewCount && {
@@ -90,8 +90,8 @@ export default async function CoachProfilePage({ params }) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Trovr', item: 'https://trovr.de/' },
-      { '@type': 'ListItem', position: 2, name: `Fußballtrainer ${cityLabel}`, item: `https://trovr.de/fussballtrainer/${city}/` },
+      { '@type': 'ListItem', position: 1, name: 'Trovr', item: 'https://trovr-football.vercel.app/' },
+      { '@type': 'ListItem', position: 2, name: `Fußballtrainer ${cityLabel}`, item: `https://trovr-football.vercel.app/fussballtrainer/${city}/` },
       { '@type': 'ListItem', position: 3, name: `${coach.firstName} ${coach.lastName}` },
     ],
   };
