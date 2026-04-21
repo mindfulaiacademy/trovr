@@ -19,3 +19,5 @@ Research/
 database/
 supabase/
 .vscode/
+
+.vercel

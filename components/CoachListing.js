@@ -57,9 +57,9 @@ export default function CoachListing({ coaches, city, cityLabel }) {
               <span className="trust-chip">⭐ 4.8 Bewertung</span>
               <span className="trust-chip">👥 200+ Zufriedene Eltern</span>
             </div>
-            <h1>Finde die besten Fußballtrainer {cityLabel}s für dein junges Talent</h1>
+            <h1>Finde die besten Fußballtrainer:innen {cityLabel}s für dein junges Talent</h1>
             <p className="hero-sub">
-              Alle TrainerInnen verfügen über Führungszeugnis und DFB-Lizenzen. Buche dein privates Training mit einem sicheren Gefühl.
+              Alle Trainer:innen verfügen über Führungszeugnis und DFB-Lizenzen. Buche dein privates Training mit einem sicheren Gefühl.
             </p>
           </div>
           <div className="search-bar">
@@ -94,7 +94,7 @@ export default function CoachListing({ coaches, city, cityLabel }) {
           <div className="results-header">
             <div className="results-title-row">
               <h2 id="results-title">
-                {age ? `Fußballtrainer für Alter ${age}` : 'Alle Fußballtrainer'}
+                {age ? `Fußballtrainer für Alter ${age}` : 'Alle Fußballtrainer:innen'}
               </h2>
               <button
                 className={`btn-toggle-filters${filtersVisible ? ' active' : ''}`}

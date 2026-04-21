@@ -1954,9 +1954,9 @@
           "description": "Was war heute stark? Ein konkreter Tipp für die Woche. Das Kind geht mit einem klaren Gefühl von Fortschritt nach Hause."
         }
       ],
-      "career": "Mein Hauptprojekt ist Talente Förderung Berlin (TF Berlin) - ein Verein, den ich mit aufgebaut habe, um Kindern Zugang zu Leistungstraining zu geben, das sonst nur NLZ-Spielern vorbehalten ist. Die Ergebnisse sprechen für sich: Spieler aus unserer Arbeit haben den Sprung in die Nachwuchsleistungszentren von Hertha BSC, RB Leipzig, 1.FC Union Berlin, 1.FC Köln und VFL Wolfsburg geschafft.\n\nDavor war ich U14-Trainer bei Viktoria Berlin - mit einem klaren Highlight: Wir wurden Berliner Meister. Diese Erfahrung auf höchstem Berliner Jugendniveau, kombiniert mit meiner Zeit als Spieler bei SpVgg Unterhaching, prägt, wie ich Training denke: strukturiert, fordernd, aber immer mit Freude am Spiel.\n\nIm individuellen Kleingruppentraining übersetze ich das direkt auf den einzelnen Spieler - angepasst an Alter, Niveau und Ziele.",
+      "career": "Mein Hauptprojekt ist Talente Förderung Berlin (TF Berlin) - ein Verein, den ich mit aufgebaut habe, um Kindern Zugang zu Leistungstraining zu geben, das sonst nur NLZ-Spieler:innen vorbehalten ist. Die Ergebnisse sprechen für sich: Spieler:innen aus unserer Arbeit haben den Sprung in die Nachwuchsleistungszentren von Hertha BSC, RB Leipzig, 1.FC Union Berlin, 1.FC Köln und VFL Wolfsburg geschafft.\n\nDavor war ich U14-Trainer bei Viktoria Berlin - mit einem klaren Highlight: Wir wurden Berliner Meister. Diese Erfahrung auf höchstem Berliner Jugendniveau, kombiniert mit meiner Zeit als Spieler bei SpVgg Unterhaching, prägt, wie ich Training denke: strukturiert, fordernd, aber immer mit Freude am Spiel.\n\nIm individuellen Kleingruppentraining übersetze ich das direkt auf die einzelne Spielerin oder den einzelnen Spieler - angepasst an Alter, Niveau und Ziele.",
       "aboutMe": "Ich bin Oskar Schlembach - DFB B lizenzierter Trainer und Gründer von Talente Förderung Berlin (TF Berlin). Als ehemaliger U14-Trainer bei Viktoria Berlin - wo wir Berliner Meister wurden - und als Spieler bei SpVgg Unterhaching weiß ich, was auf hohem Niveau zählt. Das bringe ich direkt ins Training.",
-      "outcome": "Dein Kind trainiert auf dem Niveau, mit dem ich Spieler bis in die NLZs von Hertha BSC, RB Leipzig und Union Berlin gebracht habe - und macht den Schritt, den normales Vereinstraining nicht schafft.",
+      "outcome": "Dein Kind trainiert auf dem Niveau, mit dem ich Spieler:innen bis in die NLZs von Hertha BSC, RB Leipzig und Union Berlin gebracht habe - und macht den Schritt, den normales Vereinstraining nicht schafft.",
       "valueIncludes": [
         "60 Min. individuelles Training",
         "Persönliches Feedback nach jeder Einheit",
@@ -1993,8 +1993,7 @@
       "contactPhone": "+49 176 41940461",
       "reviews": [],
       "source": "trovr",
-      "scrapedDate": "2026-04-01",
-      "status": "published"
+      "scrapedDate": "2026-04-01"
     },
     {
       "id": "matthaeus-lekaj",
@@ -2009,7 +2008,7 @@
       "state": "Berlin",
       "zip": "TBD",
       "bio": "DFB-B-Lizenz Trainer mit 2 Jahren Erfahrung. Technik-Fokus, spielnahes Kleingruppentraining und mentales Coaching in Berlin - für Kinder, die wirklich besser werden wollen.",
-      "philosophy": "Spaß ist die Grundlage von allem. Wer keinen Spaß hat, wird sich nicht verbessern - egal wie viel er trainiert. Ich schaue bei jedem Kind genau hin: Was sind seine stärksten Fähigkeiten? Wer gut passen kann, lernt bei mir, das Passspiel gezielt einzusetzen. Wer gut dribbeln kann, verfeinert das Dribbling - und lernt gleichzeitig, wann er den Ball abgeben muss. Dazu kommt Pressing und Intensität: Fußball ist ein Laufspiel, und das trainieren wir so, wie es im echten Spiel gebraucht wird.",
+      "philosophy": "Spaß ist die Grundlage von allem. Wer keinen Spaß hat, wird sich nicht verbessern - egal wie viel man trainiert. Ich schaue bei jedem Kind genau hin: Was sind seine stärksten Fähigkeiten? Wer gut passen kann, lernt bei mir, das Passspiel gezielt einzusetzen. Wer gut dribbeln kann, verfeinert das Dribbling - und lernt gleichzeitig, wann man den Ball abgeben muss. Dazu kommt Pressing und Intensität: Fußball ist ein Laufspiel, und das trainieren wir so, wie es im echten Spiel gebraucht wird.",
       "methodology": [
         "Technik als Basis - erster Kontakt, 1:1, 2:2, 3:3, 4:4 in kleinen Spielformen",
         "Stärken fördern - jedes Kind hat andere Top-Skills, die werden gezielt weiterentwickelt",
@@ -2073,7 +2072,6 @@
         "Mentales Training"
       ],
       "backgroundCheck": "passed",
-      "status": "published",
       "rating": 0,
       "reviewCount": 0,
       "totalSessions": 0,
@@ -2087,6 +2085,324 @@
       "reviews": [],
       "source": "trovr",
       "scrapedDate": "2026-04-16"
+    },
+    {
+      "id": "issam-jabbar",
+      "firstName": "Issam",
+      "lastName": "Jabbar",
+      "photo": "images/coaches/issam-jabbar.jpg",
+      "initials": "IJ",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Ganz Berlin",
+      "state": "Berlin",
+      "zip": "TBD",
+      "bio": "Ehemaliger Profispieler und Coerver Instructor mit über 5 Jahren Trainer-Erfahrung. Individuelles und Gruppentraining für Kinder, Jugendliche und Profis in Berlin - Technik und Ballgefühl, die wirklich wirken.",
+      "philosophy": "Ich nenne es Ball & Brain - Technik alleine reicht nicht. Wer auf dem Platz besser werden will, muss beides gleichzeitig trainieren: den Ball und den Kopf. Deshalb sind meine Einheiten hochintensiv und kognitiv fordernd von der ersten Minute an. Ich habe selbst auf Profi-Niveau gespielt und trainiere heute dasselbe Grundgerüst mit einem 7-jährigen Kind wie mit einer Spielerin oder einem Spieler aus einem Nationalteam - weil die Grundlagen dieselben sind.",
+      "methodology": [
+        "Ball & Brain - jede Einheit trainiert Technik und Spielintelligenz gleichzeitig, nicht getrennt",
+        "Hochintensiv von der ersten Minute - kein langes Aufwärmen, sofort Tempo und Druck",
+        "Koordination und Reaktion als Fundament - schnelle Füße und Reaktionsfähigkeit stehen in jeder Einheit im Mittelpunkt",
+        "Coach & 2 Players Format - kleine Gruppen für maximale Ballkontakte und direkte Korrekturen",
+        "Circuit-Struktur - Stationen für Tempo, Agilität und Technik gleichzeitig, kein Warten",
+        "Dasselbe Grundgerüst für U7 und Profis - Technik die im echten Spiel funktioniert, nicht nur im Training"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0-15 Min.",
+          "title": "Koordination",
+          "description": "Koordinationsübungen mit Ball als Einstieg - nicht als Aufwärmen, sondern als erster technischer Block. Schnelle Füße, Körperkontrolle, sofort Tempo."
+        },
+        {
+          "time": "15-25 Min.",
+          "title": "Reaktion",
+          "description": "Reaktionsübungen unter Zeitdruck - wer spielt, muss auf Signale reagieren und gleichzeitig den Ball kontrollieren. Kopf und Körper gleichzeitig gefordert."
+        },
+        {
+          "time": "25-40 Min.",
+          "title": "Passing",
+          "description": "Passspiel in wechselnden Situationen - Tempo, Timing und erster Kontakt im Fokus. Je nach Einheit mit aktivem Gegendruck oder in Bewegung."
+        },
+        {
+          "time": "40-55 Min.",
+          "title": "Finishing",
+          "description": "Torabschluss als Abschlussblock - alle Technik aus der Einheit endet vor dem Tor. Echte Abschlusssituationen, kein freies Schießen ohne Kontext."
+        },
+        {
+          "time": "55-60 Min.",
+          "title": "Cool-down & Feedback",
+          "description": "Kurzes Ausklang und Feedback zur Einheit."
+        }
+      ],
+      "career": "Ich habe selbst als Profi gespielt - zuletzt in der Sachsenliga beim BSC Freiberg. Im Sommer 2020 habe ich meine aktive Karriere beendet und direkt mit dem Coaching angefangen. Nicht weil es der einfachste Weg war, sondern weil ich weitergeben wollte, was ich im Profisport gelernt habe.\n\nSeit 2020 trainiere ich Spieler:innen aller Niveaus in Berlin: von Kindern der Alterskategorien U7 bis U14 bis hin zu Spieler:innen aus dem tunesischen U-Nationalteam, von RB Leipzig und Al-Ahli Dubai. Ausverkaufte Performance Days in Berlin, Sachsen und Leipzig sowie über 5,8 Millionen YouTube-Views zeigen, dass mein Ansatz funktioniert.\n\nMein Ziel ist immer dasselbe: dass jede:r nach der Einheit technisch besser ist als vorher - und Lust hat, wiederzukommen.",
+      "aboutMe": "Ich bin Issam Jabbar - ehemaliger Profispieler und technischer Trainer in Berlin. Seit 2020 arbeite ich mit Kindern, Jugendlichen und Profis nach der Coerver-Methode, habe über 5 Millionen YouTube-Views gesammelt und trainiere regelmäßig Talente aus Nationalteams und Bundesliga-Akademien. Meine Stärke: Technik, die im Spiel auch wirklich funktioniert.",
+      "outcome": "Dein Kind entwickelt ein sicheres Ballgefühl und mehr Selbstvertrauen im 1:1 - und bekommt Lust, jeden Tag mit dem Ball zu trainieren.",
+      "valueIncludes": [
+        "60 Min. individuelles Training",
+        "Persönliches Feedback nach jeder Einheit",
+        "Konkreter Tipp für die nächste Woche"
+      ],
+      "teachingDescription": "Individual- und Gruppentraining, abgestimmt auf das Niveau der Spieler:innen. Training: 60 Min. Flexible Terminvereinbarung. Ort: Berlin.",
+      "yearsExperience": 5,
+      "ageRangeMin": 7,
+      "ageRangeMax": 17,
+      "sessionPrice": 70,
+      "packagePrices": "TBD",
+      "credentials": [
+        {
+          "name": "Coerver Instructor Diploma",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Individual- & Gruppentrainer Berlin (seit 2020) | Performance Day Organisator (Berlin, Sachsen, Leipzig)",
+      "playerHistory": "BSC Freiberg II (Sachsenliga) | Verteidiger",
+      "specialties": [
+        "Technik",
+        "Ballkontrolle",
+        "Dribbling",
+        "Koordination",
+        "Finishing"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 0,
+      "reviewCount": 0,
+      "totalSessions": 0,
+      "activeAthletes": 0,
+      "availability": "TBD",
+      "languages": "Deutsch, Englisch, Arabisch",
+      "locationOptions": "Bei Issam in Berlin | Online | Mobil durch ganz Berlin",
+      "responseTime": "TBD",
+      "contactEmail": "issamjabbar2017@gmail.com",
+      "contactPhone": "TBD",
+      "reviews": [],
+      "source": "trovr",
+      "status": "published",
+      "_review": [
+        "philosophy: Schluss-Satz generisch - Issam fragen: Was ist seine persönliche Aussage zur Entwicklung junger Spieler?",
+        "sessionWalkthrough Cool-down: Wie beendet Issam seine Einheiten konkret? Gibt es ein Ritual oder festes Format?",
+        "packagePrices: Paketpreise noch offen",
+        "availability: Verfügbarkeit noch offen",
+        "contactPhone: Telefonnummer noch offen",
+        "credentials: Coerver Instructor Diploma - Level bestätigen (1, 2 oder Instructor?)",
+        "district: Bestimmter Bezirk oder wirklich ganz Berlin?"
+      ]
+    },
+    {
+      "id": "mike-reinhardt",
+      "firstName": "Mike",
+      "lastName": "Reinhardt",
+      "photo": "images/coaches/mike-reinhardt.png",
+      "initials": "MR",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Mitte",
+      "state": "Berlin",
+      "zip": "10117",
+      "bio": "UEFA B-lizenzierter Football Innovation Manager mit UEFA DFLM-Abschluss. Kognitives Fußballtraining mit SoccerBot360-Technologie — datenbasiert, messbar, auf Elite-Niveau.",
+      "philosophy": "Ich glaube, dass moderner Fußball nicht nur körperlich, sondern vor allem kognitiv gewonnen wird. Reaktionszeit, periphere Wahrnehmung, Entscheidungsgeschwindigkeit — das sind die Fähigkeiten, die Spieler:innen auf den nächsten Level heben. Mit dem SoccerBot360 verbinde ich klassisches Coaching mit sportwissenschaftlich validierten Diagnostik- und Trainingsformaten, die sonst nur Proficlubs wie RB Leipzig oder RB Salzburg zugänglich sind. Bei mir trainiert man nicht nach Gefühl — man sieht die Zahlen, versteht die Schwächen und arbeitet gezielt daran.",
+      "methodology": [
+        "Kognitives Training first — Reaktionszeit, Antizipation und Entscheidungsfähigkeit stehen im Mittelpunkt",
+        "360°-Umgebung mit 32 Panels: Spieler:innen müssen sich ständig orientieren, wie im echten Spiel",
+        "Datenbasiertes Feedback — Highspeed-Kamera misst objektiv Reaktionszeit und Passgenauigkeit",
+        "54 Spielmodi: vom individuellen Highscore bis zum kompetitiven Battle-Modus gegen andere",
+        "Diagnostik vor Training — mit 15 Testmodi wird die Ausgangslage präzise erfasst",
+        "Gamification als Motivationstreiber — Punkte, Bestzeiten und Rankings halten die Intensität hoch"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0–10 Min.",
+          "title": "Diagnostik & Baseline",
+          "description": "Kurzes Aufwärmprogramm, dann Start mit einem Diagnostik-Modus: Reaktionszeit und kognitive Grundwerte werden gemessen und als Referenz gespeichert."
+        },
+        {
+          "time": "10–30 Min.",
+          "title": "Kognitives Kerntraining",
+          "description": "Training in der 360°-Umgebung — je nach Ziel: Antizipationstraining, positionsspezifische Szenen oder technische Fertigkeiten unter kognitivem Druck. Jede Wiederholung wird erfasst."
+        },
+        {
+          "time": "30–45 Min.",
+          "title": "Competitive Mode",
+          "description": "Battle-Modus oder Highscore-Challenge: volle Intensität, maximale Konzentration. Hier zeigt sich, was unter Druck wirklich sitzt."
+        },
+        {
+          "time": "45–55 Min.",
+          "title": "Spielanalyse & Szenen-Simulation",
+          "description": "Reale Spielsituationen werden in der Ego-View simuliert — Entscheidungen werden analysiert, Muster erkannt, taktische Konsequenzen besprochen."
+        },
+        {
+          "time": "55–60 Min.",
+          "title": "Auswertung & Entwicklungsplan",
+          "description": "Scorecard-Review: Was hat sich verbessert? Welche kognitiven Parameter brauchen mehr Arbeit? Mike gibt einen klaren Fokus für die nächste Einheit mit."
+        }
+      ],
+      "career": "Ich bin Business Development Manager und Football Innovation Specialist bei Umbrella Software Development GmbH — dem Unternehmen hinter SoccerBot360. Den SoccerBot360 habe ich im Rahmen des UEFA DFLM-Programms (5. Edition, 2023) wissenschaftlich begleitet, weiterentwickelt und evaluiert. Zuvor absolvierte ich den UEFA Certificate in Football Management (CFM) — und halte die UEFA B-Trainerlizenz.\n\nDer SoccerBot360 wird von Clubs wie RB Leipzig, RB Salzburg, FC Zürich, AJ Auxerre und Norwich City eingesetzt. Sportwissenschaftler Prof. Dr. Daniel Memmert (DSHS Köln) und RB Leipzig-Trainer Tom Stuckey bestätigen die Trainingseffekte. Mit über 750.000 gespielten Games ist das System eines der meistgenutzten kognitiven Trainingstools im professionellen Fußball.",
+      "aboutMe": "Ich bin Mike Reinhardt — UEFA B-lizenzierter Trainer und Football Innovation Manager bei SoccerBot360. Mein Fokus: kognitive Leistungsfähigkeit im Fußball messbar machen und gezielt trainieren. Ich habe den SoccerBot360 im Rahmen meines UEFA Diploma in Football Leadership and Management (DFLM) wissenschaftlich begleitet — und bringe dieses Know-how jetzt ins individuelle Training. Was Top-Clubs längst nutzen, ist jetzt auch für Nachwuchsspieler:innen und ambitionierte Erwachsene in Berlin buchbar.",
+      "outcome": "Du trainierst kognitiv auf Profi-Niveau — mit echten Messwerten, sichtbaren Fortschritten und dem Trainingstool der europäischen Elite.",
+      "valueIncludes": [
+        "60 Min. Training in der SoccerBot360-Anlage Berlin",
+        "Individuelle Scorecard mit Reaktionszeit, Passgenauigkeit & kognitiven Werten",
+        "Konkreter Entwicklungsplan für die nächste Einheit"
+      ],
+      "teachingDescription": "Kognitives Einzel- und Gruppentraining mit SoccerBot360-Technologie. Training: 60 Min. Flexible Terminvereinbarung. Ort: SoccerBot360-Anlage Berlin (4talents analytics).",
+      "yearsExperience": 8,
+      "ageRangeMin": 10,
+      "ageRangeMax": 35,
+      "sessionPrice": 79,
+      "packagePrices": "5 Std.: 375€ | 10 Std.: 699€",
+      "credentials": [
+        {
+          "name": "UEFA B Fußballtrainer-Lizenz",
+          "verified": true
+        },
+        {
+          "name": "UEFA Diploma in Football Management and Leadership (DFLM)",
+          "verified": true
+        },
+        {
+          "name": "UEFA Certificate in Football Management (CFM)",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Football Innovation Manager bei SoccerBot360 / Umbrella Software Development GmbH | UEFA DFLM-Programmteilnehmer (2023)",
+      "playerHistory": "Aktiver Fußballer auf Amateurebene",
+      "specialties": [
+        "Kognitives Training",
+        "Spielanalyse & Taktik",
+        "Leistungsdiagnostik"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 5,
+      "reviewCount": 0,
+      "totalSessions": 0,
+      "activeAthletes": 0,
+      "availability": "TBD",
+      "languages": "Deutsch, Englisch",
+      "locationOptions": "SoccerBot360-Anlage Berlin (4talents analytics)",
+      "responseTime": "24h",
+      "contactEmail": "contact@soccerbot360.com",
+      "contactPhone": "",
+      "reviews": [],
+      "status": "published",
+      "source": "scraped",
+      "scrapedDate": "2026-04-20",
+      "_review": [
+        "sessionPrice: Preis noch zu bestätigen — SoccerBot360 Gruppenpreise bekannt (99,90€/Std. für bis zu 8 Personen), Einzeltraining noch offen",
+        "availability: Verfügbarkeit noch offen",
+        "contactPhone: Telefonnummer noch offen",
+        "photo: Foto noch ausstehend",
+        "district: Genaue Berliner Adresse (4talents analytics) noch zu klären"
+      ]
+    },
+    {
+      "id": "julian-pirk",
+      "firstName": "Julian",
+      "lastName": "Pirk",
+      "photo": "images/coaches/julian-pirk.jpg",
+      "initials": "JP",
+      "sport": "Football",
+      "city": "Berlin",
+      "district": "Ganz Berlin",
+      "state": "Berlin",
+      "zip": "",
+      "bio": "Techniktrainer beim 1. FC Union Berlin, offizieller SoccerBot360-Coach und Pro Streetfootballer. Skill- und Techniktraining für Kinder und Jugendliche — auf Bundesliga-Niveau, mit Streetfootball-DNA.",
+      "philosophy": "Ich glaube, dass die besten Techniker nicht auf dem Trainingsplatz, sondern auf der Straße entstehen — durch Kreativität, Fehlertoleranz und echte Leidenschaft für den Ball. Genau diese Energie bringe ich ins strukturierte Training: viele Ballkontakte, spielerische Challenges und Moves, die Spieler:innen nicht nur besser, sondern auch selbstbewusster machen. Im SoccerBot360 kommt kognitives Training dazu — Entscheidungen unter Druck, Reaktion, Orientierung im Raum. Beides zusammen ist mein Weg.",
+      "methodology": [
+        "Streetfootball-Ansatz: Kreativität und 1:1-Moves stehen im Mittelpunkt — Technik, die auch im Spiel funktioniert",
+        "Viele Ballkontakte — kein Anstehen, jede:r hat immer einen Ball",
+        "Challenge-basiertes Lernen — Tricks und Combos werden als Ziele gesetzt, nicht als Übungen erklärt",
+        "SoccerBot360-Integration — kognitives Training mit Reaktions- und Orientierungsaufgaben unter Druck",
+        "Kleine Gruppen oder Einzeltraining — individuelle Aufmerksamkeit für jede:n",
+        "Spaß als Motor — wer Lust auf Training hat, kommt von selbst wieder"
+      ],
+      "sessionWalkthrough": [
+        {
+          "time": "0–10 Min.",
+          "title": "Warm-up & Ball-Feeling",
+          "description": "Freies Dribbeln, Jonglieren, erste Ballkontakte — locker reinkommen, Körper und Kopf aktivieren."
+        },
+        {
+          "time": "10–25 Min.",
+          "title": "Technik-Block",
+          "description": "Fokus auf einen konkreten Skill: Dribbling-Move, Körpertäuschung oder Passvariante. Schritt für Schritt, mit Julian als aktivem Gegenüber."
+        },
+        {
+          "time": "25–40 Min.",
+          "title": "SoccerBot360-Einheit",
+          "description": "Training in der 360°-Umgebung: Reaktion, Antizipation und Technik unter kognitivem Druck — gamifiziert und messbar."
+        },
+        {
+          "time": "40–55 Min.",
+          "title": "Anwendung & Wettkampf",
+          "description": "1:1-Duelle, Dribbling-Parcours oder Battle-Modus im SoccerBot360 — was im Training gelernt wurde, wird jetzt unter Druck eingesetzt."
+        },
+        {
+          "time": "55–60 Min.",
+          "title": "Feedback & Skill-Ziel",
+          "description": "Was war heute stark? Welcher Move kommt als nächstes? Julian gibt ein klares Ziel für die nächste Woche mit."
+        }
+      ],
+      "career": "Ich bin Techniktrainer beim 1. FC Union Berlin — einem der bekanntesten Bundesligaclubs Deutschlands. Was ich dort täglich mit Vereinsspieler:innen trainiere, bringe ich direkt ins individuelle Coaching: strukturierte Technikarbeit auf echtem Profi-Niveau, angepasst ans jeweilige Kind.\n\nParallel dazu bin ich offizieller Coach beim SoccerBot360 in Berlin. Als Pro Streetfootballer mit nationalem Wettkampfhintergrund (3v3 Bronze Deutschland) bringe ich eine kreative, ballnahe Perspektive mit, die klassische Akademieausbildung selten liefert. Mein Studium (B.A. Football Management) rundet das Ganze ab.",
+      "aboutMe": "Ich bin Julian Pirk — Techniktrainer beim 1. FC Union Berlin, offizieller SoccerBot360-Coach und Pro Streetfootballer. Ich habe Football Management studiert (B.A.) und bringe als nationaler 3v3-Medaillengewinner echte Wettkampferfahrung mit. Was ich beim Bundesligaclub trainiere, mache ich auch im individuellen Coaching: strukturierte Technikarbeit, kognitives Training und echte Leidenschaft für das Spiel.",
+      "outcome": "Dein Kind wird technisch sicherer, mutiger im 1:1 — und hat dabei richtig Spaß am Training.",
+      "valueIncludes": [
+        "60 Min. Skill- und Techniktraining",
+        "SoccerBot360-Einheit inklusive (je nach Session)",
+        "Persönliches Feedback + konkreter Skill-Fokus für die nächste Woche"
+      ],
+      "teachingDescription": "Einzel- und Gruppentraining (bis 4 Personen). Training: 60 Min. Flexible Terminvereinbarung. Ort: SoccerBot360-Anlage Berlin und outdoor in ganz Berlin.",
+      "yearsExperience": 4,
+      "ageRangeMin": 7,
+      "ageRangeMax": 18,
+      "sessionPrice": 65,
+      "packagePrices": "5 Std.: 299€ | 10 Std.: 549€",
+      "credentials": [
+        {
+          "name": "Techniktrainer 1. FC Union Berlin",
+          "verified": true
+        },
+        {
+          "name": "B.A. Football Management",
+          "verified": true
+        },
+        {
+          "name": "Offizieller SoccerBot360-Coach",
+          "verified": true
+        },
+        {
+          "name": "Pro Streetfootballer (3v3 Bronze Deutschland)",
+          "verified": true
+        }
+      ],
+      "trainerHistory": "Techniktrainer 1. FC Union Berlin | SoccerBot360 Berlin (offizieller Coach) | Skill-Coaching Berliner AK Nachwuchs | Selbstständiger Skillcoach Berlin",
+      "playerHistory": "Pro Streetfootballer | 3v3 Bronze Deutschland | Vereinsfußball Berlin",
+      "specialties": [
+        "Dribbling & Technik",
+        "Union Berlin",
+        "SoccerBot360",
+        "1:1-Moves & Streetfootball"
+      ],
+      "backgroundCheck": "passed",
+      "rating": 0,
+      "reviewCount": 0,
+      "totalSessions": 0,
+      "activeAthletes": 0,
+      "availability": "TBD",
+      "languages": "Deutsch, Englisch",
+      "locationOptions": "SoccerBot360-Anlage Berlin | Outdoor ganz Berlin",
+      "responseTime": "24h",
+      "contactEmail": "",
+      "contactPhone": "",
+      "reviews": [],
+      "status": "published",
+      "source": "scraped",
+      "scrapedDate": "2026-04-21",
+      "_review": [
+        "sessionPrice: Preis noch zu bestätigen",
+        "availability: Verfügbarkeit noch offen",
+        "contactEmail: E-Mail noch ausstehend",
+        "contactPhone: Telefonnummer noch ausstehend",
+        "district: Genauen Berliner Bezirk klären"
+      ]
     }
   ]
 }

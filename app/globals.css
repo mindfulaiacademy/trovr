@@ -236,7 +236,7 @@ footer { background: var(--g900); color: var(--g400); padding: 48px 0 32px; }
 .footer-links a:hover { color: var(--primary); }
 
 /* ---- PROFILE PAGE ---- */
-.breadcrumb { padding: 72px 24px 0; max-width: 1100px; margin: 0 auto; }
+.breadcrumb { position: static; padding: 72px 24px 0; max-width: 1100px; margin: 0 auto; }
 .breadcrumb ol { list-style: none; display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--g500); }
 .breadcrumb ol li + li::before { content: '/'; margin-right: 8px; }
 .breadcrumb ol a { color: var(--primary); text-decoration: none; }
