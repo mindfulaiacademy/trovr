@@ -9,8 +9,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { city } = await params;
   const cityLabel = city.charAt(0).toUpperCase() + city.slice(1);
-  const title = `Fußballtrainer ${cityLabel} — Geprüfte Jugendtrainer finden | Trovr`;
-  const description = `Finde geprüfte Fußballtrainer in ${cityLabel} für dein Kind. Alle Trainer mit DFB-Lizenz und Führungszeugnis verifiziert. Kostenlos auf Trovr suchen.`;
+  const title = `Fußballtrainer:innen ${cityLabel} — Geprüfte Jugendtrainer:innen finden | Trovr`;
+  const description = `Finde geprüfte Fußballtrainer:innen in ${cityLabel} für dein Kind. Alle Trainer:innen mit DFB-Lizenz und Führungszeugnis verifiziert. Kostenlos auf Trovr suchen.`;
   return {
     title,
     description,
