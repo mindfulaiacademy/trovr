@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import Script from 'next/script';
+import CookieBanner from '@/components/CookieBanner';
 import './globals.css';
 
 const inter = Inter({
@@ -19,16 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="de">
       <body className={inter.className}>
         {children}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-L739P1KS7X"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-L739P1KS7X');
-        `}</Script>
+        <CookieBanner />
       </body>
     </html>
   );
