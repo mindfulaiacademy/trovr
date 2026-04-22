@@ -20,16 +20,14 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-0RRHT0YV1S"
+          src="https://www.googletagmanager.com/gtag/js?id=G-L739P1KS7X"
           strategy="afterInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          if (localStorage.getItem('trovr_cookies') === 'accepted') {
-            gtag('js', new Date());
-            gtag('config', 'G-0RRHT0YV1S', { anonymize_ip: true });
-          }
+          gtag('js', new Date());
+          gtag('config', 'G-L739P1KS7X');
         `}</Script>
       </body>
     </html>
