@@ -54,8 +54,6 @@ export default function CoachListing({ coaches, city, cityLabel }) {
             <div className="trust-strip-inline">
               <span className="trust-chip">🔒 100% Führungszeugnis geprüft</span>
               <span className="trust-chip">✅ Lizenzen verifiziert</span>
-              <span className="trust-chip">⭐ 4.8 Bewertung</span>
-              <span className="trust-chip">👥 200+ Zufriedene Eltern</span>
             </div>
             <h1>Finde die besten Fußballtrainer:innen {cityLabel}s für dein junges Talent</h1>
             <p className="hero-sub">
@@ -182,6 +180,7 @@ export default function CoachListing({ coaches, city, cityLabel }) {
                       <div className="card-info">
                         <h3>{coach.firstName} {coach.lastName}</h3>
                         <div className="card-meta">
+                          <span className="sport-tag">Fußball</span>
                           <span className="sport-tag">Alter {coach.ageRangeMin}–{coach.ageRangeMax}</span>
                           <span className="card-rating">★ {coach.rating} ({coach.reviewCount})</span>
                         </div>
