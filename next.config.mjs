@@ -14,6 +14,14 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/trainer/:path*',
+        destination: '/trainer/:path*/index.html',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

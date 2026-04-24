@@ -121,8 +121,10 @@ export default async function CoachProfilePage({ params }) {
             <div>
               <h1 className="profile-name">{coach.firstName} {coach.lastName}</h1>
               <div className="profile-headline">
-                <span className="sport-tag">Fußball</span>
                 <span className="sport-tag">Alter {coach.ageRangeMin}–{coach.ageRangeMax}</span>
+                {coach.specialties?.slice(0, 3).map(s => (
+                  <span key={s} className="sport-tag">{s}</span>
+                ))}
                 <span className="profile-rating">★ {coach.rating} ({coach.reviewCount} Bewertungen)</span>
               </div>
               <div className="profile-location">
@@ -191,11 +193,14 @@ export default async function CoachProfilePage({ params }) {
               )}
 
               {/* Specialties */}
-              {coach.specialties?.length > 0 && (
+              {(coach.specialties?.length > 0 || coach.trainingFormat) && (
                 <div className="profile-section">
                   <h2>Schwerpunkte</h2>
                   <div className="specialty-list">
-                    {coach.specialties.map(s => <span key={s} className="specialty-tag">{s}</span>)}
+                    {coach.specialties?.map(s => <span key={s} className="specialty-tag">{s}</span>)}
+                    {coach.trainingFormat && coach.trainingFormat.split(' & ').map(f => (
+                      <span key={f} className="specialty-tag">{f}</span>
+                    ))}
                   </div>
                 </div>
               )}
