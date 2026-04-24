@@ -2270,7 +2270,7 @@
         "Leistungsdiagnostik"
       ],
       "backgroundCheck": "passed",
-      "rating": 5,
+      "rating": null,
       "reviewCount": 0,
       "totalSessions": 0,
       "activeAthletes": 0,

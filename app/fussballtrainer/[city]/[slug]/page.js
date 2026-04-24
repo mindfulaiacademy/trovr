@@ -163,6 +163,10 @@ export default async function CoachProfilePage({ params }) {
                   <h2>Über mich</h2>
                   <h3 className="profile-subsection-title">Meine Trainingsphilosophie</h3>
                   <p className="profile-bio">{coach.philosophy}</p>
+                  <h3 className="profile-subsection-title">Mein Weg</h3>
+                  {coach.career.split('\n\n').map((p, i) => (
+                    <p key={i} className="profile-bio" style={{ marginTop: i > 0 ? '10px' : 0 }}>{p}</p>
+                  ))}
                   <h3 className="profile-subsection-title">Mein Ansatz mit jungen Talenten</h3>
                   <ul className="profile-method-list">
                     {coach.methodology.map((m, i) => <li key={i}>{m}</li>)}
@@ -179,10 +183,6 @@ export default async function CoachProfilePage({ params }) {
                       </div>
                     ))}
                   </div>
-                  <h3 className="profile-subsection-title">Mein Weg</h3>
-                  {coach.career.split('\n\n').map((p, i) => (
-                    <p key={i} className="profile-bio" style={{ marginTop: i > 0 ? '10px' : 0 }}>{p}</p>
-                  ))}
                 </div>
               ) : (
                 <div className="profile-section">
@@ -207,7 +207,7 @@ export default async function CoachProfilePage({ params }) {
 
               {/* Credentials */}
               <div className="profile-section">
-                <h2>Verifizierte Lizenzen</h2>
+                <h2>Verifizierte Lizenzen und Qualifikationen</h2>
                 <div className="cred-list">
                   <span className="bg-badge"><span className="check">✓</span> Führungszeugnis</span>
                   {coach.credentials.filter(c => c.verified).map(c => (
@@ -217,23 +217,25 @@ export default async function CoachProfilePage({ params }) {
               </div>
 
               {/* Stats */}
-              <div className="profile-section">
-                <h2>Statistiken</h2>
-                <div className="stats-row">
-                  <div className="stat-item">
-                    <div className="stat-num">{coach.totalSessions}+</div>
-                    <div className="stat-label">Einheiten</div>
-                  </div>
-                  <div className="stat-item">
-                    <div className="stat-num">{coach.activeAthletes}</div>
-                    <div className="stat-label">Spieler</div>
-                  </div>
-                  <div className="stat-item">
-                    <div className="stat-num">{coach.yearsExperience}</div>
-                    <div className="stat-label">Jahre Erf.</div>
+              {(coach.totalSessions > 0 && coach.activeAthletes > 0) && (
+                <div className="profile-section">
+                  <h2>Statistiken</h2>
+                  <div className="stats-row">
+                    <div className="stat-item">
+                      <div className="stat-num">{coach.totalSessions}+</div>
+                      <div className="stat-label">Einheiten</div>
+                    </div>
+                    <div className="stat-item">
+                      <div className="stat-num">{coach.activeAthletes}</div>
+                      <div className="stat-label">Spieler</div>
+                    </div>
+                    <div className="stat-item">
+                      <div className="stat-num">{coach.yearsExperience}</div>
+                      <div className="stat-label">Jahre Erf.</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
 
               {/* Reviews */}
               <div className="profile-section">
