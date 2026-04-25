@@ -2055,7 +2055,7 @@
       "yearsExperience": 2,
       "ageRangeMin": 6,
       "ageRangeMax": 18,
-      "sessionPrice": 40,
+      "sessionPrice": 50,
       "packagePrices": "TBD",
       "credentials": [
         {
@@ -2079,8 +2079,8 @@
       "languages": "Deutsch",
       "locationOptions": "beide",
       "responseTime": "TBD",
-      "contactEmail": "TBD",
-      "contactPhone": "TBD",
+      "contactEmail": "Mati-lekaj@hotmail.com",
+      "contactPhone": "015561928235",
       "reviews": [],
       "source": "trovr",
       "scrapedDate": "2026-04-16",
@@ -2151,6 +2151,10 @@
       "credentials": [
         {
           "name": "Coerver Instructor Diploma",
+          "verified": true
+        },
+        {
+          "name": "UEFA B-Lizenz",
           "verified": true
         }
       ],
