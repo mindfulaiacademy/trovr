@@ -201,7 +201,7 @@ export default function CoachListing({ coaches, city, cityLabel }) {
                     <div className="card-bio">{coach.bio}</div>
                     <div className="card-bottom">
                       <div className="card-price">€{coach.sessionPrice}<span>/Einheit</span></div>
-                      <div className="card-stats">{coach.totalSessions} Einheiten · {coach.yearsExperience} J. Erf.</div>
+                      <div className="card-stats">{coach.totalSessions > 0 ? `${coach.totalSessions} Einheiten · ` : ''}{coach.yearsExperience} J. Erf.</div>
                     </div>
                   </Link>
                 );
