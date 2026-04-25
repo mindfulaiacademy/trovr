@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { getCoach, getCoachesByCity, getAllCities } from '@/lib/coaches';
+import { getCoach, getCoachesByCity, getAllCities, getAllDemoCoaches } from '@/lib/coaches';
 import Nav from '@/components/Nav';
 import ContactSection from '@/components/ContactSection';
 import VideoGallery from '@/components/VideoGallery';
@@ -27,6 +27,9 @@ export async function generateStaticParams() {
       params.push({ city, slug: coach.id });
     }
   }
+  for (const coach of getAllDemoCoaches()) {
+    params.push({ city: coach.city.toLowerCase(), slug: coach.id });
+  }
   return params;
 }
 
@@ -41,6 +44,7 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
+    ...(coach.status === 'demo' && { robots: { index: false, follow: false } }),
     openGraph: {
       title,
       description,
