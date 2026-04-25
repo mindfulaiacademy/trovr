@@ -1,6 +1,6 @@
 import { getAllCities, getCoachesByCity } from '@/lib/coaches';
 
-const BASE_URL = 'https://trovr-football.vercel.app';
+const BASE_URL = 'https://trovr.de';
 
 export default function sitemap() {
   const entries = [];
