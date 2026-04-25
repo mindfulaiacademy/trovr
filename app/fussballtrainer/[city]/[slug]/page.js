@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { getCoach, getCoachesByCity, getAllCities } from '@/lib/coaches';
 import Nav from '@/components/Nav';
 import ContactSection from '@/components/ContactSection';
+import VideoGallery from '@/components/VideoGallery';
 
 const avatarColors = [
   '#1B6B4A', '#2563EB', '#7C3AED', '#DC2626', '#D97706',
@@ -140,10 +141,8 @@ export default async function CoachProfilePage({ params }) {
 
               {/* Video */}
               <div className="profile-section profile-video-section">
-                {coach.videoUrl ? (
-                  <div className="video-wrapper">
-                    <iframe src={coach.videoUrl} frameBorder="0" allowFullScreen />
-                  </div>
+                {coach.videos?.length > 0 ? (
+                  <VideoGallery videos={coach.videos} />
                 ) : (
                   <div className="video-placeholder">
                     <div className="video-placeholder-inner">

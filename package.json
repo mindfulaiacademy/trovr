@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:fast": "npx kill-port 3000 && next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },

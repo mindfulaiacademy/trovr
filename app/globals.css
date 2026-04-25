@@ -260,6 +260,14 @@ footer { background: var(--g900); color: var(--g400); padding: 48px 0 32px; }
 .profile-grid { display: grid; grid-template-columns: 1fr 360px; gap: 40px; }
 .profile-section { margin-bottom: 40px; }
 .profile-video-section { margin-bottom: 32px; }
+.video-gallery { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.video-gallery-player { position: relative; width: 100%; max-width: 320px; }
+.video-gallery-player::before { content: ''; display: block; padding-top: 177.78%; }
+.video-gallery-player iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px; }
+.video-thumbnails { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.video-thumb { width: 80px; height: 112px; border-radius: 8px; overflow: hidden; border: 2px solid transparent; cursor: pointer; padding: 0; background: none; transition: border-color 0.15s; }
+.video-thumb.active { border-color: var(--primary); }
+.video-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .video-placeholder {
   border-radius: 12px; background: var(--g50); border: 2px dashed var(--g200);
   padding: 40px 24px; display: flex; align-items: center; justify-content: center;
