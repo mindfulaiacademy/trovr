@@ -235,23 +235,6 @@ export default function CoachListing({ coaches, city, cityLabel }) {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer>
-        <div className="container footer-inner">
-          <div className="footer-brand">
-            <Link href="/fussballtrainer/berlin/" className="logo">trovr<span>.</span></Link>
-            <p>Das Verzeichnis für geprüfte Jugend-Fußballtrainer in {cityLabel}. Überprüft, mit verifizierter DFB-Lizenz.</p>
-          </div>
-          <div className="footer-links">
-            <Link href="/impressum.html">Impressum</Link>
-            <Link href="/privacy.html">Datenschutz</Link>
-            <Link href="/fuer-trainer">Für Trainer</Link>
-          </div>
-          <div className="footer-bottom">
-            <span>© 2026 Trovr. Alle Rechte vorbehalten.</span>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }

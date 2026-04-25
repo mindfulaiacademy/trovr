@@ -2282,7 +2282,7 @@
       "contactEmail": "contact@soccerbot360.com",
       "contactPhone": "",
       "reviews": [],
-      "status": "published",
+      "status": "draft",
       "source": "scraped",
       "scrapedDate": "2026-04-20",
       "_review": [
@@ -2393,7 +2393,7 @@
       "contactEmail": "",
       "contactPhone": "",
       "reviews": [],
-      "status": "published",
+      "status": "draft",
       "source": "scraped",
       "scrapedDate": "2026-04-21",
       "_review": [

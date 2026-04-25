@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import CookieBanner from '@/components/CookieBanner';
+import Footer from '@/components/Footer';
 import './globals.css';
 
 const inter = Inter({
@@ -11,7 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: 'Trovr — Geprüfte Jugend-Fußballtrainer finden',
   description: 'Finde geprüfte Fußballtrainer für dein Kind. DFB-Lizenz und Führungszeugnis verifiziert.',
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }) {
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="de">
       <body className={inter.className}>
         {children}
+        <Footer />
         <CookieBanner />
       </body>
     </html>
