@@ -2,15 +2,43 @@
 
 import { useState, useEffect } from 'react';
 
-export default function ContactSection({ coach }) {
+export default function ContactSection({ coach, coachId, city }) {
   const [open, setOpen] = useState(false);
+  const [contact, setContact] = useState(null);
+  const [emailRevealed, setEmailRevealed] = useState(false);
   const [phoneRevealed, setPhoneRevealed] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const handler = e => { if (e.key === 'Escape') setOpen(false); };
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
   }, []);
+
+  async function fetchContact() {
+    if (contact) return contact;
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/contact?id=${encodeURIComponent(coachId)}&city=${encodeURIComponent(city)}`);
+      const data = await res.json();
+      setContact(data);
+      return data;
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function revealEmail(e) {
+    e.preventDefault();
+    const data = await fetchContact();
+    if (data) setEmailRevealed(true);
+  }
+
+  async function revealPhone(e) {
+    e.preventDefault();
+    const data = await fetchContact();
+    if (data) setPhoneRevealed(true);
+  }
 
   return (
     <>
@@ -43,7 +71,20 @@ export default function ContactSection({ coach }) {
               <div>
                 <div className="label">E-Mail</div>
                 <div className="value">
-                  <a href={`mailto:${coach.contactEmail}`}>{coach.contactEmail}</a>
+                  {emailRevealed && contact ? (
+                    <a href={`mailto:${contact.email}`}>{contact.email}</a>
+                  ) : (
+                    <>
+                      <span>••••••@••••••.de</span>
+                      <a
+                        href="#"
+                        onClick={revealEmail}
+                        style={{ marginLeft: '8px', fontSize: '0.85rem', color: 'var(--primary)', textDecoration: 'underline' }}
+                      >
+                        {loading ? 'Lädt…' : 'Anzeigen'}
+                      </a>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -51,17 +92,17 @@ export default function ContactSection({ coach }) {
               <div>
                 <div className="label">Telefon</div>
                 <div className="value">
-                  {phoneRevealed ? (
-                    <a href={`tel:${coach.contactPhone?.replace(/\D/g, '')}`}>{coach.contactPhone}</a>
+                  {phoneRevealed && contact ? (
+                    <a href={`tel:${contact.phone?.replace(/\D/g, '')}`}>{contact.phone}</a>
                   ) : (
                     <>
                       <span>+49 *** *** ****</span>
                       <a
                         href="#"
-                        onClick={e => { e.preventDefault(); setPhoneRevealed(true); }}
+                        onClick={revealPhone}
                         style={{ marginLeft: '8px', fontSize: '0.85rem', color: 'var(--primary)', textDecoration: 'underline' }}
                       >
-                        Anzeigen
+                        {loading ? 'Lädt…' : 'Anzeigen'}
                       </a>
                     </>
                   )}

@@ -279,7 +279,12 @@ export default async function CoachProfilePage({ params }) {
                 )}
 
                 {/* Contact button + modal + mobile bar — all managed by one client component */}
-                <ContactSection coach={coach} />
+                {/* contactEmail and contactPhone are intentionally excluded from props — fetched on demand via API */}
+                <ContactSection
+                  coach={{ firstName: coach.firstName, sessionPrice: coach.sessionPrice }}
+                  coachId={coach.id}
+                  city={city}
+                />
 
                 <div className="sidebar-risk">
                   Nicht zufrieden nach der ersten Einheit? Sprich den Trainer direkt an — gemeinsam findet ihr eine Lösung.
