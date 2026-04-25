@@ -180,7 +180,6 @@ export default function CoachListing({ coaches, city, cityLabel }) {
                       <div className="card-info">
                         <h3>{coach.firstName} {coach.lastName}</h3>
                         <div className="card-meta">
-                          <span className="sport-tag">Fußball</span>
                           <span className="sport-tag">Alter {coach.ageRangeMin}–{coach.ageRangeMax}</span>
                           <span className="card-rating">★ {coach.rating} ({coach.reviewCount})</span>
                         </div>
